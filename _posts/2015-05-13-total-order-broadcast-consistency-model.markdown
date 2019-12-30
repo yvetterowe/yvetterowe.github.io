@@ -25,7 +25,7 @@ First, let's have a quick review of the implementation of both models.
 
 Suppose there are two processes `P0` and `P1`. Both processes maintain the replica of two shared variables `x` and `y`. The initial values are both 0. The black lines in all figures represent the real time line.
 
-![Figure 1](/assets/images/f1.png)  
+{% include image.html path="posts/20150315/f1.png" path-detail="posts/20150315/f1.png" alt="Figure 1" %}
 *Figure 1. `P0` receives a write request A and a read request `B`. `P1` receives a write request `C` and a read request `D`.*
 
 
@@ -37,7 +37,7 @@ First let's consider the "linearizability". What should request `B` and `D` retu
 - `C` happens before `B` (with `B` returns 1 implicitly)
 To satisfy these order constrains, four permutations of these operations could be derived:
 
-![Figure 2](/assets/images/f2.png)  
+{% include image.html path="posts/20150315/f2.png" path-detail="posts/20150315/f2.png" alt="Figure 2" %}
 *Figure 2. Four permutations that satisfy "linearizability" constraints. (1)(2)(3)(4) denote the order of operations.*
 
 
@@ -48,7 +48,7 @@ So far (hopefully) you should be pretty clear about how the permutations that sa
 
 In this case, besides the four permutations (Figure 2) satisfying the "linearizability", two more permutations that only satisfy "sequential consistency" but not "linearizability" could be derived:
 
-![Figure 3](/assets/images/f3.png)  
+{% include image.html path="posts/20150315/f3.png" path-detail="posts/20150315/f3.png" alt="Figure 3" %}
 *Figure 3. Two permutations that only satisfy "sequential consistency" constrains but not "linearizability". (1)(2)(3)(4) denote the order of operations.*
 
 Let's do some wrap up. So far, we derive four permutations (with the corresponding return values of read requests) for "linearizability". These four permutations also satisfy "sequential consistency". Besides these, we also derive two permutations that only satisfy "sequential consistency". In total, 4 for "linearizability" and 6 for "sequential consistency".
@@ -65,14 +65,14 @@ This is pretty straightforward and trivial. The write request should be broadcas
 
 So far, we know we should broadcast the write request. But why the broadcasts should be in total order in order to achieve sequential consistency? Let's first take the left case in Figure 3 as an example.
 
-![Figure 4](/assets/images/f4.png)  
+{% include image.html path="posts/20150315/f4.png" path-detail="posts/20150315/f4.png" alt="Figure 4" %}  
 *Figure 4. Broadcast write request. The left one is in total order while the right one is not. Both cases maintain the sequential consistency.*
 
 In the left case of Figure 4, request `A` arrives before request `C` at both `P0` and `P1`. In the right case, however, request `A` arrives before request `C` in `P0` while the order is reversed in `P1`. Sequential consistency are satisfied in both cases no matter whether the write request broadcasts are in total order or not. Hmm, can we just come up with the conclusion that the broadcasts are not necessarily to be totally ordered?
 
 Nope! Let's try another example by making a trivial modification: change operation `C` from `write(y,1)` to `write(x,2)`. Now let's see what happens.
 
-![Figure 5](/assets/images/f5.png)  
+{% include image.html path="posts/20150315/f5.png" path-detail="posts/20150315/f5.png" alt="Figure 5" %}
 *Figure 5. Broadcast write request. The left one is in total order while the right one is not. The left one maintains the sequential consistency while the right one does not!*
 
 I suppose you have noticed the difference :D  The sequential consistency condition with `A->B->C->D` order implicitly indicates `B` returns 0 and `D` returns 2. This works perfectly good with the left case where total ordered broadcast is used. But in the right case where broadcasted write requests are not in total order, `x` returns 1 instead of 2. The right case does not maintain sequential consistency.
@@ -90,27 +90,27 @@ This is a good question. You may wonder why it is necessary to broadcast the rea
 
 For this part, we will use the example in Figure 6 as illustration.
 
-![Figure 6](/assets/images/f6.png)  
+{% include image.html path="posts/20150315/f6.png" path-detail="posts/20150315/f6.png" alt="Figure 6" %}
 *Figure 6. `P0` receives a write request `A` followed by a read request `B`. `P1` receives a read request `C`, which is after `B` on the real time line.*
 
 Now let's do a simple quiz. What should `B` and `C` return respectively in order to maintain "linearizability"? Think about it for five seconds and then compare your solution with Figure 7.
 
-![Figure 7](/assets/images/f7.png)  
+{% include image.html path="posts/20150315/f7.png" path-detail="posts/20150315/f7.png" alt="Figure 7" %}
 *Figure 7. `B` and `C` should both return 1 to maintain linearizability.*
 
 Hope you get the correct answer! To put it short, "linearizability" requires the three operations to happen in `A->B->C` order. Thus `B` and `C` must show that they have seen the effect of `A`. Then the question comes again: what do the request broadcasts look like behind the scene? Let's first only consider the total order broadcast for write request since we have discussed it previously.
 
-![Figure 8](/assets/images/f8.png)  
+{% include image.html path="posts/20150315/f8.png" path-detail="posts/20150315/f8.png" alt="Figure 8" %}
 *Figure 8. `P1` receives `P0`'s broadcast message of request `A` before receiving its own read request `C`.*
 
 The scenario in Figure 8 seems good: linearizability is maintained only with broadcast of write request. But never forget that it is just one of the possibilities. We cannot guarantee that the broadcast message always arrive at a perfect time. Believe it or not, let's have a look at the scenario in Figure 9.
 
-![Figure 9](/assets/images/f9.png)  
+{% include image.html path="posts/20150315/f9.png" path-detail="posts/20150315/f9.png" alt="Figure 9" %}
 *Figure 9. `P1` receives `P0`'s broadcast message of request `A` after receiving its own read request `C`.*
 
 Oops, that is not what we expect. As discussed before, we require `C` to return 1 to maintain "linearizability". But since `P1` sees the effect of `A` (receives `A`'s broadcast message) after receiving its own read request `C`, it could only return 0 instead of 1. "Linearizability" cannot be reached. Then comes the question again: can we figure out an approach that helps "linearizability" survive both cases (Figure 8 and Figure 9)? That's the reason why we need total order broadcast of read request, as is shown in Figure 10.
 
-![Figure 10](/assets/images/f10.png)  
+{% include image.html path="posts/20150315/f10.png" path-detail="posts/20150315/f10.png" alt="Figure 10" %}
 *Figure 10. The total order broadcast of both write request and read request could guarantee "linearizability".*
 
 Figure 10 may seem a little bit messy at the first glance, thus I differentiate the broadcast messages of requests with different colors and message ids. For example, the "green" messages `mA0` and `mA1` are the broadcast messages of request `A` to `P0` and `P1` respectively.
