@@ -2,13 +2,14 @@
 
 blog_theme: light # Or use dark
 name: Hao's Tech Ramblings
-url:
+url: http://haoluo.io
 description: chaos.filter { $0.aha || $0.wut }.map { ShowerThoughts($0) }.map { Ramblings($0) }
 encoding: utf-8
 
 # Optional settings
 baseurl: # Set if blog doesn't sit at the root of the domain (format: /blog)
 about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
+theme_toggle: true
 local_fonts: true # Change to true if you wish to use local fonts
 rss_enabled: true # Change to false if not
 social_links:
@@ -26,7 +27,7 @@ social_links:
 author:
   name: Hao Luo
   email: yvetterowe1116@gmail.com
-  uri:
+  uri: http://haoluo.io/about
 
 # Important settings (change at own risk)
 
