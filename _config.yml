@@ -1,9 +1,9 @@
 # Mandatory settings
 
 blog_theme: light # Or use dark
-name: tttttest
+name: Hao's Tech Ramblings
 url:
-description: This is the personal blog and profile of Rahul Jain, a full-stack engineer and web enthusiast living in Singapore.
+description: chaos.filter { $0.aha || $0.wut }.map { ShowerThoughts($0) }.map { Ramblings($0) }
 encoding: utf-8
 
 # Optional settings
@@ -12,17 +12,7 @@ about_enabled: true # Change to true if you wish to show an icon in the navigati
 local_fonts: true # Change to true if you wish to use local fonts
 rss_enabled: true # Change to false if not
 social_links:
-#  facebook: xRahulJain # Add your Facebook handle
-#  github: xRahul # Add your GitHub handle
-#  linkedin: xRahulJain # Add your LinkedIn handle
-#  twitter: xRahulJain # Add your Twitter handle
-#  googleplus: RahulJain17 # Add your Google Plus handle here
-#  email: rahul_jain@live.in # Add your Email address
-#  stackoverflow: 1435626/rahul # Add your stackoverflow id/name
-#  freecodecamp: xrahul # Add your freecodecamp username
-#  #bitcoin: 1BmYjgdCkY6P8tmmxjm4f5stDK7vJ6VcQN # Add your Bitcoin wallet ID
-#  flattr: "https://flattr.com/submit/auto?fid=djeqkn&url=https%3A%2F%2Frahulja.in"
-
+   email: yvetterowe1116@gmail.com # Add your Email address
 
 # Process and render draft posts
 # show_drafts: false
@@ -35,7 +25,7 @@ social_links:
 
 author:
   name: Hao Luo
-  email:
+  email: yvetterowe1116@gmail.com
   uri:
 
 # Important settings (change at own risk)
