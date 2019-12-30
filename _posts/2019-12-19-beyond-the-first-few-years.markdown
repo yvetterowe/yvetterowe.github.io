@@ -2,7 +2,7 @@
 layout: post
 title:  "Beyond the First Few Years"
 date:   2019-12-19 21:08:10 -0500
-description: "To be a human in nature is to be vulnerable and uncertain and messy and weird and a bit los, same with leaving my first job."
+description: "To be a human in nature is to be vulnerable and uncertain and messy and weird and a bit lost, same with leaving my first job."
 tags: [career]
 ---
 Disclaimer: title inspired and shamelessly stolen from [Practicing Developer](https://practicingdeveloper.com/2018/10/02/016-identity-beyond-the-first-few-years/).  
