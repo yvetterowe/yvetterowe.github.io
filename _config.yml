@@ -2,7 +2,7 @@
 
 blog_theme: light # Or use dark
 name: Hao's Tech Ramblings
-url: http://haoluo.io
+url: https://haoluo.io
 description: chaos.filter { $0.aha || $0.wut }.map { ShowerThoughts($0) }.map { Ramblings($0) }
 encoding: utf-8
 
@@ -27,7 +27,7 @@ social_links:
 author:
   name: Hao Luo
   email: yvetterowe1116@gmail.com
-  uri: http://haoluo.io/about
+  uri: https://haoluo.io/about
 
 # Important settings (change at own risk)
 

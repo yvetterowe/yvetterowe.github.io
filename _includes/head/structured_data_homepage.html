@@ -3,10 +3,10 @@
   <script type="application/ld+json">
     { "@context": "http://schema.org",
       "@type": "Blog",
-      "url": "https://rahulja.in",
+      "url": "https://haoluo.io",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://rahulja.in"
+        "@id": "https://haoluo.io"
       },
       "author": {% include head/structured_data_person.html %}
     }
@@ -18,7 +18,7 @@
       {
         "@type": "ListItem",
         "position": {{ forloop.index }},
-        "url": "https://rahulja.in{{ post.url }}"
+        "url": "https://haoluo.io{{ post.url }}"
       }
     {% endcapture %}
     {% assign items = items | append: list_item | append: "|||" %}
