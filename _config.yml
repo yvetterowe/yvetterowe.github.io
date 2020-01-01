@@ -193,7 +193,7 @@ plugins:
 attribution:
   template:
     project_url: https://github.com/nielsenramon/chalk
-    creator_url: http://nielsenramon.com
+    jekyll_url: https://github.com/jekyll/jekyll
 
 discus_identifier: # Add your Disqus identifier
 ga_analytics:  # Add your GA Tracking Id

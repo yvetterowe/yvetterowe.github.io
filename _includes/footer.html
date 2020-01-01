@@ -71,16 +71,14 @@
       </li>
     {% endif %}
   </ul>
-
+  
   <p class="text-center">
-    <a href="/privacy/cookies" rel="noopener noreferrer"
-        target="_blank" title="Privacy Policy" aria-label="Privacy Policy">
-      Privacy Policy
-    </a>.
-    I'm using customized
-    <a target="_blank" href="{{ site.attribution.template.project_url }}" rel="noopener noreferrer" title="Chalk" aria-label="Clalk - Theme">Chalk</a>,
-    a template by
-    <a target="_blank" href="{{ site.attribution.template.creator_url }}" rel="noopener noreferrer" title="Nielsen Ramon" aria-label="Nielsen Ramon Profile">Nielsen Ramon</a>.
+    <a>&copy; {{ 'now' | date: "%Y" }}
+        Kudos to 
+        <a href="{{ site.attribution.template.jekyll_url }}" rel="noopener noreferrer" target="_blank" title="Jekyll" aria-label="Jekyll - Generator">Jekyll</a>
+        and
+        <a target="_blank" href="{{ site.attribution.template.project_url }}" rel="noopener noreferrer" title="Chalk" aria-label="Clalk - Theme">Chalk</a>
+    </a>
   </p>
 
   <!-- Fathom - simple website analytics - https://usefathom.com -->
