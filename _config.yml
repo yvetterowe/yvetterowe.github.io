@@ -48,7 +48,7 @@ pagination:
   # The default document collection to paginate if nothing is specified ('posts' is default)
   collection: 'posts'
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 5
+  per_page: 100
   # The permalink structure for the paginated pages (this can be any level deep)
   permalink: '/posts/page/:num/'
   # Optional the title format for the paginated pages
