@@ -8,6 +8,14 @@
   </a>
   <ul class="header-links">
 
+    {%  unless page.url contains '/photos'  %}
+      <li>
+        <a class="header-icon-link" href="{{ 'photos' | relative_url }}" title="Photos">
+          Photos
+        </a>
+      </li>
+    {% endunless %}
+    
     {% if site.about_enabled == true %}
       {%  unless page.url contains '/about'  %}
         <li>
