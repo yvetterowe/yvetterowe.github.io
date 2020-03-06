@@ -4,6 +4,21 @@ layout: default
 permalink: /photos/
 
 ---
+{% include image.html path="photos/joy.JPG" path-detail="photos/joy.JPG" caption="joy.jpg" %}
+
+{% include image.html path="photos/a life.JPG" path-detail="photos/a life.JPG" caption="a life.jpg" %}
+
+{% include image.html path="photos/also life.JPG" path-detail="photos/also life.JPG" caption="also life.jpg" %}
+
+{% include image.html path="photos/uhuru.JPG" path-detail="photos/uhuru.JPG" caption="uhuru.jpg" %}
+
+{% include image.html path="photos/toilets.JPG" path-detail="photos/toilets.JPG" caption="toilets.jpg" %}
+
+{% include image.html path="photos/stories.JPG" path-detail="photos/stories.JPG" caption="stories.jpg" %}
+
+{% include image.html path="photos/maasai.JPG" path-detail="photos/maasai.JPG" caption="maasai.jpg" %}
+
+{% include image.html path="photos/confrontation.JPG" path-detail="photos/confrontation.JPG" caption="confrontation.jpg" %}
 
 {% include image.html path="photos/new york.JPG" path-detail="photos/new york.JPG" caption="new york.jpg" %}
 
