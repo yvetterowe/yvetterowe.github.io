@@ -1,13 +1,13 @@
 ---
-title: "Hao's Tech Ramblings"
-permalink: /
+title: "Hao's Tech Ramblings | Blog"
+permalink: /chinese-posts
 pagination:
   enabled: true
 ---
 
-<ul class="article-list {{ page.url | remove: 'index.html' }}">
+<ul class="article-list {{ page.url | remove: 'chinese_blog.html' }}">
   {% for post in paginator.posts %}
-  {% if post.categories contains 'tech' %}
+  {% if post.categories contains 'chinese' %}
     <li class="article-list-item">
       <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
         <h5>
@@ -57,10 +57,10 @@ pagination:
   {% if paginator.total_pages > 1 %}
     <li class="article-pagination">
       {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | remove: 'index.html' }}"><i class="fas fa-angle-double-left" aria-hidden="true"></i> Newer posts</a>
+        <a href="{{ paginator.previous_page_path | remove: 'chinese_blog.html' }}"><i class="fas fa-angle-double-left" aria-hidden="true"></i> Newer posts</a>
       {% endif %}
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | remove: 'index.html' }}" class="article-pagination-right">Older posts <i class="fas fa-angle-double-right" aria-hidden="true"></i></a>
+        <a href="{{ paginator.next_page_path | remove: 'chinese_blog.html' }}" class="article-pagination-right">Older posts <i class="fas fa-angle-double-right" aria-hidden="true"></i></a>
       {% endif %}
     </li>
   {% endif %}

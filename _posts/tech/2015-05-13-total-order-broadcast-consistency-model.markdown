@@ -5,6 +5,7 @@ title:  Understanding the Role of Total Order Broadcast in Linearizability and S
 description: They're not obvious to me at first glance.
 date: 2015-05-13 21:08:10 -0500
 tags: [distributedsystem]
+categories: [tech]
 
 ---
 
