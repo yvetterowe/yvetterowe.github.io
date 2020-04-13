@@ -151,6 +151,13 @@ img {
   margin-right: auto;
 }
 
+img + em {
+  text-align: center;
+  display: block;
+  font-size: $base-font-size * 0.8;
+  margin: -16px auto;
+}
+
 figure .image {
     width: 100%;
 }
