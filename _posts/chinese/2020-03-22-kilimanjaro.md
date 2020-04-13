@@ -15,9 +15,8 @@ categories: [chinese]
 
 这里是海拔5895米的Uhuru Peak，乞力马扎罗山的最高峰，也是非洲的最高点。"Uhuru"在斯瓦西里语中代表“自由”，看来自由果然是得之不易的。
 
-
-![自由之巅](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847033228_uhuru.JPG)
-
+![](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847033228_uhuru.JPG)
+*自由之巅*
 
 所以为什么要去爬乞力马扎罗？
 
@@ -27,7 +26,7 @@ Just kidding, 这其实完全是一次spontaneous用脚趾头想出来的旅行�
 
 时间很快晃到了临行前的那个周末，我才开始对着gear list紧锣密鼓准备行头，四天跑了三趟REI才买齐全（事实证明，它们真的一个都不能少）。又看到网上的攻略说，summit day那天你需要的不是有机无麸质低GI的健康食物，而是能让你做梦流口水的肥宅快乐餐。所以临行前一晚我又去HMart顺了两包【黑】辛拉面。
 
-姑娘 x 2，duffel bag x 2，day pack x 2，我们整装待发。我说“我搬的砖明天要进staging，有点方”。Joy说“我搬的砖明天进production，也有点方”。
+姑娘 x 2，duffel bag x 2，day pack x 2，我们整装待发。我说“我搬的砖明天要进staging，有点方。”Joy说“我搬的砖明天进production，也有点方。”
 
 Screw it，我们都有光明的前途。
 
@@ -44,14 +43,14 @@ Screw it，我们都有光明的前途。
 于是我们在山脚下斥五刀巨资喝了杯速溶咖啡，签下生死状后就进山了。
 
 
-![Joy在山脚下教速溶咖啡店老板家的小孩如何自拍](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847148615_joy.JPG)
-
+![](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847148615_joy.JPG)
+*Joy在山脚下教速溶咖啡店老板家的小孩如何自拍*
 
 前几天的行程非常chill，每天六七个小时的徒步在和Joy的插科打诨间一晃而过。而且一到营地就能葛优瘫在waiter Daniel精心布置的餐桌旁，吃上厨师长Mustaf炖好的非洲大盘鸡/牛/猪。没错，向导，背夫，厨子和waiter是爬Kili的标配，一个都不能少。虽然早有耳闻，但我们在旅行社办公室被这庞大的私家后援天团“接见”时还是不免受宠若惊 — 这哪儿是走进大山学习"live cheap and flexible"啊，分明就是去被人伺候的。一想到这，我和Joy义正言辞拒绝了背私家马桶上山这种矫情的服务（虽然只要两人七天一共多付70刀），内心的波澜遂得以平息。
 
 
-![大口吃肉的生活](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847249471_21B96613-4F01-473D-8455-0EC9F7709E56.JPG)
-
+![](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847249471_21B96613-4F01-473D-8455-0EC9F7709E56.JPG)
+*大口吃肉的生活*
 
 来爬Kili的人一般第一天就会被向导灌输两句斯瓦西里语 — Pole Pole（慢慢来）和 Hakuna Matada（没关系），嗯，非常佛系了。接受完价值观洗脑后，我们开始onboarding的下一环节，跟这座大山culture fit。事实证明在每天水肿成包子脸的情况下只画个眉毛出门并没有那么恐怖，七天不洗澡不洗头也都是小事，毕竟我们有更艰巨的挑战。
 
@@ -61,20 +60,20 @@ Screw it，我们都有光明的前途。
 纵使如此，起夜却永远都是个out of comfort zone的过程。每次哆哆嗦嗦钻出温暖的睡袋裹成熊也就罢了，还常常要摸黑爬个小土坡，待气喘吁吁到了目的地，蹲坑一分钟和在平原做十个burpee效果差不多。有了这些overhead，我们每次起夜前都要在心里经历五到十次"to pee or not to pee"这种灵魂拷问。最后有时是我take the initiative，有时是Joy — 主要是看谁在这片广袤无垠的星空下先憋不住了。
 
 
-![灵魂家园](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847288547_toilets.JPG)
-
+![](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847288547_toilets.JPG)
+*我们的精神家园*
 
 #### 三、
 
 时间在Pole Pole的步调下转瞬即逝，我们也和我们的私家天团渐渐熟络起来。James是我们的大向导，一身高端装备，目测全团首富，leadership爆棚。相比之下副向导Paul就稚嫩了很多，感觉还在背台词shadow的阶段。
 
 
-![Pole Pole](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847389173_15641917-2CD8-4B89-AD3B-BBE5FE6E86EB.JPG)
+![](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847389173_15641917-2CD8-4B89-AD3B-BBE5FE6E86EB.JPG)
+*Pole Pole*
 
 
-
-![大向导James](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847473317_307CE3AF-BB20-4F12-939D-AFFB69A6201C.JPG)
-
+![](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847473317_307CE3AF-BB20-4F12-939D-AFFB69A6201C.JPG)
+*大向导James*
 
 我们最喜欢的还是waiter小哥Daniel — 浓眉大眼，Acne Studios模特那种vibe，本团颜值担当。Daniel是个羞涩腼腆，心思细腻的人。有一次Joy随口夸了句他的民族风手环很漂亮，他听到了就摘下来送给Joy，还解释起手环上坦桑尼亚，肯尼亚和尼日利亚三个国家的国旗图案。我们只带了一卷厕纸上山，快用没了就攒下餐桌上被Daniel叠成蝴蝶结的餐巾纸做备用。大概在某个狂风大作的夜晚，他突然参透了餐巾纸离奇失踪案背后的秘密，就悄悄塞了一卷厕纸在我们帐篷里。
 
@@ -87,8 +86,8 @@ Screw it，我们都有光明的前途。
 时代的车轰轰地往前开不曾停歇，在Kili的日升月落下，我们也都很好奇：等这与邮件Slack朋友圈Instagram彻底失联的七天过去了，世界会有什么不一样吗?
 
 
-![我们的帐篷在4600米大本营的妖风中精神抖擞](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847524738_F723DC8E-8A4F-46A1-981F-DCA82EA33F2B.JPG)
-
+![](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847524738_F723DC8E-8A4F-46A1-981F-DCA82EA33F2B.JPG)
+*我们的帐篷在4600米大本营的妖风中精神抖擞*
 
 #### 四、
 
@@ -100,13 +99,12 @@ Screw it，我们都有光明的前途。
 
 然后我突然想起来当年爬Joshua Tree时云哥传授的攀岩哲学：不能总想着找到最安全的脚点，而是不论踩到哪儿都能尽快从失控中找回平衡。这和滑雪冲浪一系列运动的skillset很像，乍一听是反直觉的，唯有通过一次次突破桎梏，从身体里激发出新的反射，才能理解那种微妙的平衡感是怎么一回事。
 
-于是次日爬Barraco Wall这天无论是徒手向上攀还是跳梅花桩下山，我都比前一天更放松果敢。从一个失控点跳到另一个失控点，我开始享受到这种节奏带来的乐趣 — 它是一种和静止或在平地上行走时完全不同的平衡感，一种动态的，更resilient的安全感。 James到营地后说我今天表现很好，比昨天进步了不少。“我好像今天和这些看似危险的石头建立了更多trust，”我顿时zen神附体飘了起来，“不再把它们当成拦路的、让我摔跤的敌人，而是把它们看作助我上山下山的朋友。有了trust和leverage，瞬间轻松多了。”
+于是次日爬Barranco Wall这天无论是徒手向上攀还是跳梅花桩下山，我都比前一天更放松果敢。从一个失控点跳到另一个失控点，我开始享受到这种节奏带来的乐趣 — 它是一种和静止或在平地上行走时完全不同的平衡感，一种动态的，更resilient的安全感。 James到营地后说我今天表现很好，比昨天进步了不少。“我好像今天和这些看似危险的石头建立了更多trust，”我顿时zen神附体飘了起来，“不再把它们当成拦路的、让我摔跤的敌人，而是把它们看作助我上山下山的朋友。有了trust和leverage，瞬间轻松多了。”
 
-这大概就和所有别的探索与成长一样。
+大概就和所有别的探索与成长一样。
 
-
-![Barraco Wall的起点](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847613230_E7B1EF9D-2C3B-4C72-A1C4-634A20C40C87.JPG)
-
+![](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847613230_E7B1EF9D-2C3B-4C72-A1C4-634A20C40C87.JPG)
+*Barranco Wall 的起点*
 
 
 #### 五、
@@ -123,11 +121,17 @@ Summit day如期而至，然而我对这一天依然没有什么概念。我一�
 
 "Focus and objective, breathe and practice, dream big and do small."那一瞬间我好像突然理解了《黎明墙》里的这句话，仰望星空与脚踏实地之间的关系也好像从来没有以如此具象的形式呈现过。
 
+![](https://paper-attachments.dropbox.com/s_5BD92FD278B7E961D87B714AE2D4226F2D34700EACAA2F1F96DA5C7A760B4605_1586736544191_1_5giQwz391A4GdY8I1lPl7A.jpeg)
+*仰望星空与脚踏实地（太冷了掏不出手，图片来自网络，侵删）*
+
 不知过了多久，我们终于到达Stella Point，Uhuru Peak前唯一也是最后一个能稍作休整拍照留念的地方。Joy从出发开始就被高反折磨了一路，此时已濒临身体机能的极限。James把我拉到一旁，面色凝重。他让我跟他一起劝Joy就此下山放弃冲顶：
 
 “这个海拔不是闹着玩的，一切都可能发生。” 
 
 Joy听到后坐在地上像个孩子一样哭了。我看着她特别心疼又特别理解，知道我们坐一整天飞机一整周不洗澡漫山撒野尿就是为了站在最高的地方看一眼这片陌生的大陆，在距离它一百米的地方放弃，这个沉没成本太难以接受了。然而在这近六千米的地方，多哭一下都可能是致命的。我们只能安慰她，山一直在那里，只要你健康地活着，随时可以再次发起挑战。
+
+![](https://paper-attachments.dropbox.com/s_5BD92FD278B7E961D87B714AE2D4226F2D34700EACAA2F1F96DA5C7A760B4605_1586736425672_2E377C9E-CA19-4258-92E4-222D6116DCC8.JPG)
+*日出时分山谷里回响起Hakuna Matada*
 
 于是我和James继续前行。一个多小时候之后，站在Uhuru Peak，我终于看到了乞力马扎罗的雪。
 
@@ -175,7 +179,10 @@ Joy听到后坐在地上像个孩子一样哭了。我看着她特别心疼又�
 
 嗯，我们都有光明的前途。
 
-James大概参透了我们的心事，在山脚下告别时说：“回到美国或中国，千万不要跟你们的朋友说爬Kili难呀，说难他们就不来了”。本以为他还要再多加几句“难，但是历练；难，但是值得”这样的升华，竟然也没有。“好，我们肯定不说难！”我们笑着配合地回应道，“不能让我一个人被坑啊！”
+James大概参透了我们的心事，在山脚下告别时说：“回到美国或中国，千万不要跟你们的朋友说爬Kili难呀，说难他们就不来了。”本以为他还要再多加几句“难，但是历练；难，但是值得”这样的升华，竟然也没有。“好，我们肯定不说难！”我们笑着配合地回应道，“不能让我一个人被坑啊！”
+
+![](https://paper-attachments.dropbox.com/s_5BD92FD278B7E961D87B714AE2D4226F2D34700EACAA2F1F96DA5C7A760B4605_1586736440666_BD882EF7-9A2B-4C6D-A58F-E7D12447DED0.JPG)
+*我们的私家后援天团*
 
 #### 八、
 
@@ -191,6 +198,7 @@ James大概参透了我们的心事，在山脚下告别时说：“回到美国
 
 （嗯，*Free Solo*, *The Down Wall* 和 *Meru*攀岩三部曲已经刷完了。）
 
+![](https://paper-attachments.dropbox.com/s_5BD92FD278B7E961D87B714AE2D4226F2D34700EACAA2F1F96DA5C7A760B4605_1586736431420_6C88B709-EAF4-47A8-96A7-59EF1CD72C0C.JPG)
 
 ![](https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847670525_F3FD78FF-A5E5-4279-B170-B27DFFBA1CE4.JPG)
 
