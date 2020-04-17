@@ -262,11 +262,12 @@ table td {
 }
 
 .menu-list {
-  padding: 0;
-  margin: 20px 0;
+  padding: 40px 0;
+  margin: 20px;
   li {
-    padding: 10px 0;
+    padding: 10px;
   }
+  list-style: square;
 }
 
 li.menu-list-item {
@@ -278,7 +279,5 @@ li.menu-list-item {
     font-family: $header-font-family;
     line-height: 1.33333em;
     color: $menu-item-title-color;
-    list-style-type: square;
-    position: relative
   }
 }
