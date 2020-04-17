@@ -70,6 +70,19 @@
     asset_url('cormorant-garamond/Cormorant-Garamond-700.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
+// Cardo
+// =============================================================================
+
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400;
+  src: 
+    asset_url('cardo/Cardo-Regular.ttf') format('truetype'),
+    local('Cardo Regular'),
+    local('Cardo-regular'),
+}
 
 @import "font-awesome-sprockets";
 @import "font-awesome";
