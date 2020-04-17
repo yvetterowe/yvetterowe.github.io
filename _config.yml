@@ -1,7 +1,7 @@
 # Mandatory settings
 
 blog_theme: light # Or use dark
-name: Hao's Tech Ramblings
+name: Hao Luo
 url: https://haoluo.io
 description: chaos.filter { $0.aha || $0.wut }.map { ShowerThoughts($0) }.map { Ramblings($0) }
 encoding: utf-8

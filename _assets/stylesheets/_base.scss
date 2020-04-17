@@ -260,3 +260,25 @@ table td {
 .coffee-kudo {
     margin-top: 4px;
 }
+
+.menu-list {
+  padding: 0;
+  margin: 20px 0;
+  li {
+    padding: 10px 0;
+  }
+}
+
+li.menu-list-item {
+  a {
+    text-decoration: underline;
+    text-decoration-color: $article-header-underline-color;
+    font-size: 1.2em;
+    font-weight: $base-font-weight;
+    font-family: $header-font-family;
+    line-height: 1.33333em;
+    color: $menu-item-title-color;
+    list-style-type: square;
+    position: relative
+  }
+}

@@ -1,31 +1,10 @@
 ---
-title: "Hao's Tech Ramblings"
+title: "Hao Luo"
 permalink: /
-pagination:
-  enabled: true
 ---
 
-<ul class="article-list {{ page.url | remove: 'index.html' }}">
-  {% for post in paginator.posts %}
-  {% if post.categories contains 'tech' %}
-    <li class="article-list-item">
-      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-        <h5>
-          {{ post.title }}
-          <small><i class="icon fas fa-angle-double-right" aria-hidden="true"></i></small>
-        </h5>
-      </a>
-    </li>
-  {% endif %}
-  {% endfor %}
-  {% if paginator.total_pages > 1 %}
-    <li class="article-pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | remove: 'index.html' }}"><i class="fas fa-angle-double-left" aria-hidden="true"></i> Newer posts</a>
-      {% endif %}
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | remove: 'index.html' }}" class="article-pagination-right">Older posts <i class="fas fa-angle-double-right" aria-hidden="true"></i></a>
-      {% endif %}
-    </li>
-  {% endif %}
+<ul class="menu-list {{ page.url | remove: 'index.html' }}">
+  <li class="menu-list-item"><a href="/tech">My Tech Thoughts</a></li>
+  <li class="menu-list-item"><a href="/life">My Life Ramblings</a></li>
+  <li class="menu-list-item"><a href="/photos">My Photos</a></li>
 </ul>

@@ -1,29 +1,8 @@
 <nav class="header-nav">
   <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}">
-    {% if page.title and page.title != '' %}
-      {{ site.name }}
-    {% else %}
-      <h1 class="header-logo">{{ site.name }}</h1>
-    {% endif %}
+    {{ site.name }}
   </a>
   <ul class="header-links">
-
-    {%  unless page.url contains '/chinese-posts'  %}
-        <li>
-          <a class="header-icon-link" href="{{ 'chinese-posts' | relative_url }}" title="Blog">
-            Blog
-          </a>
-        </li>
-      {% endunless %}
-
-    {%  unless page.url contains '/photos'  %}
-      <li>
-        <a class="header-icon-link" href="{{ 'photos' | relative_url }}" title="Photos">
-          Photos
-        </a>
-      </li>
-    {% endunless %}
-    
     {% if site.about_enabled == true %}
       {%  unless page.url contains '/about'  %}
         <li>
