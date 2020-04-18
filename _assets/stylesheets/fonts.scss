@@ -101,5 +101,19 @@
     local('Ubuntu-Mono-Regular'),
 }
 
+// Fira Sans
+// =============================================================================
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400;
+  src: 
+    asset_url('Fira_Sans/FiraSans-Regular.ttf') format('truetype'),
+    local('FiraSans Regular'),
+    local('FiraSans-Regular'),
+}
+
 @import "font-awesome-sprockets";
 @import "font-awesome";
