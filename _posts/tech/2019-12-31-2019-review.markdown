@@ -4,6 +4,7 @@ title:  "2019"
 description: "A year of moving and decision making."
 tags: [yearreview]
 categories: [tech]
+emoji: 🗓️
 --- 
 
 ### Moving

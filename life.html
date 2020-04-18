@@ -10,10 +10,8 @@ pagination:
   {% if post.categories contains 'life' %}
     <li class="article-list-item">
       <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-        <h5>
-          {{ post.title }}
-          <small><i class="icon fas fa-angle-double-right" aria-hidden="true"></i></small>
-        </h5>
+        {{ post.title }}
+        <div class="emoji-hover" aria-hidden="true">{{ post.emoji }}</div>
       </a>
     </li>
   {% endif %}

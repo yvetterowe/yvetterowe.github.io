@@ -6,6 +6,7 @@ date: 2015-05-22 21:08:10 -0500
 description: "Your users will love you, regardless they love math or not."
 tags: [datascience, product]
 categories: [tech]
+emoji: 🧮
 
 ---
 [Reservoir sampling](http://en.wikipedia.org/wiki/Reservoir_sampling) is an algorithm for sampling elements with equal probability from a data stream. Greg Grothaus has written [a great post](http://gregable.com/2007/10/reservoir-sampling.html) explaining the magic behind this simple but elegant algorithm. I strongly recommend you to refer to this post if reservoir sampling is a new term to you.  

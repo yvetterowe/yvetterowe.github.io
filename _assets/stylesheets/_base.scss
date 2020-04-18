@@ -99,6 +99,7 @@ h6 {
 a {
   color: $base-accent-color;
   text-decoration: underline;
+  text-decoration-color: $link-underline-color;
   transition: color $base-transition-speed linear;
   &:hover,
   &:active {
@@ -292,8 +293,6 @@ table td {
 
 li.menu-list-item {
   a {
-    text-decoration: underline;
-    text-decoration-color: $article-header-underline-color;
     font-weight: $base-font-weight;
     font-size: 1.2em;
     font-family: $header-font-family;

@@ -49,36 +49,14 @@
 
 .article-list-item {
   a {
-    text-decoration: underline;
-    text-decoration-color: $article-header-underline-color;
-
-    h5 {
-      position: relative;
-      display: block;
-      padding-right: 0px;
-      font-size: 1.2em;
-      font-weight: $base-font-weight;
-      font-family: $header-font-family;
-      line-height: 1.33333em;
-      color: $article-header-title-color;
-      .icon {
-        display: inline-block;
-        margin-top: -2px;
-        vertical-align: middle;
-        opacity: 0;
-        transition: opacity $base-transition-speed linear;
-      }
-    }
-    &:hover h5 .icon {
-      opacity: 1;
-    }
-  }
-
-  p {
+    position: relative;
     display: block;
-    margin: 12px 0 10px;
-    font-size: 15px;
-    color: $article-header-description-color;
+    padding-right: 0px;
+    font-size: 1.2em;
+    font-weight: $base-font-weight;
+    font-family: $header-font-family;
+    line-height: 1.33333em;
+    color: $article-header-title-color;
   }
 }
 
