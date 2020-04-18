@@ -162,16 +162,20 @@ figure .image {
     width: 100%;
 }
 
-figure {
+figure.post {
     text-align: center;
     display: table;
     max-width: 100%;
-    margin: 80px auto;
+    margin: 20px auto;
 }
 
-figcaption {
+figcaption.post {
   display: block;
+  font-size: $base-font-size * 0.85;
+  font-style: italic;
+  margin-top: -16px;
 }
+
 ::selection {
   color: $white;
   background-color: $gray-darkest;
