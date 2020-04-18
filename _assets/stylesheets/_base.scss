@@ -176,6 +176,21 @@ figcaption.post {
   margin-top: -16px;
 }
 
+figure.photo {
+    text-align: center;
+    display: table;
+    max-width: 100%;
+    margin: 80px auto 100px auto;
+}
+
+figcaption.photo {
+  display: block;
+  color: $black;
+  font-size: $base-font-size * 1.12;
+  font-family: $gallery-font-family;
+  margin-top: 4px;
+}
+
 ::selection {
   color: $white;
   background-color: $gray-darkest;

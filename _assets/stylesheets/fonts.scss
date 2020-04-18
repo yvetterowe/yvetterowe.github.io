@@ -81,7 +81,24 @@
   src: 
     asset_url('cardo/Cardo-Regular.ttf') format('truetype'),
     local('Cardo Regular'),
-    local('Cardo-regular'),
+    local('Cardo-Regular'),
+}
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Ubuntu Mono
+// =============================================================================
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400;
+  src: 
+    asset_url('ubuntu-mono/UbuntuMono-Regular.ttf') format('truetype'),
+    local('Ubuntu-Mono Regular'),
+    local('Ubuntu-Mono-Regular'),
 }
 
 @import "font-awesome-sprockets";
