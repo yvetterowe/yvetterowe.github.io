@@ -7,6 +7,20 @@
         </a>
       </li>
     {% endif %}
+    {% if site.social_links.medium %}
+      <li>
+        <a href="https://medium.com/@{{ site.social_links.medium }}" target="_blank" rel="noopener noreferrer" title="Medium" aria-label="Medium Profile">
+          <i class="fab fa-medium" aria-hidden="true"></i>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.social_links.goodreads %}
+      <li>
+        <a href="https://www.goodreads.com/{{ site.social_links.goodreads }}" target="_blank" rel="icon" title="Goodreads" aria-label="Goodreads Profile">
+          <i class="fab fa-goodreads" aria-hidden="true"></i>
+        </a>
+      </li>
+    {% endif %}
     {% if site.social_links.facebook %}
       <li>
         <a href="https://www.facebook.com/{{ site.social_links.facebook }}" target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook Profile">
