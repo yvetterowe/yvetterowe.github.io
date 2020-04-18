@@ -281,22 +281,35 @@ table td {
 }
 
 .menu-list {
+  margin: 20px 0;
   padding: 40px 0;
-  margin: 20px;
   li {
-    padding: 10px;
+    margin: 10px auto;
+    padding-left: 0;
   }
-  list-style: square;
+  list-style: square inside;
 }
 
 li.menu-list-item {
   a {
     text-decoration: underline;
     text-decoration-color: $article-header-underline-color;
-    font-size: 1.2em;
     font-weight: $base-font-weight;
+    font-size: 1.2em;
     font-family: $header-font-family;
     line-height: 1.33333em;
     color: $menu-item-title-color;
   }
+}
+
+a:hover .emoji-hover {
+  opacity: 1;
+}
+
+.emoji-hover {
+  display: inline-block;
+  vertical-align: middle;
+  opacity: 0;
+  transition: opacity $base-transition-speed linear;
+  margin-left: 10px;
 }
