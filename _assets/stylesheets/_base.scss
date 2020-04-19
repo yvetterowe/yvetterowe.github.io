@@ -283,11 +283,9 @@ table td {
 
 .home-container {
   display: block;
-  width: 400px;
-}
+  width: $home-max-width;
 
-@include breakpoint(extra-small) {
-  .home-container {
+  @media only screen and (max-width: $home-max-width) {
     margin: 4% auto auto auto;
     width: 100%;
   }

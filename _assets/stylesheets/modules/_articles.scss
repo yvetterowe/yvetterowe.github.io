@@ -10,7 +10,6 @@
 h5.artical-list-title {
   display: block;
   margin-top: 60px;
-  font-size: 1.2em;
 }
 
 .article-list {
@@ -193,6 +192,17 @@ h5.artical-list-title {
 // =============================================================================
 
 @include breakpoint(small) {
+  .article-list-item {
+    a {
+    position: relative;
+    display: block;
+    padding-left: 0px;
+    font-weight: $base-font-weight;
+    font-size: 1em;
+    font-family: $header-font-family;
+    color: $article-header-title-color;
+    }
+  }
   .article-list-footer {
     display: block;
   }
