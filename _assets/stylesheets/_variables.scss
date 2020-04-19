@@ -7,9 +7,11 @@
 
 $sans-serif: "Lato", Helvetica, Arial, sans-serif;
 $serif: "Cardo","Cormorant Garamond", "Lato", Courier, serif;
+$monospace: "Ubuntu Mono", Monospace;
 $base-font-family: $sans-serif;
-$header-font-family: $serif;
-$gallery-font-family: "Ubuntu Mono", Monospace;
+$header-font-family: $monospace;
+$gallery-font-family: $monospace;
+$home-font-family: $monospace;
 $base-font-weight: 400;
 $base-font-weight-bold: 700;
 

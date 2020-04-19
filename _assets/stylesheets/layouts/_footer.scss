@@ -4,9 +4,10 @@
 
 .footer {
   display: block;
-  padding-top: 35px;
-  margin-bottom: 85px;
-  border-top: 1px solid $base-border-color;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-family: $monospace;
   p {
     font-size: 12px;
     color: $gray-less-dark;
@@ -19,13 +20,13 @@
 .footer-links {
   float: none;
   display: block;
-  text-align: center;
+  text-align: right;
   padding: 0;
-  margin: 0 0 15px 0;
+  margin: 0 0 4px 0;
   list-style: none;
   li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 10px;
     vertical-align: middle;
     &:first-child {
       margin-left: 0;

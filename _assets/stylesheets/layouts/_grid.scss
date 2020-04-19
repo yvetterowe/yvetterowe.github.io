@@ -42,6 +42,11 @@
 // Component
 // =============================================================================
 
+.grid-wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 .grid {
   display: block;
   padding: 0;
@@ -88,8 +93,8 @@
 
 .grid-centered {
   max-width: $max-width;
+  margin-left: 20%;
   margin-right: auto;
-  margin-left: auto;
 }
 
 // Responsive

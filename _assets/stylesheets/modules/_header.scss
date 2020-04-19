@@ -4,18 +4,17 @@
 
 .header-nav {
   display: block;
-  padding: 75px 0 10px;
-  border-bottom: 1px solid $base-border-color;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 .header-logo {
   display: inline-block;
-  font-family: $serif;
-  font-size: 36px;
+  font-family: $monospace;
+  font-size: $base-font-size;
   font-weight: 500;
   color: $header-logo-color;
   text-decoration: none;
-  line-height: 2.1;
 }
 
 .header-icon {

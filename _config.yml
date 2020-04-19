@@ -14,8 +14,6 @@ local_fonts: true # Change to true if you wish to use local fonts
 rss_enabled: true # Change to false if not
 social_links:
    email: yvetterowe1116@gmail.com # Add your Email address
-   medium: yvetterowe
-   goodreads: yvetterowe
 
 # Process and render draft posts
 # show_drafts: false
@@ -29,7 +27,6 @@ social_links:
 author:
   name: Hao Luo
   email: yvetterowe1116@gmail.com
-  uri: https://haoluo.io/about
 
 # Important settings (change at own risk)
 

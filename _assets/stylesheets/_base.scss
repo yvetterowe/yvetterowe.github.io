@@ -281,9 +281,20 @@ table td {
     margin-top: 4px;
 }
 
+.home-container {
+  display: block;
+  margin: 40px;
+  width: 400px;
+}
+
+.home-text-container {
+  font-family: $home-font-family;
+  color: $black;
+}
+
 .menu-list {
   margin: 20px 0;
-  padding: 40px 0;
+  padding-left: 0;
   li {
     padding: 10px 0;
   }
@@ -294,7 +305,7 @@ li.menu-list-item {
   a {
     font-weight: $base-font-weight;
     font-size: 1.2em;
-    font-family: $header-font-family;
+    font-family: $home-font-family;
     line-height: 1.33333em;
     color: $menu-item-title-color;
   }
