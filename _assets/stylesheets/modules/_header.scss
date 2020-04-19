@@ -4,8 +4,6 @@
 
 .header-nav {
   display: block;
-  margin-left: 3%;
-  margin-top: 3%;
 }
 
 .header-logo {
@@ -15,6 +13,7 @@
   font-weight: 500;
   color: $header-logo-color;
   text-decoration: none;
+  margin: 40px;
 }
 
 .header-icon {
@@ -55,6 +54,10 @@
   .header-nav {
     text-align: center;
   }
+  .header-logo {
+    margin: 4% auto auto auto;
+    width: 100%;
+  }
   .header-links {
     display: block;
     float: none;
@@ -65,5 +68,12 @@
         margin-right: 0;
       }
     }
+  }
+}
+
+@include breakpoint(small) {
+  .header-logo {
+    margin-top: 2% %4 auto auto;
+    width: 100%;
   }
 }

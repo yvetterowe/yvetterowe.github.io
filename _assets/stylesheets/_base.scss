@@ -283,8 +283,14 @@ table td {
 
 .home-container {
   display: block;
-  margin: 40px;
   width: 400px;
+}
+
+@include breakpoint(extra-small) {
+  .home-container {
+    margin: 4% auto auto auto;
+    width: 100%;
+  }
 }
 
 .home-text-container {

@@ -17,7 +17,11 @@ layout: compress
   {% endif %}
 
   <main>
-    {{ content }}
+    <div class="grid home-grid-centered">
+        <div class="grid-cell">
+          {{ content }}
+        </div>
+    </div>
     {% include footer.html %}
   </main>
 
