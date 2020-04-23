@@ -105,18 +105,19 @@ collections:
   my_tags:
     output: true
     permalink: /tag/:slug/
-  my_projects:
+  categories:
     output: true
-    permalink: /project/:slug/
+    permalink: /:slug/
+    sort_by: order
 
 # using defaults- https://jekyllrb.com/docs/configuration/
 defaults:
   -
     scope:
       path: ""
-      type: my_projects
+      type: categories
     values:
-      layout: articles_by_project
+      layout: articles_by_category
   -
     scope:
       path: ""
@@ -139,11 +140,6 @@ defaults:
   -
     scope:
       path: "tag/"
-    values:
-      sitemap: false
-  -
-    scope:
-      path: "project/*"
     values:
       sitemap: false
   -

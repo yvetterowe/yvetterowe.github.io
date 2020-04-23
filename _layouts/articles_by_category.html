@@ -1,0 +1,17 @@
+---
+layout: default
+sitemap: false
+---
+
+<h5 class="artical-list-title">{{ page.emoji }}</h5>
+
+<ul class="article-list {{ page.url }}">
+	{% assign category_posts = site.posts | where: 'categories', page.slug %}
+	{% for post in category_posts %}
+	<li class="article-list-item">
+      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+      	{{ post.title }} <div class="emoji-hover" aria-hidden="true">{{ post.emoji }}</div>
+      </a>
+    </li>
+    {% endfor %}
+</ul>

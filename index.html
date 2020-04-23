@@ -10,8 +10,12 @@ layout: home
 		This is a playground where I turn shower thoughts into ramblings as I navigate through the chaos.
 	</div>
 	<ul class="menu-list {{ page.url | remove: 'index.html' }}">
-  		<li class="menu-list-item"><a href="/tech" title="My Tech Thoughts">My Tech Thoughts<div class="emoji-hover">👩🏻‍💻</div></a></li>
-  		<li class="menu-list-item"><a href="/life" title="My Life Ramblings">My Life Ramblings<div class="emoji-hover">👩🏻‍🌾</div></a></li>
+		{% assign sorted_categories = site.categories | sort: 'order' %}
+		{% for category in sorted_categories %}
+			<li class="menu-list-item">
+				<a href="{{category.url}}" title="{{category.title}}">{{category.title}}<div class="emoji-hover">{{category.emoji}}</div></a>
+			</li>
+  		{% endfor %}
   		<li class="menu-list-item"><a href="/photos" title="My Photos">My Photos<div class="emoji-hover">🤳</div></a></li>
 	</ul>
 </div>
