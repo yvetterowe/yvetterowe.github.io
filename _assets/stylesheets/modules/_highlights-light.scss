@@ -8,7 +8,7 @@
   margin: 0;
   overflow: auto;
   font-weight: 400;
-  background: lighten($gray-lightest, 6);
+  background: #faf9f9;
   border-radius: $base-border-radius;
   pre {
     margin: 0;
@@ -20,9 +20,8 @@
 .highlighter-rouge {
   padding: 4px 4px;
   font-size: 16px;
-  color: #d14;
-  background: lighten($gray-lightest, 6);
-  border: 1px solid $base-border-color;
+  color: #121111;
+  background: #faf9f9;
   border-radius: 1px;
 }
 
