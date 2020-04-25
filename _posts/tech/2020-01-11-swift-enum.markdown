@@ -10,39 +10,40 @@ emoji: 🖐️
 
 Suppose we want to build the home screen of a stock trading app, where users' investment portfolio is rendered. A simple model object that represents a portfolio holding could be something like this:
 
-```swift 
+{% splash %}
 struct PortfolioHolding {
     let stockID: String
     let numberOfShares: Int
     // other properties
 }
-```  
-<br/>
+{% endsplash %}
+
 And portfolio home screen could be modeled as:
 
-```swift
+{% splash %}
 struct PortfolioHomeScreenModel {
     var portfolioHoldings: [PortfolioHolding]
 }
-```
-<br/>
+{% endsplash %}
+
 Then view controller could render the view based on this model:
 
-```swift
+{% splash %}
 class PortfolioHomeScreenViewController: UIViewController {
     func apply(model: PortfolioHomeScreenModel) {
         // render view based on `model`
     }
 }
-```
-<br/>
+{% endsplash %}
+
 Then at some point, the view controller gets confused - because there are multiple scenarios that could cause this `portfolioHoldings` to be empty, and we definitely want to render different contents for them:
 1. User puts all money in checking account, hasn't made any investment yet - we want to render an ***onboarding state***
 2. User has made some investments before but sold them all to purchase a house - we want to render an ***empty state***
 3. User is still holding some stocks but runs out of 4G data ... - we want to render a ***loading state***
 
 Our current `PortfolioHomeScreenModel` can't really differentiate these contexts. Let's refine it a bit with enum type:
-```swift
+
+{% splash %}
 struct InvestmentHomeScreenModel {
     var loadingState: LoadingState
     var investmentState: InvestmentState
@@ -57,9 +58,8 @@ struct InvestmentHomeScreenModel {
         case invested([InvestmentHolding])
     }
 }
-```
+{% endsplash %}
 
-<br/>
 Much better! Now we could represent the 3 states as follow:
 1. Onboarding state:  `(loadingState: .loaded, investmentState: .neverInvested)`
 2.  Empty state: `(loadingState: .loaded, investmentState: .invested([]))`
@@ -69,7 +69,7 @@ But...I bet you notice the problem, for *loading state* we're not sure which val
 
 Let's eliminate that overhead:
 
-```swift
+{% splash %}
 struct PortfolioHomeScreenModel {
     var loadingState: LoadingState
         
@@ -83,15 +83,16 @@ struct PortfolioHomeScreenModel {
         }
     }
 }
-```
-<br/>
+{% endsplash %}
+
 Then the 3 states could be represented as:
 1. Onboarding state: `(loadingState: .loaded(.neverInvested))`
 2. Empty state: `(loadingState: .loaded(.invested([])))`
 3. Loading state: `(loadingState: .loading)`
 
 Then view controller could render the view based on an expressive and unambiguous model: 
-```swift
+
+{% splash %}
 func apply(model: PortfolioHomeScreenModel) {
     switch model.loadingState {
         case .loading:
@@ -109,8 +110,8 @@ func apply(model: PortfolioHomeScreenModel) {
             }
     }
 }
-```
-<br/>
+{% endsplash %}
+
 Swift's own built-in API also embraces enum everywhere, some examples are :
 * [`Optional`](https://github.com/apple/swift/blob/master/stdlib/public/core/Optional.swift) is an enum under the hood.
 * [`Result`](https://github.com/apple/swift/blob/master/stdlib/public/core/Result.swift) eliminates the impossible state that _success_ and _failure_ could be presented at the same time in a completion block [like this](https://developer.apple.com/documentation/foundation/urlsession/1410330-datatask).
