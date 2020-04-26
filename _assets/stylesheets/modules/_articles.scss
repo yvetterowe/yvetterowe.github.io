@@ -142,19 +142,19 @@ h5.artical-list-title {
   img,
   blockquote {
     display: block;
-    margin-bottom: 20px;
-  }
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+  }  
   h2,
-  h3 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
+  h3,
   h4 {
-    display: block;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    font-family: $sans-serif;
-    color: $article-post-titles-color;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.04em;
+    line-height: 1.5rem;
+    color: $article-header-title-color;
+    font-weight: $article-header-weight;
   }
   blockquote p {
     margin-bottom: 0;

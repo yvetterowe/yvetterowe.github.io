@@ -124,13 +124,13 @@ abbr {
 }
 
 blockquote {
-  padding: 0 0 4px 15px;
-  margin: -2px 0 -8px 0;
+  padding: 0 0 0 15px;
   font-family: $sans-serif;
   font-size: $base-font-size;
   line-height: 1.6;
   color: $gray-light;
-  border-left: 2px solid $gray-light;
+  font-style: italic;
+  border-left: 1px solid $gray-light;
 }
 /*
 Other
@@ -295,13 +295,16 @@ table td {
 .home-text-container {
   font-family: $home-font-family;
   color: $black;
+  p {
+    margin-bottom: 10px;
+  }
 }
 
 .menu-list {
   margin: 20px 0;
   padding-left: 0;
   li {
-    padding: 10px 0;
+    padding: 4px 0;
   }
   list-style: square inside;
 }
