@@ -5,10 +5,10 @@
  */
 
 $code-background-color: #faf9f9;
-$code-basic-color: #1a1a1a;
+$code-basic-color: #1b2733;
 
 pre {
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
     background-color: $code-background-color;
     padding: 16px 0;
     border-radius: 16px;
@@ -20,17 +20,20 @@ pre code {
     display: block;
     padding: 0 20px;
     color: $code-basic-color;
-    font-size: 0.95em;
+    font-size: 14px;
+    line-height: 20px;
     overflow-x: auto;
     white-space: pre;
+    word-spacing: normal;
+    word-break: break-all;
 }
 
 pre code .keyword {
-    color: #fd7cb2;
+    color: #ff5600;
 }
 
 pre code .type {
-    color: #35ab92;
+    color: #718c00;
 }
 
 pre code .call {
