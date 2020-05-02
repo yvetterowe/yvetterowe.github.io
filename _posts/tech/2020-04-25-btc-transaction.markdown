@@ -123,7 +123,7 @@ let realAlicePayBob: Transaction = .standard(
         .init(
             previousTxID: "🔮",
             previousTxOutputIndex: 0,
-            signature: "👩🏻‍🌾🔐💰💰💰"
+            signature: "👩🏻‍🌾🔐🍹"
         ),
     ],
     outputs: [
@@ -152,7 +152,7 @@ let bobDayDream: Transaction = .standard(
         .init(
             previousTxID: "🥃", // never exists in UTXO pool
             previousTxOutputIndex: 1,
-            signature: "🦹🏻‍♂️🔐💰💰💰"
+            signature: "🦹🏻‍♂️🔐🍸"
         ),
     ],
     outputs: [
@@ -180,7 +180,7 @@ let fakeAlicePayBob: Transaction = .standard(
         .init(
             previousTxID: "🍹",
             previousTxOutputIndex: 1,
-            signature: "👷🏻‍♀️🔐💰" // fake 👩🏻‍🌾 signature signed by 🦹🏻‍♂️
+            signature: "👷🏻‍♀️🔐🍺" // fake 👩🏻‍🌾 signature signed by 🦹🏻‍♂️
         ),
     ],
     outputs: [
@@ -199,38 +199,8 @@ Current UTXO pool:
 🔮(1) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
 {% endsplash %}
 
-#### **Case 5.** 👩🏻‍🌾 tries paying 💰💰 to 🦹🏻‍♂️ by modifying UTXO amount
-She needs to pay 🦹🏻‍♂️ 💰💰, but she only owns 💰. She’s gonna try her luck by redeeming more than she owns.
-
-{% splash %}
-let alicePayBobWithFakeAmount: Transaction = .standard(
-    id: "🍾",
-    inputs: [
-        .init(
-            previousTxID: "🍹",
-            previousTxOutputIndex: 1,
-            signature: "👩🏻‍🌾🔐💰💰" // Though 🍹(1) only has 💰, she fakes the signature as if there are 💰💰
-        ),
-    ],
-    outputs: [
-        .init(recipientAddress: "🦹🏻‍♂️📮", value: "💰💰"),
-    ]
-)
-{% endsplash %}
-
-Hmm this is weird because she DID sign with her own signature. It turns out that even if the previous transactions is indeed only payable to her, she still can’t pass the signature verification because transaction amount is modified.
-
-{% splash %}
-😏 uh oh your transaction is denied. 
-Reason: Invalid input signature
-Current UTXO pool:
-🍹(0) | owner: 🦹🏻‍♂️ | amount: 💰💰 
-🍹(1) | owner: 👩🏻‍🌾 | amount: 💰 
-🔮(1) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
-{% endsplash %}
-
-#### **Case 6.** 👩🏻‍🌾 tries paying 💰💰 to 🦹🏻‍♂️ by redeeming 💰 twice 
-She’s just really gritty, I know. This time, she tries another strategy by claiming same UTXO payable to her multiple times - so that she doesn't need to modify the transaction amount as before. 💰x 2 = 💰💰,  what a beautiful math.
+#### **Case 5.** 👩🏻‍🌾 tries paying 💰💰 to 🦹🏻‍♂️ by redeeming 💰 twice 
+She needs to pay 🦹🏻 💰💰, but she only owns 💰now - so she's gonna try her luck by redeeming same UTXO payable to her multiple times.💰x 2 = 💰💰,  what a beautiful math.
 {% splash %}
 let alicePayBobDoubleSpend: Transaction = .standard(
     id: "🥂",
@@ -238,12 +208,12 @@ let alicePayBobDoubleSpend: Transaction = .standard(
         .init(
             previousTxID: "🍹",
             previousTxOutputIndex: 1,
-            signature: "👩🏻‍🌾🔐💰"
+            signature: "👩🏻‍🌾🔐🥂"
         ),
         .init(
             previousTxID: "🍹",
             previousTxOutputIndex: 1,
-            signature: "👩🏻‍🌾🔐💰"
+            signature: "👩🏻‍🌾🔐🥂"
         ),
     ],
     outputs: [
@@ -264,7 +234,7 @@ Current UTXO pool:
 🔮(1) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
 {% endsplash %}
 
-#### **Case 7.** 🦹🏻‍♂️ tries aggregating 💰💰💰 + 💰💰 into 💰💰💰💰💰💰
+#### **Case 6.** 🦹🏻‍♂️ tries aggregating 💰💰💰 + 💰💰 into 💰💰💰💰💰💰
 He just loses faith that 👩🏻‍🌾 could figure out a way to pay him, so he decides to try something creative again. “What if I just aggregate all my funds, and secretly add a little more to it?” 
 
 {% splash %}
@@ -274,12 +244,12 @@ let bobAggregateChangesMoreThanHeOwn: Transaction = .standard(
         .init(
             previousTxID: "🔮",
             previousTxOutputIndex: 1,
-            signature: "🦹🏻‍♂️🔐💰💰💰"
+            signature: "🦹🏻‍♂️🔐🍻"
         ),
         .init(
             previousTxID: "🍹",
             previousTxOutputIndex: 0,
-            signature: "🦹🏻‍♂️🔐💰💰"
+            signature: "🦹🏻‍♂️🔐🍻"
         ),
     ],
     outputs: [
