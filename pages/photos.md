@@ -5,6 +5,8 @@ permalink: /photos/
 imagetype: photo
 
 ---
+{% include image.html type=page.imagetype path="photos/soho.JPG" path-detail="photos/soho.JPG" caption="soho.jpg" %}
+
 {% include image.html type=page.imagetype path="photos/joy.JPG" path-detail="photos/joy.JPG" caption="joy.jpg" %}
 
 {% include image.html type=page.imagetype path="photos/a life.JPG" path-detail="photos/a life.JPG" caption="a life.jpg" %}
