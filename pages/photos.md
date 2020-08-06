@@ -5,6 +5,17 @@ permalink: /photos/
 imagetype: photo
 
 ---
+{% include image.html type=page.imagetype path="photos/August 2020.JPG" path-detail="photos/August 2020.JPG" caption="August 2020.jpg" %}
+{% include image.html type=page.imagetype path="photos/July 2020.JPG" path-detail="photos/July 2020.JPG" caption="July 2020.jpg" %}
+{% include image.html type=page.imagetype path="photos/June 2020.JPG" path-detail="photos/June 2020.JPG" caption="June 2020.jpg" %}
+{% include image.html type=page.imagetype path="photos/April 2020.JPG" path-detail="photos/April 2020.JPG" caption="April 2020.jpg" %}
+
+{% include image.html type=page.imagetype path="photos/quebec.JPG" path-detail="photos/quebec.JPG" caption="quebec.jpg" %}
+
+{% include image.html type=page.imagetype path="photos/art.JPG" path-detail="photos/art.JPG" caption="art.jpg" %}
+
+{% include image.html type=page.imagetype path="photos/rome.JPG" path-detail="photos/rome.JPG" caption="rome.jpg" %}
+
 {% include image.html type=page.imagetype path="photos/soho.JPG" path-detail="photos/soho.JPG" caption="soho.jpg" %}
 
 {% include image.html type=page.imagetype path="photos/joy.JPG" path-detail="photos/joy.JPG" caption="joy.jpg" %}
