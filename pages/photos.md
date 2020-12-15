@@ -5,6 +5,10 @@ permalink: /photos/
 imagetype: photo
 
 ---
+{% include image.html type=page.imagetype path="photos/Waikiki.JPG" path-detail="photos/Waikiki.JPG" caption="Waikiki.jpg" %}
+{% include image.html type=page.imagetype path="photos/Magic Island.jpg" path-detail="photos/Magic Island.jpg" caption="Magic Island.jpg" %}
+{% include image.html type=page.imagetype path="photos/North Shore.JPG" path-detail="photos/North Shore.JPG" caption="North Shore.jpg" %}
+
 {% include image.html type=page.imagetype path="photos/August 2020.JPG" path-detail="photos/August 2020.JPG" caption="August 2020.jpg" %}
 {% include image.html type=page.imagetype path="photos/July 2020.JPG" path-detail="photos/July 2020.JPG" caption="July 2020.jpg" %}
 {% include image.html type=page.imagetype path="photos/June 2020.JPG" path-detail="photos/June 2020.JPG" caption="June 2020.jpg" %}
