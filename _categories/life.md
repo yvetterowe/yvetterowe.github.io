@@ -1,7 +1,7 @@
 ---
 sitemap: false
 slug: life
-title: My Life Ramblings
+title: Non-tech writings
 emoji: 👩🏻‍🌾
 order: 1
 ---

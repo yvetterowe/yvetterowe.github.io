@@ -5,7 +5,7 @@ title: 乞力马扎罗的日与夜
 description: "Dream big and do small."
 tags: [travel]
 categories: [life]
-emoji: 🧗‍♀️
+emoji: 🧗🏻‍♀️
 ---
 
 #### 一、

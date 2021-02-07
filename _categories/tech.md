@@ -1,7 +1,7 @@
 ---
 sitemap: false
 slug: tech
-title: My Tech Thoughts
+title: Tech writings
 emoji: 👩🏻‍💻
 order: 0
 ---
