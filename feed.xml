@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://haoluo.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://haoluo.io/" rel="alternate" type="text/html" /><updated>2021-02-16T20:26:27-05:00</updated><id>https://haoluo.io/feed.xml</id><title type="html">Hao Luo</title><subtitle>chaos.filter { $0.aha || $0.wut }.map { ShowerThoughts($0) }.map { Ramblings($0) }</subtitle><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><entry><title type="html">Notes on Nonviolent Communication</title><link href="https://haoluo.io/posts/nvc" rel="alternate" type="text/html" title="Notes on Nonviolent Communication" /><published>2021-02-04T00:00:00-05:00</published><updated>2021-02-04T18:22:05-05:00</updated><id>https://haoluo.io/posts/nvc</id><content type="html" xml:base="https://haoluo.io/posts/nvc">&lt;p&gt;&lt;strong&gt;📝What is NVC&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A way to give from heart&lt;/li&gt;
+  &lt;li&gt;Hear our own deeper &lt;em&gt;needs&lt;/em&gt; and those of others&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;📝Components of NVC (applied to both &lt;em&gt;expressing honestly&lt;/em&gt; + &lt;em&gt;receiving empathically&lt;/em&gt;)&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Observation&lt;/li&gt;
+  &lt;li&gt;Feelings&lt;/li&gt;
+  &lt;li&gt;Needs&lt;/li&gt;
+  &lt;li&gt;Requests&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;📝Communication that blocks compassion&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Moralistic judgements
+    &lt;ul&gt;
+      &lt;li&gt;Imply wrongness or badness on people who don’t share our values&lt;/li&gt;
+      &lt;li&gt;Such judgements are actually expressions of our own needs and values&lt;/li&gt;
+      &lt;li&gt;Value judgment vs. moralistic judgement
+        &lt;ul&gt;
+          &lt;li&gt;value judgment: beliefs of how life can best be served&lt;/li&gt;
+          &lt;li&gt;moralistic judgement: they’re made when people fail to support our value judgements&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Making comparison&lt;/li&gt;
+  &lt;li&gt;Denial of responsibility
+    &lt;ul&gt;
+      &lt;li&gt;Our language obscures awareness of personal responsibility&lt;/li&gt;
+      &lt;li&gt;Instead of implying lack of choice, acknowledge choice&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Communicate desire as demand
+    &lt;ul&gt;
+      &lt;li&gt;Demand threatens listeners with blame or punishments if they fail to comply&lt;/li&gt;
+      &lt;li&gt;People change not to avoid punishment but to benefit themselves&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;📝Observing without evaluating&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;When combining observation with evaluation, people are apt to hear criticism.&lt;/li&gt;
+  &lt;li&gt;NVC discourages static generalizations; Instead, evaluations are made based on observations specific to &lt;em&gt;time&lt;/em&gt; and &lt;em&gt;context&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;📝Identifying and expressing feelings&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;If we’re not &lt;em&gt;aware of&lt;/em&gt; feelings, we can’t express them&lt;/li&gt;
+  &lt;li&gt;Feelings vs. Non-Feelings
+    &lt;ul&gt;
+      &lt;li&gt;Feelings != Thoughts&lt;/li&gt;
+      &lt;li&gt;Feelings != What we think we are (eg. “I feel inadequate as a guitar player”)&lt;/li&gt;
+      &lt;li&gt;Feelings != How we think others react or behave towards us (eg. “I feel understood”)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;📝Taking responsibility for our feelings&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;What others do may be the &lt;em&gt;stimulus&lt;/em&gt; of our feelings, but not the &lt;em&gt;cause&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;4 options for receiving negative messages
+    &lt;ol&gt;
+      &lt;li&gt;blame ourselves&lt;/li&gt;
+      &lt;li&gt;blame others&lt;/li&gt;
+      &lt;li&gt;sense our own feelings and needs&lt;/li&gt;
+      &lt;li&gt;sense others’ feelings and needs&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Connect feeling with need: “I feel…because I need…”&lt;/li&gt;
+  &lt;li&gt;Judgments of others are actually alienated expressions of our own &lt;em&gt;unmet needs&lt;/em&gt;. If we express our needs, we have a better chance of getting them met.&lt;/li&gt;
+  &lt;li&gt;3 Stages
+    &lt;ol&gt;
+      &lt;li&gt;Emotional slavery: believe ourselves are responsible for the feelings of others (eg. feel overwhelmed when seeing partner in pain)&lt;/li&gt;
+      &lt;li&gt;Obnoxious: refuse to admit to caring others’ feels or needs (eg. “That’s your problem! I’m not responsible for your feelings!”)&lt;/li&gt;
+      &lt;li&gt;Emotional liberation: accept responsibility for our own feelings but not the feelings of others, while being aware that we can never meet our own needs at the expense of others.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;📝Requesting that which would enrich life&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Make request with &lt;em&gt;positive&lt;/em&gt; and &lt;em&gt;concrete&lt;/em&gt; actions that reveals what we want&lt;/li&gt;
+  &lt;li&gt;Make request &lt;em&gt;consciously&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Make request != express feelings&lt;/li&gt;
+      &lt;li&gt;We are often not conscious of what we are requesting (eg. complained loudly ”I’ve never seen a train go so slow in all my life!”)&lt;/li&gt;
+      &lt;li&gt;Request may sound like demand when unaccompanied with by speaker’s feelings and needs (eg. “Why don’t you go and get a haircut?”)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;📝Connecting compassionately with ourselves&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Avoid shoulding yourself!&lt;/li&gt;
+  &lt;li&gt;Self-judgements, like all judgements, are tragic expressions of unmet needs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;📝Expressing anger fully&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hurting people when we are angry is superficial - we want a more powerful way to fully express ourselves&lt;/li&gt;
+  &lt;li&gt;Steps to express anger
+    &lt;ol&gt;
+      &lt;li&gt;Stop. Breath.&lt;/li&gt;
+      &lt;li&gt;Identify our judgmental thoughts&lt;/li&gt;
+      &lt;li&gt;Connect with our needs&lt;/li&gt;
+      &lt;li&gt;Express our feelings and unmet needs&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;📝Conflict resolution and mediation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Resolve conflicts by building human connections&lt;/li&gt;
+  &lt;li&gt;We are taught by society to criticize, insult, and otherwise communications to that keep us apart. In a conflict, both parties usually spend too much time intent on proving themselves right and the other party wrong, rather than paying attention to their own and others’ needs.&lt;/li&gt;
+  &lt;li&gt;Steps
+    &lt;ol&gt;
+      &lt;li&gt;Express our own needs&lt;/li&gt;
+      &lt;li&gt;Search for real needs of the other person&lt;/li&gt;
+      &lt;li&gt;Verify we both accurately recognize the other person’s needs&lt;/li&gt;
+      &lt;li&gt;Provide empathy to hear each other’s needs accurately&lt;/li&gt;
+      &lt;li&gt;Propose strategies for resolving the conflict, framing them in &lt;em&gt;positive action language&lt;/em&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;📝Liberating ourselves and counseling others&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Focus on &lt;em&gt;what we want&lt;/em&gt; rather than &lt;em&gt;what went wrong&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;📝Expressing appreciation in NVC&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Express appreciation to celebrate, not to manipulate&lt;/li&gt;
+  &lt;li&gt;Thank you =  This is what you did + This is what I feel + This is the need of mine that was met&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="booknotes" /><summary type="html">📝What is NVC A way to give from heart Hear our own deeper needs and those of others</summary></entry><entry><title type="html">2020</title><link href="https://haoluo.io/posts/2020-review" rel="alternate" type="text/html" title="2020" /><published>2021-01-10T00:00:00-05:00</published><updated>2021-01-10T17:48:42-05:00</updated><id>https://haoluo.io/posts/2020-review</id><content type="html" xml:base="https://haoluo.io/posts/2020-review">&lt;p&gt;2020 is…weird. When saying “2019 is a year of moving and decision making”, I didn’t expect 2020 to be completely opposite - a year of being stuck at home. The quarantine time did give me a chance to explore the world and myself in a more reflective way rather than the experiential way, which is sometimes inspiring while other times painful. A couple takeaways:&lt;/p&gt;
+
+&lt;h4 id=&quot;on-well-being&quot;&gt;On Well-Being&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Eat well, sleep well, workout regularly and always have something to look forward to.&lt;/li&gt;
+  &lt;li&gt;It’s OK to have strong and bad emotions, but we’re not defined by our emotions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;on-personal-development&quot;&gt;On Personal Development&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Make it easy to take risks.&lt;/li&gt;
+  &lt;li&gt;Be aware of thinking traps.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;on-creative-work&quot;&gt;On Creative Work&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Don’t mix objectives. Stick to the one you care about most and try not to get upset about failing to meet others.&lt;/li&gt;
+  &lt;li&gt;Motion != progress.&lt;/li&gt;
+  &lt;li&gt;Balance self-belief with self-awareness. Manage morale, and seek truth.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="yearreview" /><summary type="html">2020 is…weird. When saying “2019 is a year of moving and decision making”, I didn’t expect 2020 to be completely opposite - a year of being stuck at home. The quarantine time did give me a chance to explore the world and myself in a more reflective way rather than the experiential way, which is sometimes inspiring while other times painful. A couple takeaways:</summary></entry><entry><title type="html">SwiftUI: View is not UIView</title><link href="https://haoluo.io/posts/swiftui-viewbody" rel="alternate" type="text/html" title="SwiftUI: View is not UIView" /><published>2020-09-07T00:00:00-04:00</published><updated>2020-09-08T00:11:05-04:00</updated><id>https://haoluo.io/posts/swiftui-viewbody</id><content type="html" xml:base="https://haoluo.io/posts/swiftui-viewbody">&lt;p&gt;To deliver a smooth user experience with UIKit, we usually want to refresh the view only when it’s necessary instead of calling &lt;code class=&quot;highlighter-rouge&quot;&gt;setNeedsLayout&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;layoutIfNeeded&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;layoutSubviews&lt;/code&gt; brainlessly. Same with SwiftUI, we also want to be mindful of view update performance.&lt;/p&gt;
+
+&lt;p&gt;SwiftUI has multiple ways to achieve the reactive-style data-driven UI update, eg. &lt;code class=&quot;highlighter-rouge&quot;&gt;State&lt;/code&gt; for local state and &lt;code class=&quot;highlighter-rouge&quot;&gt;ObservedObject&lt;/code&gt; for external data source. For example, suppose there’s an  &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoView&lt;/code&gt; that renders the number of avocado in the inventory, an &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoStore&lt;/code&gt; and an &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoView&lt;/code&gt; could be defined like this:&lt;/p&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;final class&lt;/span&gt; AvocadoStore: &lt;span class=&quot;type&quot;&gt;ObservableObject&lt;/span&gt; {
+    &lt;span class=&quot;keyword&quot;&gt;@Published private(set) var&lt;/span&gt; avocadoCount: &lt;span class=&quot;type&quot;&gt;Int&lt;/span&gt;
+}
+
+&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; AvocadoView: &lt;span class=&quot;type&quot;&gt;View&lt;/span&gt; {
+    &lt;span class=&quot;keyword&quot;&gt;@ObservedObject var&lt;/span&gt; avocadoStore: &lt;span class=&quot;type&quot;&gt;AvocadoStore&lt;/span&gt;
+    
+    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; body: &lt;span class=&quot;keyword&quot;&gt;some&lt;/span&gt; &lt;span class=&quot;type&quot;&gt;View&lt;/span&gt; {
+        &lt;span class=&quot;call&quot;&gt;print&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;Refreshing 🥑 view&quot;&lt;/span&gt;)
+        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;type&quot;&gt;Text&lt;/span&gt;(&lt;span class=&quot;type&quot;&gt;String&lt;/span&gt;(repeating: &lt;span class=&quot;string&quot;&gt;&quot;🥑&quot;&lt;/span&gt;, count: avocadoStore.&lt;span class=&quot;property&quot;&gt;avocadoCount&lt;/span&gt;))
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It’s summertime, let’s get some peaches 🍑 as well. In practice, they probably live together with avocados in the same store.&lt;/p&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;final class&lt;/span&gt; FruitStore: &lt;span class=&quot;type&quot;&gt;ObservableObject&lt;/span&gt; {
+    &lt;span class=&quot;keyword&quot;&gt;@Published private(set) var&lt;/span&gt; avocadoCount: &lt;span class=&quot;type&quot;&gt;Int&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;@Published private(set) var&lt;/span&gt; peachCount: &lt;span class=&quot;type&quot;&gt;Int&lt;/span&gt;
+}
+
+&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; AvocadoView: &lt;span class=&quot;type&quot;&gt;View&lt;/span&gt; {
+    &lt;span class=&quot;keyword&quot;&gt;@ObservedObject var&lt;/span&gt; fruitStore: &lt;span class=&quot;type&quot;&gt;FruitStore&lt;/span&gt;
+    
+    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; body: &lt;span class=&quot;keyword&quot;&gt;some&lt;/span&gt; &lt;span class=&quot;type&quot;&gt;View&lt;/span&gt; {
+        &lt;span class=&quot;call&quot;&gt;print&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;Refreshing 🥑 view&quot;&lt;/span&gt;)
+        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;type&quot;&gt;Text&lt;/span&gt;(&lt;span class=&quot;type&quot;&gt;String&lt;/span&gt;(repeating: &lt;span class=&quot;string&quot;&gt;&quot;🥑&quot;&lt;/span&gt;, count: fruitStore.&lt;span class=&quot;property&quot;&gt;avocadoCount&lt;/span&gt;))
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then here comes an interesting problem with &lt;code class=&quot;highlighter-rouge&quot;&gt;ObservableObject&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;@Published&lt;/code&gt; property wrapper. Suppose someone steals the peaches, which causes &lt;code class=&quot;highlighter-rouge&quot;&gt;FruitStore&lt;/code&gt; to publish a new value of  &lt;code class=&quot;highlighter-rouge&quot;&gt;peachCount&lt;/code&gt;. Should  &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoView&lt;/code&gt; be affected in this case? Ideally not. But in reality, I found that the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; of &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoView&lt;/code&gt; is indeed re-constructed (“Refreshing 🥑 view” is logged). This is because &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoView&lt;/code&gt; observes on the whole &lt;code class=&quot;highlighter-rouge&quot;&gt;FruitStore&lt;/code&gt;, which makes it re-flow its body as long as any of store’s &lt;code class=&quot;highlighter-rouge&quot;&gt;@Published&lt;/code&gt; property gets updated (aka. “published”) - even though only &lt;code class=&quot;highlighter-rouge&quot;&gt;avocadoCount&lt;/code&gt; is referenced in &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hmm, this is not good. We should probably embrace &lt;em&gt;Single-responsibility principle&lt;/em&gt; here to make &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoView&lt;/code&gt; only observe on &lt;code class=&quot;highlighter-rouge&quot;&gt;avocadoCount&lt;/code&gt;, the data it cares about. In practice, &lt;code class=&quot;highlighter-rouge&quot;&gt;FruitStore&lt;/code&gt; probably still has to exist to serve some aggregation functionality, or it could simply be it’s already a GOD hairball object that’s basically impossible to break down easily (yea you know what I’m talking about don’t you 🌚). But fortunately enough:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We can solve any problem by introducing an extra level of indirection.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So I followed the calling by introducing a small and sweet  &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoStore&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;final class&lt;/span&gt; AvocadoStore: &lt;span class=&quot;type&quot;&gt;ObservableObject&lt;/span&gt; {
+    &lt;span class=&quot;keyword&quot;&gt;@Published private(set) var&lt;/span&gt; avocadoCount: &lt;span class=&quot;type&quot;&gt;Int&lt;/span&gt; = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;private var&lt;/span&gt; cancellable: &lt;span class=&quot;type&quot;&gt;AnyCancellable&lt;/span&gt;!
+    
+    &lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(fruitStore: &lt;span class=&quot;type&quot;&gt;FruitStore&lt;/span&gt;) {
+        cancellable = fruitStore.$avocadoCount
+            .&lt;span class=&quot;call&quot;&gt;sink&lt;/span&gt; { avocadoCountInFruitStore &lt;span class=&quot;keyword&quot;&gt;in
+            self&lt;/span&gt;.&lt;span class=&quot;property&quot;&gt;avocadoCount&lt;/span&gt; = avocadoCountInFruitStore
+        }
+    }
+}
+
+&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; AvocadoView: &lt;span class=&quot;type&quot;&gt;View&lt;/span&gt; {
+    &lt;span class=&quot;keyword&quot;&gt;@ObservedObject var&lt;/span&gt; avocadoStore: &lt;span class=&quot;type&quot;&gt;AvocadoStore&lt;/span&gt;
+    
+    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; body: &lt;span class=&quot;keyword&quot;&gt;some&lt;/span&gt; &lt;span class=&quot;type&quot;&gt;View&lt;/span&gt; {
+        &lt;span class=&quot;call&quot;&gt;print&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;Refreshing 🥑 view&quot;&lt;/span&gt;)
+        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;type&quot;&gt;Text&lt;/span&gt;(&lt;span class=&quot;type&quot;&gt;String&lt;/span&gt;(repeating: &lt;span class=&quot;string&quot;&gt;&quot;🥑&quot;&lt;/span&gt;, count: avocadoStore.&lt;span class=&quot;property&quot;&gt;avocadoCount&lt;/span&gt;))
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoStore&lt;/code&gt; basically does is to bridge &lt;code class=&quot;highlighter-rouge&quot;&gt;FruitStore&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoView&lt;/code&gt; while preventing &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoView&lt;/code&gt; from being exposed to irrelevant noise (&lt;code class=&quot;highlighter-rouge&quot;&gt;peachCount&lt;/code&gt; in our case). This all sounds right…but do we really need it?&lt;/p&gt;
+
+&lt;p&gt;I was deriving all my solutions so far based on an assumption: a &lt;code class=&quot;highlighter-rouge&quot;&gt;View&lt;/code&gt; is like a &lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt; - and calling &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; is like calling &lt;code class=&quot;highlighter-rouge&quot;&gt;setNeedsLayout&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;layoutSubviews&lt;/code&gt;, which eventually leads to a view refresh. But the assumption is &lt;em&gt;wrong&lt;/em&gt;, and it is exactly the major difference between SwiftUI and UIKit - the declarative and the imperative. In SwiftUI, &lt;code class=&quot;highlighter-rouge&quot;&gt;View&lt;/code&gt; is a &lt;code class=&quot;highlighter-rouge&quot;&gt;struct&lt;/code&gt; value type used to &lt;em&gt;describe&lt;/em&gt; a view’s content and behavior - it’s not the view itself. And that’s it, the SwiftUI infrastructure will take care of the heavy lifting. In our original implementation, it’s true that &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoView&lt;/code&gt; ’s &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; gets called whenever &lt;code class=&quot;highlighter-rouge&quot;&gt;fruitStore.peachCount&lt;/code&gt; is updated - but it’s also true that it gets called with the same &lt;code class=&quot;highlighter-rouge&quot;&gt;fruitStore.avocadoCount&lt;/code&gt; value each time. The SwiftUI infra will be smart enough to process these &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; update messages and figure out what to do: “Last time it says there are X avocados, this time it’s still X. Nothing changes, just sit back and chill.”&lt;/p&gt;
+
+&lt;p&gt;Don’t get me wrong - I’m not saying introducing &lt;code class=&quot;highlighter-rouge&quot;&gt;AvocadoStore&lt;/code&gt; is completely worthless here. From the API design and dependency management perspective, it still makes a lot of sense - like how we use thin protocols to break down a fat class. It’s just the goal is not to correct a &lt;em&gt;fundamental fault&lt;/em&gt; anymore. Bringing in a layer of indirection reduces coupling but could also fall part when it over complicates things - and that’s the tradeoff we need to make in production codebase at scale, case-by-case.&lt;/p&gt;</content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="ios" /><category term="swift" /><summary type="html">To deliver a smooth user experience with UIKit, we usually want to refresh the view only when it’s necessary instead of calling setNeedsLayout, layoutIfNeeded or layoutSubviews brainlessly. Same with SwiftUI, we also want to be mindful of view update performance.</summary></entry><entry><title type="html">多吃点，我爱你</title><link href="https://haoluo.io/posts/eat-and-love" rel="alternate" type="text/html" title="多吃点，我爱你" /><published>2020-07-22T00:00:00-04:00</published><updated>2020-07-22T14:25:34-04:00</updated><id>https://haoluo.io/posts/eat-and-love</id><content type="html" xml:base="https://haoluo.io/posts/eat-and-love">&lt;p&gt;（最近跟着小高姐做饭非常想家…贴一篇四年前的旧文）&lt;/p&gt;
+
+&lt;p&gt;这些天利用每个番茄时间中的五分钟断断续续读完了吉井忍这本图文并茂的《四季便当》，真是满满的都是回忆。&lt;/p&gt;
+
+&lt;h3 id=&quot;从枫林街到老虎滩&quot;&gt;从枫林街到老虎滩&lt;/h3&gt;
+&lt;p&gt;想起来小时候住在枫林街老房子的日子。每天太阳一出来，就能听见挑着木桶买豆腐脑（咸的！）的阿姨在楼下叫卖。这时候奶奶就会下楼买上热乎乎的一大碗。回来撒上葱花，舀一大勺入口，那滋味真是人间美味啊。&lt;/p&gt;
+
+&lt;p&gt;上幼儿园前住在枫林街的日子大概就是每天听妈妈念日语偶尔掺合一句，吭哧吭哧到邻居家窜门卖萌骗些小零食，每天扒在窗前朝窗外唱儿歌，跟爷爷学认字背古诗。这些细节太过久远于我自然是模糊不清的，大多都是听妈妈跟别人讲我小时候的故事听来的。但那豆腐脑的味道，却真是深深烙在记忆里了。伍尔芙在《阿弗小传》中这样描写气味对于小狗阿弗的重要性：「他生命中最完满最自由最快乐的时光，只是一连串的气味。爱情，想必会渐渐失去它的吸引力，但气味长存。」如果气味是阿弗的宗教，那些侵入舌尖味蕾的美味大概是幼齿时期的我的宗教了吧。&lt;/p&gt;
+
+&lt;p&gt;后来大连迎来建市百年，政府要改造枫林街，好多老房子都被拆掉了，爷爷奶奶也就搬迁到了老虎滩这边。改造后的枫林街变成了不伦不类的日本俄罗斯风情一条街。这些乍眼望去无比精致的小洋房虽然当时在大连算是创下了天价，但是终究怎么嗅都是一股低劣复古的脂粉味，完全没了原来老枫林街那喧嚷而有序的烟火气儿。&lt;/p&gt;
+
+&lt;p&gt;小学六年级时，我所在的桃园小学合并了虎滩路小学，于是我们整个年级也都从桃源校区搬到了虎滩校区。新校区就在奶奶爷爷家旁边，所以我就可以逃过学校难吃的盒饭，每天中午去奶奶爷爷家吃各种好吃的。每天吃完午饭，奶奶都要问「明天想吃什么呀？」，然后我就噼里啪啦报出一长串菜谱。奶奶总是笑着说：「好，好，明天我去早市买菜！」于是我就可以换着花样吃奶奶亲手包的芸豆大包子，疙瘩汤，可乐鸡翅，烤大虾，炸茄盒，等等等等。&lt;/p&gt;
+
+&lt;p&gt;说也奇怪，人越长大本应自主权意识越强，可往往劳于愁思累于感慨，不免对生活也起了敷衍。像是高中以后，每次爸妈问我想吃什么，我总是漫不经心地来一句「随便」，完全没了小时候那股兴奋劲儿。爸妈有时候无可奈何，只得扔出一句「再说随便就没有东西吃！」，我才随口报几个菜名了事。现在身在异国他乡，常常翻看网上介绍国内美食的帖子盯着图片流口水，有时候甚至馋得辗转反侧夜不能寐，看《舌尖上的中国》更是几度哽咽，大概也是对我在中二时期不懂得珍惜拥有的惩罚吧…&lt;/p&gt;
+
+&lt;p&gt;提起奶奶，自然少不了爷爷了。爷爷今年刚过了九十大寿，除了身子骨没那么硬朗了，脑袋还是清晰得很，每天下午都搬个马扎下楼和邻居老头们切磋几盘象棋。自打我有记忆以来，爷爷的每顿饭中总是有雷打不动的一小盅白酒。他吃饭也像品酒一样，优哉游哉，不慌不忙的，吃几口饭菜，抿一口小酒，特别有节奏，而且最后总是能保证在整好吃完饭时把那一盅酒喝光。&lt;/p&gt;
+
+&lt;p&gt;从枫林街到老虎滩，无论是已经过世的奶奶，还是年近期颐的爷爷，在我的记忆中一直都是以一种乐而不淫，哀而不伤的形式存在着。他们的勤劳，善良，宽厚，伴随着故食滋味，温暖着，并将继续照亮我的一生。&lt;/p&gt;
+
+&lt;h3 id=&quot;我爱你与多吃点&quot;&gt;「我爱你」与「多吃点」&lt;/h3&gt;
+&lt;p&gt;十岁那年，我第一次出国，第一次一个人坐飞机，去日本找当时在那里工作的妈妈玩。虽然长大后吃了各种各样的日料，给我留下最深印象的仍是《四季便当》中提到的可乐饼，十岁那年的可乐饼（虽然那时候我只管它叫「炸土豆饼」)。&lt;/p&gt;
+
+&lt;p&gt;那时候我还小，刺身什么的完全吃不出门道，妈妈在东京租着一间狭小的公寓，也没什么钱带我去吃高端的日料。有一天在东京街边逛累了，跟妈妈喊饿，她就给我买了一盒可乐饼。那刚出炉的酥酥的香甜的入口即化的味道，真是至今难忘。于是我就高兴地蹦蹦跳跳走一路吃一路，几乎每天都嚷嚷着妈妈买可乐饼。后来去妈妈的一位日本朋友曾根爷爷家做客，他问我「Hiro酱，这些日子你妈妈带你吃了什么好吃的日本料理？」我不假思索地脱口而出「可乐饼！」妈妈笑着翻译给曾根爷爷听，他听了也哈哈大笑，说「哎呀，看来你妈妈并没有带你吃什么好吃的呢！」我自然是不解，可乐饼明明这么好吃，怎么能说不好吃呢…&lt;/p&gt;
+
+&lt;p&gt;在中国的传统文化里，「吃」一直是个饱含着温暖爱意的动词。从「管住一个男人的心就要先温暖他的胃」这种论调，到李安在《饮食男女》中雕琢父亲为家庭聚餐做功夫菜的每一个小细节，无一不深谙「爱一个人就让他吃点好的」这一伟大朴素的哲理。奶奶是这样，妈妈也一直是这样。从小到大，每次她批评完我几天后，总是要买好吃的食物回来，或者带我出去下馆子，来默默地暗示「妈妈虽然批评你了，但还是爱你的」。虽然小时候没心没肺并不懂。&lt;/p&gt;
+
+&lt;p&gt;和西方人不同，我们表达感情的方式总是更委婉含蓄的。在西方电影里，即便是金婚银婚的老夫老妻，也会拥抱亲吻，对彼此说一句「我爱你」。而在我们的肢体和文字语言里，和拥抱亲吻等效的动作大概就是把菜夹到你的碗里吧，和「我爱你」等效的句式大概就是「多吃点」吧。我到现在还记得大一的时候，妈妈国庆黄金周来上海看我 – 如你所料，这可拯救了当时第一次住校还没吃惯食堂的我。蟹粉小笼，排骨年糕，弄堂馄饨，龙井虾仁…那一周，我们把江浙沪美食吃了个遍，每一餐妈妈都要说好多句「多吃点」，每次要结账时她还要再添一句「吃饱了没」。这个传统一直延续到后来每个学期放假回家，和现在每年回国。还是一个劲往我碗里夹菜，还是那句不变的「多吃点」，我却越来越能体味其中的深意。&lt;/p&gt;
+
+&lt;h3 id=&quot;爸爸的便当&quot;&gt;爸爸的便当&lt;/h3&gt;
+&lt;p&gt;读《四季便当》时，自然总是回忆起高中每天带便当上学的日子。那时候学业繁重，高中又不是寄宿的，所以每天要早起去学校参加早自习，于是爸爸也每天不到六点就起床给我做便当。我很喜欢吃虾，所以便当里便经常有虾。同学们中午聚在一起吃饭时，经常有人在我打开便当盒之前就问「我猜今天又有虾是不是？！」，然后露出羡慕的神情。爸爸的便当虽然不像日本妈妈们的便当颜值那么高那么萌，但也是很讲究营养搭配，一般都要有荤有素，夏天有凉拌菜，冬天有热汤。即便是在惨绝人寰的高三，每天带便当上学也依然是一件幸福的事。&lt;/p&gt;
+
+&lt;p&gt;因为出国读书要自己做饭，之前几乎没下过厨的我临阵磨枪跟爸爸学了几道菜，红烧排骨，油菜香菇，还有红烧黄花鱼。&lt;/p&gt;
+
+&lt;p&gt;「做红烧排骨最好先拿高压锅压一下，这样肉比较烂容易进味，压的时候加点姜片去腥。然后再下锅，加八角，桂皮，这么多肉呢，就加五勺生抽，两勺老抽，加一点糖和盐，拌均匀。大火烧开以后转小火直到汁收得差不多了为止，注意不要烧干了啊。」&lt;/p&gt;
+
+&lt;p&gt;我记菜谱特别差劲，做了好几遍的菜每次还都是要打开菜谱软件才能搞定。唯独这道红烧排骨，爸爸教我做的第一道菜，一遍就记住了，从来不需要再参阅菜谱。然而我似乎并没有继承爸爸会做菜的基因，我菜做得并不好，发挥很不稳定，又没有耐心调参，有时候完全看心情和运气。要是第一次尝试一道新菜，基本就不要想着能入口了…上次回国，在家里露了几手，尤其是做了最拿手的红烧排骨。看到爸爸倚在厨房门边欣慰地笑，觉得又开心又怅然。&lt;/p&gt;
+
+&lt;p&gt;所以思故食亦是思故人，炊香即是回忆香吧。&lt;/p&gt;</content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="goodolddays" /><category term="booknotes" /><summary type="html">（最近跟着小高姐做饭非常想家…贴一篇四年前的旧文）</summary></entry><entry><title type="html">Async Communication and Incremental Correctness</title><link href="https://haoluo.io/posts/2020-h1-takeaways" rel="alternate" type="text/html" title="Async Communication and Incremental Correctness" /><published>2020-05-22T00:00:00-04:00</published><updated>2020-05-22T17:57:23-04:00</updated><id>https://haoluo.io/posts/2020-h1-takeaways</id><content type="html" xml:base="https://haoluo.io/posts/2020-h1-takeaways">&lt;p&gt;As I described in &lt;a href=&quot;https://haoluo.io/posts/beyond-the-first-few-years&quot;&gt;an earlier post&lt;/a&gt;, I didn’t feel comfortable at all when starting my second job. It has been six months since then (crazy six months for this planet, I know), I can’t say I’m back to my comfort zone now but there are definitely some takeaways that worth noting.&lt;/p&gt;
+
+&lt;h4 id=&quot;async-communication&quot;&gt;Async communication&lt;/h4&gt;
+&lt;p&gt;Async communication will just get more and more important as more employers embrace remote work. But even without that, I find this format of communication helpful in general - it forces people to structuralize their thoughts, exactly the feature of writing. When I first started, I got super frustrated with the high communication cost when I got stuck at my daily work. Why can’t I just direct message someone like “Yo I don’t know how to do X, tell me plz”? Why do I have to “waste” my time drafting a post in a support group to get help? But as I get more comfortable doing this, it turns out to bring out some side effects that I didn’t expect before, in a good way.&lt;/p&gt;
+
+&lt;p&gt;I bet we all encounter some moments when people jump into your Slack channel for Q&amp;amp;A. An ideal scenario would be like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Alice: Yo I don’t know how to do X, please help. &lt;br /&gt;
+Bob: First you need to do A, then B, and finally C. Done. &lt;br /&gt;
+Alice: Thanks! &lt;br /&gt;
+Bob: You’re welcome!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But more often things turn out like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Alice: Yo I don’t know how to do X, please help. &lt;br /&gt;
+Bob:  Did you do A by any chance? &lt;br /&gt;
+Alice: Yep A works. &lt;br /&gt;
+Bob: What’s the result of A? &lt;br /&gt;
+Alice: Here it is. &lt;br /&gt;
+Bob: This looks good. Did you do B then? &lt;br /&gt;
+Alice: Nope. &lt;br /&gt;
+Bob: Could you try that? &lt;br /&gt;
+Alice: Sure give me a seconds… yeah B works too. &lt;br /&gt;
+Bob: Weird. Could you remind me why you need X? &lt;br /&gt;
+Alice: I was trying to do Y but got stuck getting X work. &lt;br /&gt;
+Bob: I see. I don’t think X is the best way to achieve Y, you should do Z. &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Alice is the one who needs help, but it takes a couple more prompts to collect information from her. I would be a bit frustrated if I was Bob. So how can Alice do better?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Alice: My goal is Y but I got stuck at X. I did A and here’s the results. Please advise the next step, thanks! &lt;br /&gt;
+Bob:  I don’t think X is the best way to achieve Y, you should do Z. &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Or it could be:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bob:  Yeah X is the right way for Y. From your results of A, seems you’re missing B. Could you try B?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are two perspectives why this helps. First, a question with context, goal and the path to get stuck simply &lt;em&gt;help other people to help you&lt;/em&gt;. This pre-processing of information eliminates the overhead for others to go over the problem from scratch and more importantly avoid deriving solutions based on &lt;em&gt;interpretations&lt;/em&gt;/&lt;em&gt;assumptions&lt;/em&gt; instead of &lt;em&gt;facts&lt;/em&gt;. Second, I find writing the thought process down helps me fill in the gaps of my mind flow when reasoning about a problem (remember those proofs in highschool maths? xD). A classic mutter could be like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ok my goal is Y and I got stuck at X. I’ve done A and B, and they work as expected. Hmm so why X doesn’t work? But wait…B isn’t necessarily related to X right? There’re some pieces missing here…Holy f, C actually connects B and X but I didn’t consider it at all!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yeah we think we really understand the problem until we write it down. To others who help us by consuming our information, it’s a pre-processing; To ourselves, it’s more like a post-processing that enhances the outputs.&lt;/p&gt;
+
+&lt;h4 id=&quot;incremental-correctness&quot;&gt;Incremental correctness&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Perfectionism is often an excuse for procrastination.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;True. I’ve always been struggled with the frustration of not being 100% correct when learning something new. &lt;em&gt;Get overwhelmed → get stuck → lose momentum completely&lt;/em&gt; is a classic script to achieve “From Beginning to Nothing”. Later, I figure out a more sustainable process for me is just being &lt;em&gt;OK&lt;/em&gt; with not getting stuff completely correct at the very beginning. As we continue with the process of learning by doing, in a large chance the problem that bothers us will surface again - and by which time we usually either curate a global view and a deeper understanding of the whole problem space, which helps solve that particular problem; Or we simply find that particular problem just makes more sense in a concrete context. Then it’s the perfect time for a deep dive and correction. Keep the momentum and iteration.&lt;/p&gt;</content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><summary type="html">As I described in an earlier post, I didn’t feel comfortable at all when starting my second job. It has been six months since then (crazy six months for this planet, I know), I can’t say I’m back to my comfort zone now but there are definitely some takeaways that worth noting.</summary></entry><entry><title type="html">SwiftUI: EnvironmentObject as Dependency Injection</title><link href="https://haoluo.io/posts/swiftui-environmentobject" rel="alternate" type="text/html" title="SwiftUI: EnvironmentObject as Dependency Injection" /><published>2020-05-13T00:00:00-04:00</published><updated>2020-05-13T01:40:45-04:00</updated><id>https://haoluo.io/posts/swiftui-environmentobject</id><content type="html" xml:base="https://haoluo.io/posts/swiftui-environmentobject">&lt;p&gt;This toy counter could illustrate how to leverage &lt;code class=&quot;highlighter-rouge&quot;&gt;EnvironmentObject&lt;/code&gt; as dependency injection to flow data around the app. It only maintains one global app-wise state &lt;code class=&quot;highlighter-rouge&quot;&gt;count&lt;/code&gt; and supports two functionalities:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;On one view, increase/decrease the &lt;code class=&quot;highlighter-rouge&quot;&gt;count&lt;/code&gt;, and show its current updated value.&lt;/li&gt;
+  &lt;li&gt;On another view, show the up-to-date value of &lt;code class=&quot;highlighter-rouge&quot;&gt;count&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;comment&quot;&gt;// MARK - Source of Truth&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; SourceOfTruth: &lt;span class=&quot;type&quot;&gt;ObservableObject&lt;/span&gt; {
+    &lt;span class=&quot;keyword&quot;&gt;@Published private(set) var&lt;/span&gt; value: &lt;span class=&quot;type&quot;&gt;Int&lt;/span&gt; = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;func&lt;/span&gt; increase() { value += &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt; }
+    &lt;span class=&quot;keyword&quot;&gt;func&lt;/span&gt; decrease() { value -= &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt; }
+}
+
+&lt;span class=&quot;comment&quot;&gt;// MARK - View&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; SourceOfTruthReadView: &lt;span class=&quot;type&quot;&gt;View&lt;/span&gt; {
+    &lt;span class=&quot;keyword&quot;&gt;@EnvironmentObject var&lt;/span&gt; sourceOfTruth: &lt;span class=&quot;type&quot;&gt;SourceOfTruth&lt;/span&gt;
+    
+    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; body: &lt;span class=&quot;keyword&quot;&gt;some&lt;/span&gt; &lt;span class=&quot;type&quot;&gt;View&lt;/span&gt; {
+        &lt;span class=&quot;type&quot;&gt;Text&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;Sourth of truth is&lt;/span&gt; \(&lt;span class=&quot;keyword&quot;&gt;self&lt;/span&gt;.&lt;span class=&quot;property&quot;&gt;sourceOfTruth&lt;/span&gt;.&lt;span class=&quot;property&quot;&gt;value&lt;/span&gt;)&lt;span class=&quot;string&quot;&gt;&quot;&lt;/span&gt;)
+    }
+}
+
+&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; SourceOfTruthUpdateView: &lt;span class=&quot;type&quot;&gt;View&lt;/span&gt; {
+    &lt;span class=&quot;keyword&quot;&gt;@EnvironmentObject var&lt;/span&gt; sourceOfTruth: &lt;span class=&quot;type&quot;&gt;SourceOfTruth&lt;/span&gt;
+    
+    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; body: &lt;span class=&quot;keyword&quot;&gt;some&lt;/span&gt; &lt;span class=&quot;type&quot;&gt;View&lt;/span&gt; {
+        &lt;span class=&quot;type&quot;&gt;HStack&lt;/span&gt; {
+            &lt;span class=&quot;type&quot;&gt;Button&lt;/span&gt;(action: { &lt;span class=&quot;keyword&quot;&gt;self&lt;/span&gt;.&lt;span class=&quot;property&quot;&gt;sourceOfTruth&lt;/span&gt;.&lt;span class=&quot;call&quot;&gt;decrease&lt;/span&gt;() }) { &lt;span class=&quot;type&quot;&gt;Text&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;-&quot;&lt;/span&gt;) }
+            &lt;span class=&quot;type&quot;&gt;Text&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;&lt;/span&gt;\(&lt;span class=&quot;keyword&quot;&gt;self&lt;/span&gt;.&lt;span class=&quot;property&quot;&gt;sourceOfTruth&lt;/span&gt;.&lt;span class=&quot;property&quot;&gt;value&lt;/span&gt;)&lt;span class=&quot;string&quot;&gt;&quot;&lt;/span&gt;)
+            &lt;span class=&quot;type&quot;&gt;Button&lt;/span&gt;(action: { &lt;span class=&quot;keyword&quot;&gt;self&lt;/span&gt;.&lt;span class=&quot;property&quot;&gt;sourceOfTruth&lt;/span&gt;.&lt;span class=&quot;call&quot;&gt;increase&lt;/span&gt;() }) { &lt;span class=&quot;type&quot;&gt;Text&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;+&quot;&lt;/span&gt;) }
+        }
+    }
+}
+
+&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; ContentView: &lt;span class=&quot;type&quot;&gt;View&lt;/span&gt; {
+    &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; updateView: &lt;span class=&quot;type&quot;&gt;AnyView&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; readView: &lt;span class=&quot;type&quot;&gt;AnyView&lt;/span&gt;
+    
+    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; body: &lt;span class=&quot;keyword&quot;&gt;some&lt;/span&gt; &lt;span class=&quot;type&quot;&gt;View&lt;/span&gt; {
+        &lt;span class=&quot;type&quot;&gt;NavigationView&lt;/span&gt; {
+            &lt;span class=&quot;type&quot;&gt;List&lt;/span&gt; {
+                &lt;span class=&quot;type&quot;&gt;NavigationLink&lt;/span&gt;(destination: updateView) {
+                   &lt;span class=&quot;type&quot;&gt;Text&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;Update source of truth&quot;&lt;/span&gt;)
+                }
+                &lt;span class=&quot;type&quot;&gt;NavigationLink&lt;/span&gt;(destination: readView) {
+                    &lt;span class=&quot;type&quot;&gt;Text&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;Read source of truth&quot;&lt;/span&gt;)
+                }
+            }
+        }
+    }
+}
+
+&lt;span class=&quot;comment&quot;&gt;// MARK - Put things together&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; sourceOfTruth = &lt;span class=&quot;type&quot;&gt;SourceOfTruth&lt;/span&gt;()
+&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; sourceOfTruthUpdateView = &lt;span class=&quot;type&quot;&gt;SourceOfTruthUpdateView&lt;/span&gt;().&lt;span class=&quot;call&quot;&gt;environmentObject&lt;/span&gt;(sourceOfTruth)
+&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; sourceOfTruthReadView = &lt;span class=&quot;type&quot;&gt;SourceOfTruthReadView&lt;/span&gt;().&lt;span class=&quot;call&quot;&gt;environmentObject&lt;/span&gt;(sourceOfTruth)
+&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; contentView = &lt;span class=&quot;type&quot;&gt;ContentView&lt;/span&gt;(
+  updateView: &lt;span class=&quot;type&quot;&gt;AnyView&lt;/span&gt;(sourceOfTruthUpdateView),
+  readView: &lt;span class=&quot;type&quot;&gt;AnyView&lt;/span&gt;(sourceOfTruthReadView)
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Nothing really changes right? I mean, building with SwiftUI in a &lt;em&gt;production&lt;/em&gt; way. The &lt;code class=&quot;highlighter-rouge&quot;&gt;SourceOfTruth&lt;/code&gt; is still &lt;em&gt;injected&lt;/em&gt; into different components (vs. accessed from singleton), and we can still easily swap out the implementation of &lt;code class=&quot;highlighter-rouge&quot;&gt;SourceOfTruth&lt;/code&gt; for a subclass to build a dependency graph that’s used for testing. And yeah, &lt;code class=&quot;highlighter-rouge&quot;&gt;count&lt;/code&gt; is a &lt;em&gt;read-only&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;@Published&lt;/code&gt; by setting access control as &lt;code class=&quot;highlighter-rouge&quot;&gt;private(set)&lt;/code&gt;, so that read and write are separated.&lt;/p&gt;</content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="ios" /><category term="swift" /><summary type="html">This toy counter could illustrate how to leverage EnvironmentObject as dependency injection to flow data around the app. It only maintains one global app-wise state count and supports two functionalities:</summary></entry><entry><title type="html">A Bicycle for Our Minds</title><link href="https://haoluo.io/posts/software-democratization" rel="alternate" type="text/html" title="A Bicycle for Our Minds" /><published>2020-05-03T00:00:00-04:00</published><updated>2020-05-03T20:20:24-04:00</updated><id>https://haoluo.io/posts/software-democratization</id><content type="html" xml:base="https://haoluo.io/posts/software-democratization">&lt;blockquote&gt;
+  &lt;p&gt;The computer is the most remarkable tool that we’ve ever come up with. It’s the equivalent of a bicycle for our minds.    - Steve Jobs&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s easy to confuse &lt;em&gt;goal&lt;/em&gt; with &lt;em&gt;means&lt;/em&gt;. I find myself get caught up in this trap every other time when pondering on what really motivates me and what really brings me that sense of fulfillment.&lt;/p&gt;
+
+&lt;p&gt;I’ve been doing iOS development for the past a few years ever since out of school. It’s been such a delight to build something beautifully functional, see how data flows from persistence layer to user interface, ship it and observe it makes the world around me a little bit better. That probably explains why those Objective-C brackets didn’t scare me away back in the early days. Then here comes Swift, followed by various tools that further optimize the developer experience. Apparently, I enjoy doing this, I’m proud of doing this and I want to keep doing this - I bake my identity as an 「iOS Engineer」without any doubt.&lt;/p&gt;
+
+&lt;p&gt;Until one day I wanted to build one of my ideas but found this identity just can’t get me there. Yikes, it really threw me in a loop. Is Swift still a delightful language? Yes. Do I still enjoy iOS development? Yes. Do I want to keep doing this? Errr, probably not. To be more precise, it depends. Why?&lt;/p&gt;
+
+&lt;p&gt;Because it’s not the &lt;em&gt;goal&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I don’t work on iOS for the sake of working on iOS. I work on iOS because I enjoy building great products with great people - and iOS happens to be the means that helps me achieve this goal. I think this applies to being a 「Full Stack Engineer」or a 「Generalist」as well. People don’t do it for the sake of doing it. It all comes down to the desire deeply rooted in the human nature: &lt;em&gt;we want to realize our ideas&lt;/em&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Most of the time with only one tool in the belt, we’re less empowered.&lt;/p&gt;
+
+&lt;p&gt;React has earned its popularity in web front-end development, which inspires other platforms to adopt similar concepts when building user interface rich applications. ComponentKit is one of the counterparts on iOS, and is used in my current job. I’ve heart many complaints around this abstraction making iOS development less &lt;em&gt;iOSy&lt;/em&gt;. Also, developers tend to get away from tech stack that only serves limited use cases, fearing that the expertise is not transferrable. Then here comes Apple’s own SwiftUI, with its data flow and layout system almost exactly mirroring the concepts behind React, and ComponentKit.&lt;/p&gt;
+
+&lt;p&gt;Aha, we’re entering a very interesting time.&lt;/p&gt;
+
+&lt;p&gt;As mentioned above, we strive to achieve our goals by acquiring as many means as we can. But yeah talk is cheap, show me the code - it’s not always that easy. Here is an iOS engineer who tries transplanting her app from App Store to Play Store. Here is an Android engineer who’d like to launch a web version of her app. Here is a web front-end engineer who wants to design the user interface of her website by herself. And here is a designer who is just eager to bring her static mockup to life. Sadly, many of them end up giving up halfway. The insanely diverged complexity underlying each platform fails them.&lt;/p&gt;
+
+&lt;p&gt;Our creativity is blocked, not ideal. But fortunately enough, evolution is always driven by such dissatisfaction.  Here comes Swift and Kotlin couples, who bring iOS and Android tribes closer compared to their Objective-C and Java parents. Here comes React, ComponentKit, Litho and SwiftUI, which all embrace the uni-directional data flow and declarative layout. Here comes design tools like Figma, which makes it easier for engineers to do mockups and for designers to transform pixels to code. I could envision a world where the boundaries defining what we’re able to do are teared down, and all those identities just lose their significance - because we’re all accomplishing our goals by leveraging various means easily. We’re more empowered.&lt;/p&gt;
+
+&lt;p&gt;We don’t necessarily need to be a computer nerd to post on Twitter or Instagram. We also don’t need to master assembly language to launch an exciting product. Every corner of today’s world is experiencing democratization in some format, and creating softwares is no exception. Humans are tool builders. It’s fascinating to enable anyone to build the tools that meet their needs. To hop on the bicycles that carry their minds.&lt;/p&gt;
+
+&lt;p&gt;Yep FOMO detected.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;I used to narrow it down as &lt;em&gt;entrepreneurship&lt;/em&gt;, but turn out it’s not exactly the same. Back to the &lt;em&gt;goal&lt;/em&gt;, is it really entrepreneurship or simply being a creator who bulids stuff? One thing that distinguishes the former from the latter is you’ll want to leverage every resource to help you get there instead of getting your hands dirty on everything. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;But yeah collboration and leveraging are important in general even without entrepreneurship. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="career" /><category term="ios" /><summary type="html">The computer is the most remarkable tool that we’ve ever come up with. It’s the equivalent of a bicycle for our minds. - Steve Jobs</summary></entry><entry><title type="html">Validate Bitcoin Transaction</title><link href="https://haoluo.io/posts/btc-transaction" rel="alternate" type="text/html" title="Validate Bitcoin Transaction" /><published>2020-04-25T00:00:00-04:00</published><updated>2020-05-02T13:56:05-04:00</updated><id>https://haoluo.io/posts/btc-transaction</id><content type="html" xml:base="https://haoluo.io/posts/btc-transaction">&lt;p&gt;The implementation and test cases mentioned in this post can be found &lt;a href=&quot;https://gist.github.com/yvetterowe/de42b30a7ef5cdc6e5c5a0312302c3f3&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-trust-issue&quot;&gt;The Trust Issue&lt;/h2&gt;
+
+&lt;p&gt;When talking about accepting digital money, people usually have some basic concerns:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Can I trust that the money is authentic and not counterfeit ?&lt;/li&gt;
+  &lt;li&gt;Can I trust that the money can only be spent once ?&lt;/li&gt;
+  &lt;li&gt;Can I trust that no one else can claim this money belongs to them and not me ?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Paper money address these concerns by its physical presence nature and advanced print technologies. For fiat money that is stored and transmitted digitally (eg. credit card, P2P payment apps, etc.), these issues are usually resolved by introducing central authorities that have a global ledger of the currency in circulation.&lt;/p&gt;
+
+&lt;p&gt;Same requirements apply to cryptocurrency like Bitcoin as well. If it fails either of them, it loses the trust. In this post, I’m building a simplified version (yes, no fancy Merkle tree, Script, Proof-of-Work, etc.) of Bitcoin transaction verification system for a single node - with the end goal to fool it, and lose trust on it.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-does-a-bitcoin-transaction-look-like-&quot;&gt;What does a Bitcoin transaction look like ?&lt;/h2&gt;
+
+&lt;p&gt;The Bitcoin system works like a &lt;a href=&quot;https://en.wikipedia.org/wiki/Double-entry_bookkeeping&quot;&gt;double-entry bookkeeping ledger&lt;/a&gt;, in which all the information about a money movement is encoded in a &lt;a href=&quot;https://en.bitcoin.it/wiki/Transaction&quot;&gt;Bitcoin transaction&lt;/a&gt; . Most standard P2P transactions consist of &lt;code class=&quot;highlighter-rouge&quot;&gt;inputs&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;outputs&lt;/code&gt;, where the former describes where the fund comes from and the latter describes where it’ll end up at. &lt;a href=&quot;https://bitcoin.org/en/glossary/coinbase-transaction&quot;&gt;Coinbase transaction&lt;/a&gt; is an exception that doesn’t have any &lt;code class=&quot;highlighter-rouge&quot;&gt;inputs&lt;/code&gt; because instead of transferred from a previous owner, it’s created by miners. Also, each transaction can be identified with a unique &lt;a href=&quot;https://bitcoin.org/en/glossary/txid&quot;&gt;Transaction Identifier (TXID)&lt;/a&gt;, which is the hash of raw transaction data.&lt;/p&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;enum&lt;/span&gt; Transaction {
+    &lt;span class=&quot;keyword&quot;&gt;case&lt;/span&gt; coinbase(id: &lt;span class=&quot;type&quot;&gt;ID&lt;/span&gt;, outputs: [&lt;span class=&quot;type&quot;&gt;Output&lt;/span&gt;])
+    &lt;span class=&quot;keyword&quot;&gt;case&lt;/span&gt; standard(id: &lt;span class=&quot;type&quot;&gt;ID&lt;/span&gt;, inputs: [&lt;span class=&quot;type&quot;&gt;Input&lt;/span&gt;], outputs: [&lt;span class=&quot;type&quot;&gt;Output&lt;/span&gt;])
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Output&lt;/code&gt; gives instructions on transferring the Bitcoin: &lt;em&gt;to whom&lt;/em&gt; and &lt;em&gt;how much.&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; Output {
+    &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; recipientAddress: &lt;span class=&quot;type&quot;&gt;Address&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; value: &lt;span class=&quot;type&quot;&gt;Coins&lt;/span&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Remember that in order for the double-entry ledger to neither lose money nor create money out of thin air, an &lt;code class=&quot;highlighter-rouge&quot;&gt;Input&lt;/code&gt; of a transaction must refer to the  &lt;code class=&quot;highlighter-rouge&quot;&gt;Output&lt;/code&gt; of a previous transaction.&lt;/p&gt;
+
+&lt;p&gt;Here’s how this connection is bridged. Whenever an &lt;code class=&quot;highlighter-rouge&quot;&gt;Output&lt;/code&gt; is generated, it’s “dumped” into a pool where it waits to be redeemd by the new owner. It maintains a temporary identity as &lt;a href=&quot;https://bitcoin.org/en/glossary/unspent-transaction-output&quot;&gt;Unspent Transaction Output (UTXO)&lt;/a&gt; during this grace period.&lt;/p&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; UnspentTransactionOutputID: &lt;span class=&quot;type&quot;&gt;Hashable&lt;/span&gt; {
+    &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; txID: &lt;span class=&quot;type&quot;&gt;ID&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; txOutputIndex: &lt;span class=&quot;type&quot;&gt;Int&lt;/span&gt;
+}
+
+&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; utxoPool = [&lt;span class=&quot;type&quot;&gt;Transaction&lt;/span&gt;.&lt;span class=&quot;type&quot;&gt;UnspentTransactionOutputID&lt;/span&gt;: &lt;span class=&quot;type&quot;&gt;Transaction&lt;/span&gt;.&lt;span class=&quot;type&quot;&gt;Output&lt;/span&gt;]()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When the new owner is ready to redeem the money payable to her, she starts assembling her &lt;code class=&quot;highlighter-rouge&quot;&gt;Input&lt;/code&gt; that could be used to locate  &lt;code class=&quot;highlighter-rouge&quot;&gt;Output&lt;/code&gt; in the pool.&lt;/p&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; Input {
+    &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; previousTxID: &lt;span class=&quot;type&quot;&gt;ID&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; previousTxOutputIndex: &lt;span class=&quot;type&quot;&gt;Int&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; signature: &lt;span class=&quot;type&quot;&gt;Signature&lt;/span&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; utxoID = &lt;span class=&quot;type&quot;&gt;UnspentTransactionOutputID&lt;/span&gt;(txID: input.&lt;span class=&quot;property&quot;&gt;previousTxID&lt;/span&gt;, txOutputIndex: input.&lt;span class=&quot;property&quot;&gt;previousTxOutputIndex&lt;/span&gt;)
+&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; utxo = utxoPool[utxoID]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But remember that this located &lt;code class=&quot;highlighter-rouge&quot;&gt;utxo&lt;/code&gt; can be spotted by everyone, not limited to the recipient. Then does that mean everyone can just pick it up from the pool and claim it as theirs? Good luck with that.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Signature&lt;/code&gt; comes to the rescue. When an &lt;code class=&quot;highlighter-rouge&quot;&gt;Output&lt;/code&gt; is dumped to the pool with &lt;code class=&quot;highlighter-rouge&quot;&gt;recipientAddress&lt;/code&gt;, it follows such a protocol&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’m payable to whomever can present a signature from the key corresponding to this public address&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Say if &lt;code class=&quot;highlighter-rouge&quot;&gt;Output.recipientAddress&lt;/code&gt; points to Alice, Bob can never claim it either with his own signature, or a fake Alice’s signature.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-does-a-node-verify-bitcoin-transactions-&quot;&gt;How does a node verify Bitcoin transactions ?&lt;/h2&gt;
+
+&lt;p&gt;With discussions above and the concerns thrown out at the begining, we could derive some basic principles to validate a transacion:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Input must be in current UTXO pool.&lt;/li&gt;
+  &lt;li&gt;Input signature must be valid.&lt;/li&gt;
+  &lt;li&gt;Same UTXO can’t be redeemd multiple times.&lt;/li&gt;
+  &lt;li&gt;Total input value must not be less than total output value.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Based on these principles, we can try building that simplified version of Bitcoin transaction verification system.&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-break-things&quot;&gt;Let’s break things.&lt;/h2&gt;
+
+&lt;p&gt;Things only go well when they go well. Assume Alice 👩🏻‍🌾 and Bob 🦹🏻‍♂️ are usually good citizens, but sometimes they can be bad actors as well.&lt;/p&gt;
+
+&lt;h4 id=&quot;case-1--and-️-both-get-initial--from-a-coinbase-transaction&quot;&gt;&lt;strong&gt;Case 1.&lt;/strong&gt; 👩🏻‍🌾 and 🦹🏻‍♂️ both get initial 💰💰💰 from a coinbase transaction&lt;/h4&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; initialCoins: &lt;span class=&quot;type&quot;&gt;Transaction&lt;/span&gt; = .&lt;span class=&quot;call&quot;&gt;coinbase&lt;/span&gt;(
+    id: &lt;span class=&quot;string&quot;&gt;&quot;🔮&quot;&lt;/span&gt;,
+    outputs: [
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(recipientAddress: &lt;span class=&quot;string&quot;&gt;&quot;👩🏻‍🌾📮&quot;&lt;/span&gt;, value: &lt;span class=&quot;string&quot;&gt;&quot;💰💰💰&quot;&lt;/span&gt;),
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(recipientAddress: &lt;span class=&quot;string&quot;&gt;&quot;🦹🏻‍♂️📮&quot;&lt;/span&gt;, value: &lt;span class=&quot;string&quot;&gt;&quot;💰💰💰&quot;&lt;/span&gt;),
+    ]
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Everything just works! Now each of them owns some money.&lt;/p&gt;
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;🤠 hooray your transaction &lt;span class=&quot;keyword&quot;&gt;is&lt;/span&gt; validated!
+&lt;span class=&quot;type&quot;&gt;Current UTXO&lt;/span&gt; pool:
+🔮(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) | owner: 🦹🏻‍♂️ | amount: 💰💰💰 
+🔮(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) | owner: 👩🏻‍🌾 | amount: 💰💰💰 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;case-2--pays--to-️&quot;&gt;&lt;strong&gt;Case 2.&lt;/strong&gt; 👩🏻‍🌾 pays 💰💰 to 🦹🏻‍♂️&lt;/h4&gt;
+&lt;p&gt;She locates the (only) previous transaction payable to her (identified as “🔮”), redeems it by verifying her signature - so far she has proved 💰💰💰 is hers, and she can do whatever she wants with them. She sends 💰💰 to 🦹🏻‍♂️ and sends the remaining 💰 back to herself as change.&lt;/p&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; realAlicePayBob: &lt;span class=&quot;type&quot;&gt;Transaction&lt;/span&gt; = .&lt;span class=&quot;call&quot;&gt;standard&lt;/span&gt;(
+    id: &lt;span class=&quot;string&quot;&gt;&quot;🍹&quot;&lt;/span&gt;,
+    inputs: [
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(
+            previousTxID: &lt;span class=&quot;string&quot;&gt;&quot;🔮&quot;&lt;/span&gt;,
+            previousTxOutputIndex: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;,
+            signature: &lt;span class=&quot;string&quot;&gt;&quot;👩🏻‍🌾🔐🍹&quot;&lt;/span&gt;
+        ),
+    ],
+    outputs: [
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(recipientAddress: &lt;span class=&quot;string&quot;&gt;&quot;🦹🏻‍♂️📮&quot;&lt;/span&gt;, value: &lt;span class=&quot;string&quot;&gt;&quot;💰💰&quot;&lt;/span&gt;),
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(recipientAddress: &lt;span class=&quot;string&quot;&gt;&quot;👩🏻‍🌾📮&quot;&lt;/span&gt;, value: &lt;span class=&quot;string&quot;&gt;&quot;💰&quot;&lt;/span&gt;), &lt;span class=&quot;comment&quot;&gt;// change&lt;/span&gt;
+    ]
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Great, now 👩🏻‍🌾 only has 💰 and 🦹🏻‍♂️ has 💰💰💰💰💰 in total.&lt;/p&gt;
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;🤠 hooray your transaction &lt;span class=&quot;keyword&quot;&gt;is&lt;/span&gt; validated!
+&lt;span class=&quot;type&quot;&gt;Current UTXO&lt;/span&gt; pool:
+🍹(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) | owner: 🦹🏻‍♂️ | amount: 💰💰 
+🍹(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) | owner: 👩🏻‍🌾 | amount: 💰 
+🔮(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;case-3-️-counterfeits--out-of-thin-air&quot;&gt;&lt;strong&gt;Case 3.&lt;/strong&gt; 🦹🏻‍♂️ counterfeits 💰💰💰 out of thin air&lt;/h4&gt;
+&lt;p&gt;Unfortunately, he’s too lazy to do due diligence so just picks up a random transction ID  🥃 to locate previous transaction, which never exists.&lt;/p&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; bobDayDream: &lt;span class=&quot;type&quot;&gt;Transaction&lt;/span&gt; = .&lt;span class=&quot;call&quot;&gt;standard&lt;/span&gt;(
+    id: &lt;span class=&quot;string&quot;&gt;&quot;🍸&quot;&lt;/span&gt;,
+    inputs: [
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(
+            previousTxID: &lt;span class=&quot;string&quot;&gt;&quot;🥃&quot;&lt;/span&gt;, &lt;span class=&quot;comment&quot;&gt;// never exists in UTXO pool&lt;/span&gt;
+            previousTxOutputIndex: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;,
+            signature: &lt;span class=&quot;string&quot;&gt;&quot;🦹🏻‍♂️🔐🍸&quot;&lt;/span&gt;
+        ),
+    ],
+    outputs: [
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(recipientAddress: &lt;span class=&quot;string&quot;&gt;&quot;🦹🏻‍♂️📮&quot;&lt;/span&gt;, value: &lt;span class=&quot;string&quot;&gt;&quot;💰💰💰&quot;&lt;/span&gt;),
+    ]
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Unsurprisingly, his transaction is denied.&lt;/p&gt;
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;😏 uh oh your transaction &lt;span class=&quot;keyword&quot;&gt;is&lt;/span&gt; denied. 
+&lt;span class=&quot;type&quot;&gt;Reason&lt;/span&gt;: &lt;span class=&quot;type&quot;&gt;Input&lt;/span&gt; not found &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;type&quot;&gt;UTXO&lt;/span&gt; pool
+&lt;span class=&quot;type&quot;&gt;Current UTXO&lt;/span&gt; pool:
+🍹(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) | owner: 🦹🏻‍♂️ | amount: 💰💰 
+🍹(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) | owner: 👩🏻‍🌾 | amount: 💰 
+🔮(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;case-4-️-counterfeits--paid-by-&quot;&gt;&lt;strong&gt;Case 4.&lt;/strong&gt; 🦹🏻‍♂️ counterfeits 💰 paid by 👩🏻‍🌾&lt;/h4&gt;
+&lt;p&gt;This time he gets smarter. He looks up a previous existing transaction 🍹 payable to 👩🏻‍🌾, fakes a signature and put himself as recipient.&lt;/p&gt;
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; fakeAlicePayBob: &lt;span class=&quot;type&quot;&gt;Transaction&lt;/span&gt; = .&lt;span class=&quot;call&quot;&gt;standard&lt;/span&gt;(
+    id: &lt;span class=&quot;string&quot;&gt;&quot;🍺&quot;&lt;/span&gt;,
+    inputs: [
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(
+            previousTxID: &lt;span class=&quot;string&quot;&gt;&quot;🍹&quot;&lt;/span&gt;,
+            previousTxOutputIndex: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;,
+            signature: &lt;span class=&quot;string&quot;&gt;&quot;👷🏻‍♀️🔐🍺&quot;&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;// fake 👩🏻‍🌾 signature signed by 🦹🏻‍♂️&lt;/span&gt;
+        ),
+    ],
+    outputs: [
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(recipientAddress: &lt;span class=&quot;string&quot;&gt;&quot;🦹🏻‍♂️📮&quot;&lt;/span&gt;, value: &lt;span class=&quot;string&quot;&gt;&quot;💰&quot;&lt;/span&gt;),
+    ]
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But…transaction 🍹 is payable to 👩🏻‍🌾, so only her signature could redeem it.&lt;/p&gt;
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;😏 uh oh your transaction &lt;span class=&quot;keyword&quot;&gt;is&lt;/span&gt; denied. 
+&lt;span class=&quot;type&quot;&gt;Reason&lt;/span&gt;: &lt;span class=&quot;type&quot;&gt;Invalid&lt;/span&gt; input signature
+&lt;span class=&quot;type&quot;&gt;Current UTXO&lt;/span&gt; pool:
+🍹(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) | owner: 🦹🏻‍♂️ | amount: 💰💰 
+🍹(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) | owner: 👩🏻‍🌾 | amount: 💰 
+🔮(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;case-5--tries-paying--to-️-by-redeeming--twice&quot;&gt;&lt;strong&gt;Case 5.&lt;/strong&gt; 👩🏻‍🌾 tries paying 💰💰 to 🦹🏻‍♂️ by redeeming 💰 twice&lt;/h4&gt;
+&lt;p&gt;She needs to pay 🦹🏻 💰💰, but she only owns 💰now - so she’s gonna try her luck by redeeming same UTXO payable to her multiple times.💰x 2 = 💰💰,  what a beautiful math.&lt;/p&gt;
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; alicePayBobDoubleSpend: &lt;span class=&quot;type&quot;&gt;Transaction&lt;/span&gt; = .&lt;span class=&quot;call&quot;&gt;standard&lt;/span&gt;(
+    id: &lt;span class=&quot;string&quot;&gt;&quot;🥂&quot;&lt;/span&gt;,
+    inputs: [
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(
+            previousTxID: &lt;span class=&quot;string&quot;&gt;&quot;🍹&quot;&lt;/span&gt;,
+            previousTxOutputIndex: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;,
+            signature: &lt;span class=&quot;string&quot;&gt;&quot;👩🏻‍🌾🔐🥂&quot;&lt;/span&gt;
+        ),
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(
+            previousTxID: &lt;span class=&quot;string&quot;&gt;&quot;🍹&quot;&lt;/span&gt;,
+            previousTxOutputIndex: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;,
+            signature: &lt;span class=&quot;string&quot;&gt;&quot;👩🏻‍🌾🔐🥂&quot;&lt;/span&gt;
+        ),
+    ],
+    outputs: [
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(recipientAddress: &lt;span class=&quot;string&quot;&gt;&quot;🦹🏻‍♂️📮&quot;&lt;/span&gt;, value: &lt;span class=&quot;string&quot;&gt;&quot;💰💰&quot;&lt;/span&gt;),
+    ]
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;“Same UTXO redeemd multiple times in inputs”…Bummer.&lt;/p&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;type&quot;&gt;Try&lt;/span&gt; adding a transaction...
+😏 uh oh your transaction &lt;span class=&quot;keyword&quot;&gt;is&lt;/span&gt; denied. 
+&lt;span class=&quot;type&quot;&gt;Reason&lt;/span&gt;: &lt;span class=&quot;type&quot;&gt;Same UTXO&lt;/span&gt; redeemd multiple times &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; inputs
+&lt;span class=&quot;type&quot;&gt;Current UTXO&lt;/span&gt; pool:
+🍹(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) | owner: 🦹🏻‍♂️ | amount: 💰💰 
+🍹(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) | owner: 👩🏻‍🌾 | amount: 💰 
+🔮(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;case-6-️-tries-aggregating----into-&quot;&gt;&lt;strong&gt;Case 6.&lt;/strong&gt; 🦹🏻‍♂️ tries aggregating 💰💰💰 + 💰💰 into 💰💰💰💰💰💰&lt;/h4&gt;
+&lt;p&gt;He just loses faith that 👩🏻‍🌾 could figure out a way to pay him, so he decides to try something creative again. “What if I just aggregate all my funds, and secretly add a little more to it?”&lt;/p&gt;
+
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;&lt;span class=&quot;keyword&quot;&gt;let&lt;/span&gt; bobAggregateChangesMoreThanHeOwn: &lt;span class=&quot;type&quot;&gt;Transaction&lt;/span&gt; = .&lt;span class=&quot;call&quot;&gt;standard&lt;/span&gt;(
+    id: &lt;span class=&quot;string&quot;&gt;&quot;🍻&quot;&lt;/span&gt;,
+    inputs: [
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(
+            previousTxID: &lt;span class=&quot;string&quot;&gt;&quot;🔮&quot;&lt;/span&gt;,
+            previousTxOutputIndex: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;,
+            signature: &lt;span class=&quot;string&quot;&gt;&quot;🦹🏻‍♂️🔐🍻&quot;&lt;/span&gt;
+        ),
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(
+            previousTxID: &lt;span class=&quot;string&quot;&gt;&quot;🍹&quot;&lt;/span&gt;,
+            previousTxOutputIndex: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;,
+            signature: &lt;span class=&quot;string&quot;&gt;&quot;🦹🏻‍♂️🔐🍻&quot;&lt;/span&gt;
+        ),
+    ],
+    outputs: [
+        .&lt;span class=&quot;keyword&quot;&gt;init&lt;/span&gt;(recipientAddress: &lt;span class=&quot;string&quot;&gt;&quot;🦹🏻‍♂️📮&quot;&lt;/span&gt;, value: &lt;span class=&quot;string&quot;&gt;&quot;💰💰💰💰💰💰&quot;&lt;/span&gt;),
+    ]
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OK, fair enough.&lt;/p&gt;
+&lt;pre class=&quot;splash&quot;&gt;&lt;code&gt;😏 uh oh your transaction &lt;span class=&quot;keyword&quot;&gt;is&lt;/span&gt; denied. 
+&lt;span class=&quot;type&quot;&gt;Reason&lt;/span&gt;: &lt;span class=&quot;type&quot;&gt;Total&lt;/span&gt; input 💰💰💰💰💰 &lt;span class=&quot;keyword&quot;&gt;is&lt;/span&gt; less than total output 💰💰💰💰💰💰
+&lt;span class=&quot;type&quot;&gt;Current UTXO&lt;/span&gt; pool:
+🍹(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) | owner: 🦹🏻‍♂️ | amount: 💰💰 
+🍹(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) | owner: 👩🏻‍🌾 | amount: 💰 
+🔮(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) | owner: 🦹🏻‍♂️ | amount: 💰💰💰 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It feels like being a bad actor is way much harder than being a good citizen?&lt;/p&gt;</content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="cryptocurrency" /><summary type="html">The implementation and test cases mentioned in this post can be found here.</summary></entry><entry><title type="html">那些年我刷过的美术馆: 21_21 Design Sight</title><link href="https://haoluo.io/posts/designsight" rel="alternate" type="text/html" title="那些年我刷过的美术馆: 21_21 Design Sight" /><published>2020-04-12T00:00:00-04:00</published><updated>2020-04-18T18:31:45-04:00</updated><id>https://haoluo.io/posts/designsight</id><content type="html" xml:base="https://haoluo.io/posts/designsight">&lt;h3 id=&quot;超越视力表的眼界&quot;&gt;超越视力表的眼界&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*OjwSnxu2_TaTUiAi.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;21_21 Design Sight的logo&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;在东京六本木闹中取静的&lt;a href=&quot;http://www.2121designsight.jp/&quot;&gt;21_21 Design Sight&lt;/a&gt;是座一年举办两次大型企划展的美术馆。中二如我，首先就被它非主流的名字吸引了。机智如我，一度以为这名字里的「21_21」是在_划重点_强调21世纪 :）&lt;/p&gt;
+
+&lt;p&gt;查了下官网才知道它的真正意义延伸自「20/20 vision」，英语中用于形容「完美的视力」。所以这里的「21_21」是要传递这座美术馆的策展理念 — 即希望可以打破传统框架的束缚，做着眼于未来，具有前瞻性眼光的设计。&lt;/p&gt;
+
+&lt;p&gt;在创办者和策展人眼中，优秀的设计不仅能在满足基本功能需求的基础上给生活注入美感和乐趣，更应该能通过全新的视角反思并重新定义物体与物体，物体与人，甚至人与人之间的关系。&lt;/p&gt;
+
+&lt;p&gt;果然很非主流啊 -_-&lt;/p&gt;
+
+&lt;h3 id=&quot;安藤忠雄给三宅一生披的一块布&quot;&gt;安藤忠雄给三宅一生披的「一块布」&lt;/h3&gt;
+&lt;p&gt;获得「21_21」视野自然需要大师引路 — 美术馆的创立者三宅一生（Issey Miyake）和建筑师安藤忠雄（Tadao Ando）便是其中的两位。&lt;/p&gt;
+
+&lt;p&gt;提到三宅一生，大家可能并不陌生。毕竟风靡过Instagram网红街拍圈的Bao Bao就出自旗下品牌👇&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*3yrM3dOcNCWOgLGe.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;街拍达人人手一个的Bao Bao&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;同时他也是乔帮主这件黑色高领衫背后的男人 👇&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*3hqpgp_AUsVGE-EC.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;时尚时尚最时尚的乔帮主&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;从走入寻常百姓家的无印良品开始，日式美学所传递的「less is more」便俘获了人们想要披上麻袋就出门喂马劈柴浪迹天涯的心。「一块布」（A Piece of Cloth） — 三宅一生设计理念的根本，也自始至终贯穿着对自然极简美学的追求。它形象一点的说法即是：2D空间的一块布，将边角拉伸揉捏，就成了3D空间的一件衣服。「一块布」的理念从1970年代诞生，到1995年在计算机与材料科学的创新结合中被实体化，到今天已进化成许多不同的表现形式，但其最根本的特征仍旧是挣脱固定结构的束缚，在人体与衣服之间留出充分的空间，探索人体，包裹着它的布料以及二者之间的关系。（感兴趣的童鞋可以从这个&lt;a href=&quot;https://youtu.be/x4_mK9CebB4&quot;&gt;特别燃的三分钟小视频&lt;/a&gt;中一窥「一块布」的魅力👇）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*XgGsKG2KH5-0yp2u.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;「一块布」的衍化&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;「一块布」的理念在21_21 Design Sight的直观体现，就是安藤忠雄设计的像是用一整块铁板折弯的屋顶。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*gDKU3aD8Ig2PlKhg.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;21_21 Design Sight的屋顶，建筑大部分掩藏于地下&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;安藤忠雄的作品不能穿挂在身上，所以和三宅一生相比他或许离我们更遥远。然而喜欢K歌的朋友们可能还是在梁静茹的MV里见过他的「水之教堂」👇&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1080/0*BXoHBiZc4Q6RuQRw.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*0xVqVvnUiak0IY_s.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;梁静茹的《崇拜》在北海道的「水之教堂」取景&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;安藤忠雄的作品多以水泥为主要材料，这也使他在建筑界被誉为「清水混凝土诗人」。和三宅一生思考人与衣服之间的关系不谋而合，安藤忠雄也一直在思考建筑对人的意义，建筑与自然的关联。 他是一个光影魔术师，通过利用自然光在建筑空间内的变化赋予这些原始的清水混凝土以温度。安藤在纪录片《城市与建筑－安藤忠雄的建筑诗》中说「建筑本身是没有生命的，唯有倾注感情在里面，它才会有元气和生命力」，这点完完全全就是我游走在21_21 Design Sight的感觉 — 安静中透着生气勃勃的平和感，没有丝毫的冰冷与疏离。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*GjymSy5n_2e2UdZ2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;左侧狭长的窗口透进阳光和绿意&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*0K8-FVFPDdrbrx17.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;投影里手掌下的混凝土 vs. 展馆四周墙壁的混凝土&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;一块布裹着的有机世界&quot;&gt;「一块布」裹着的有机世界&lt;/h3&gt;
+&lt;p&gt;我17年夏天去21_21 Design Sight看到的展叫&lt;a href=&quot;http://www.2121designsight.jp/en/program/grand_projects/&quot;&gt;「GRAND PROJECTS: HOW FAR WILL YOU GO?」&lt;/a&gt;，有幸看到了几个至今难忘的装置艺术。&lt;/p&gt;
+
+&lt;h4 id=&quot;tokyo-2017&quot;&gt;Tokyo 2017&lt;/h4&gt;
+&lt;p&gt;这个名为「Tokyo 2017」的作品来自法国摄影师和装置艺术家&lt;a href=&quot;https://www.georgesrousse.com/&quot;&gt;Georges Rousse&lt;/a&gt;，是他为21_21 Design Sight量身打造的视觉盛宴。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*DxDTSrSoKRgVrFVa.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;这个作品真是完美融合于21_21 Design Sight&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;三宅一生将2D的布转化为3D的衣服，Georges Rousse却恰恰相反，喜欢利用光线、色彩和建筑元素将3D的空间转化为2D的摄影表面，呈现一种红红火火恍恍惚惚「我是谁？我从哪里来？要到哪里去？」的虚实交错感。无论是废弃的工厂还是日常出入的民居，每个场景经由他手后瞬间衍生出三种诠释：客观存在的，他脑海里乌托邦式的，以及二者相爱相杀的融合版。随便截了张谷歌出的结果感受下👇&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*kHS3Vi2DDGLWMwLn.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;3D空间打造的2D幻觉&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;tape-tokyo-02&quot;&gt;Tape Tokyo 02&lt;/h4&gt;
+&lt;p&gt;我很喜欢的另一个作品叫「Tape Tokyo 02」，来自创意工作室&lt;a href=&quot;http://www.numen.eu/&quot;&gt;Numen/For Use&lt;/a&gt;。团队的三个创始人是来自欧洲的工业设计师，他们的创作领域横跨概念艺术、舞台布景、工业设计和空间设计，非常丰富。近些年他们创作了大量基于胶带、绳子和织网的大型空间装置艺术，通过对这些日常物品的概念进行巧妙转化，创造出契合具体场景的沉浸式体验。&lt;/p&gt;
+
+&lt;p&gt;Tape（胶带）这组创作灵感诞生于一个舞蹈表演的布景：舞蹈演员挥舞着胶带在舞台上的柱子间游走 — 胶带呈现的形状完全取决于他们的移动，也就成了记录（tape recording）编舞的一种形式。&lt;/p&gt;
+
+&lt;p&gt;胶带的材质本身是「柔软、有弹性且可随意变形」的。没有人规范过胶带应该被缠成什么形状，它可以灵活地”钻入“任何空间，自由伸缩的同时对空间中的元素进行「联结」。在展厅这个空间语境下，被联结的元素都有哪些呢？几乎所有东西！打在胶带管道上又反射走的室内光，椅子，墙角，当然还有站在管道外旁观和在管道里穿梭的人 — 这些既定空间内杂乱无章的事物被胶带以自由松散的结构联系在一起。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*wZ7RdsdZZaRPBFs7.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;21_21 Design Sight内的Tape，可承重两个人&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*csfGfbSMZbtff6T-.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;网上看到的秋天暮色下的Tape&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;从相反的角度看，同样是源于胶带「柔软、有弹性、可随意变形」的特点，这些被联结的事物同时又反作用于胶带。人在管道里面的一举一动一个喷嚏都会使其产生形变，而这些位移与形变又会给站在外面看展的人带去微妙的变化。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*g0I_wo5zt_qZEH4C.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;「你站在桥上看风景，看风景的人在楼上看你」&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;那么置身错综缠绕的管道之中的人呢？一方面「柔软、有弹性、可随意变形」的材质让人觉得舒适、可葛优瘫之，但另一方面它的不稳定、不安全感又不免让人屏息凝神，如履薄冰。&lt;/p&gt;
+
+&lt;p&gt;包括我在内的看展的人来自不同国家带着不同身份，但在脱下鞋穿着袜子钻进管道的一瞬间，仿佛通天塔被打通了，一些社交屏障也忽然消失了，人们变得亲切而松弛，像是返老还童成了姗姗学步的婴儿，一起好奇地探索这个新世界。很神奇。我终于开始慢慢理解艺术之于公共空间的意义了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*MO6NCfunXjiObsTO.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;胶带「柔软、有弹性、可随意变形」的材质激发出各种有机反应&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;就这样，胶带与其所联结的一切进行着作用与反作用，形成了一个五脏俱全、栩栩如生的有机体。起初看展的人把装置当作雕塑远观，爬进装置后它从雕塑无缝切换成一座建筑，直到人通过互动与之渐渐融合，成为整个艺术作品不可分割的一部分。&lt;/p&gt;
+
+&lt;p&gt;临走时看到策展人的这段话很受触动，大概是整个美术馆和企划展的TL;DR了👇&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1440/0*na6Lrj3LtRqWoEJY.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;“Such an experience sparks a change in existing norms and values.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;「Why do they “go that far”?」&lt;/p&gt;
+
+&lt;p&gt;这是我对「一块布」最深的记忆。&lt;/p&gt;</content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="travel" /><summary type="html">超越视力表的眼界</summary></entry><entry><title type="html">乞力马扎罗的日与夜</title><link href="https://haoluo.io/posts/kilimanjaro" rel="alternate" type="text/html" title="乞力马扎罗的日与夜" /><published>2020-03-22T00:00:00-04:00</published><updated>2021-02-16T20:25:42-05:00</updated><id>https://haoluo.io/posts/kilimanjaro</id><content type="html" xml:base="https://haoluo.io/posts/kilimanjaro">&lt;h4 id=&quot;一&quot;&gt;一、&lt;/h4&gt;
+
+&lt;p&gt;眼前这片没有一丝杂质的白色世界一望无垠。云海像一片偌大的松软的棉花糖漂浮在脚边，清晨的日光仿佛从触手可及的地方照过来，穿过不远处安静却生机勃勃的冰川，给和我一样欲辨已忘言的登山者们投下长长的影子。&lt;/p&gt;
+
+&lt;p&gt;“This is so worth it,” 我转向James, “totally worth it.”&lt;/p&gt;
+
+&lt;p&gt;这里是海拔5895米的Uhuru Peak，乞力马扎罗山的最高峰，也是非洲的最高点。”Uhuru”在斯瓦西里语中代表“自由”，看来自由果然是得之不易的。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847033228_uhuru.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;自由之巅&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;所以为什么要去爬乞力马扎罗？&lt;/p&gt;
+
+&lt;p&gt;因为山在那里。&lt;/p&gt;
+
+&lt;p&gt;Just kidding, 这其实完全是一次spontaneous用脚趾头想出来的旅行。看到同事登顶的照片，觉得很美又很酷，顿时被种草了。于是戳了下刷过全程马拉松，Half Dome和Mount Baker的Joy，两周内就把机票和行程都定好了。&lt;/p&gt;
+
+&lt;p&gt;时间很快晃到了临行前的那个周末，我才开始对着gear list紧锣密鼓准备行头，四天跑了三趟REI才买齐全（事实证明，它们真的一个都不能少）。又看到网上的攻略说，summit day那天你需要的不是有机无麸质低GI的健康食物，而是能让你做梦流口水的肥宅快乐餐。所以临行前一晚我又去HMart顺了两包【黑】辛拉面。&lt;/p&gt;
+
+&lt;p&gt;姑娘 x 2，duffel bag x 2，day pack x 2，我们整装待发。我说“我搬的砖明天要进staging，有点方。”Joy说“我搬的砖明天进production，也有点方。”&lt;/p&gt;
+
+&lt;p&gt;Screw it，我们都有光明的前途。&lt;/p&gt;
+
+&lt;h4 id=&quot;二&quot;&gt;二、&lt;/h4&gt;
+
+&lt;p&gt;“你好，我是Barack。”&lt;/p&gt;
+
+&lt;p&gt;“你好，抱歉能再重复一遍你叫什么吗？没听清楚…”&lt;/p&gt;
+
+&lt;p&gt;“Barack, Barack Obama的Barack。”&lt;/p&gt;
+
+&lt;p&gt;从纽约出发，在将近一天的飞行之后我们终于落地坦桑尼亚。”Welcome to Africa! Welcome to Kili!”这个自信的旅行社司机小哥接过我们的行李，露出一口高露洁笑容: “Enjoy your climbing!”&lt;/p&gt;
+
+&lt;p&gt;于是我们在山脚下斥五刀巨资喝了杯速溶咖啡，签下生死状后就进山了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847148615_joy.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Joy在山脚下教速溶咖啡店老板家的小孩如何自拍&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;前几天的行程非常chill，每天六七个小时的徒步在和Joy的插科打诨间一晃而过。而且一到营地就能葛优瘫在waiter Daniel精心布置的餐桌旁，吃上厨师长Mustaf炖好的非洲大盘鸡/牛/猪。没错，向导，背夫，厨子和waiter是爬Kili的标配，一个都不能少。虽然早有耳闻，但我们在旅行社办公室被这庞大的私家后援天团“接见”时还是不免受宠若惊 — 这哪儿是走进大山学习”live cheap and flexible”啊，分明就是去被人伺候的。一想到这，我和Joy义正言辞拒绝了背私家马桶上山这种矫情的服务（虽然只要两人七天一共多付70刀），内心的波澜遂得以平息。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847249471_21B96613-4F01-473D-8455-0EC9F7709E56.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;大口吃肉的生活&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;来爬Kili的人一般第一天就会被向导灌输两句斯瓦西里语 — Pole Pole（慢慢来）和 Hakuna Matada（没关系），嗯，非常佛系了。接受完价值观洗脑后，我们开始onboarding的下一环节，跟这座大山culture fit。事实证明在每天水肿成包子脸的情况下只画个眉毛出门并没有那么恐怖，七天不洗澡不洗头也都是小事，毕竟我们有更艰巨的挑战。&lt;/p&gt;
+
+&lt;p&gt;那便是解决日益增长的新陈代谢需求同落后的厕所供应之间的矛盾。为了抗高反我们不仅每天要喝至少三升水，还要定点嗑利尿剂 — 我第一次上这么高海拔，没法A/B test这药究竟抗高反有无效果，但其字面含义似乎确凿被印证了。尿意来得太快就像龙卷风，我们被粗粝的大自然催熟，很快就get了一言不合撒野尿这项户外生存技能。从欲说还休的”I want to use the restroom”切换到直抒胸臆的”I want to pee”，我们的沟通也变得更简洁高效。&lt;/p&gt;
+
+&lt;p&gt;纵使如此，起夜却永远都是个out of comfort zone的过程。每次哆哆嗦嗦钻出温暖的睡袋裹成熊也就罢了，还常常要摸黑爬个小土坡，待气喘吁吁到了目的地，蹲坑一分钟和在平原做十个burpee效果差不多。有了这些overhead，我们每次起夜前都要在心里经历五到十次”to pee or not to pee”这种灵魂拷问。最后有时是我take the initiative，有时是Joy — 主要是看谁在这片广袤无垠的星空下先憋不住了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847288547_toilets.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;我们的精神家园&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;三&quot;&gt;三、&lt;/h4&gt;
+
+&lt;p&gt;时间在Pole Pole的步调下转瞬即逝，我们也和我们的私家天团渐渐熟络起来。James是我们的大向导，一身高端装备，目测全团首富，leadership爆棚。相比之下副向导Paul就稚嫩了很多，感觉还在背台词shadow的阶段。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847389173_15641917-2CD8-4B89-AD3B-BBE5FE6E86EB.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Pole Pole&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847473317_307CE3AF-BB20-4F12-939D-AFFB69A6201C.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;大向导James&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;我们最喜欢的还是waiter小哥Daniel — 浓眉大眼，Acne Studios模特那种vibe，本团颜值担当。Daniel是个羞涩腼腆，心思细腻的人。有一次Joy随口夸了句他的民族风手环很漂亮，他听到了就摘下来送给Joy，还解释起手环上坦桑尼亚，肯尼亚和尼日利亚三个国家的国旗图案。我们只带了一卷厕纸上山，快用没了就攒下餐桌上被Daniel叠成蝴蝶结的餐巾纸做备用。大概在某个狂风大作的夜晚，他突然参透了餐巾纸离奇失踪案背后的秘密，就悄悄塞了一卷厕纸在我们帐篷里。&lt;/p&gt;
+
+&lt;p&gt;“想到两周前Daniel还送给我一卷手纸，真是心生一阵感动。”回到三番的Joy在厕纸稀缺的隔离岁月里忆苦思甜，感时伤怀。&lt;/p&gt;
+
+&lt;p&gt;我当时八卦Joy说，你看看Daniel这些小心思，是要留你当压寨夫人了。“这种事儿嘛，没了context就没什么意义。”Joy是个特别冷静的姑娘。然后我说，人在interim中好像确实更容易喜欢别人诶，这个在心理学里叫“闭店效应” (Closing Time Effect)，可是有科学依据的。Joy说，咱小时候军训时对教官的少女心不就是嘛。我乐了，想着怎么军训营里这个传统这么生生不息都延续到你们九五后了呀。“大概是日子太苦，年龄又小，总得抓住些精神稻草熬过去吧。”可我们哪里知道，长的是磨难，短的是人生啊。&lt;/p&gt;
+
+&lt;p&gt;就这样，我们从军训的八卦扯到区块链将来到底会以怎样的形式渗入我们的生活。我们偶尔也会提起三番和纽约，但是带着些许“洞中一日，世上千年”的陌生的科幻感。更多的时候，我们吾日三省吾身的话题还是围绕着“我是热还是冷？”“吃还是不吃？”“尿还是不尿？”这些褪去铅华最基本的生存问题。&lt;/p&gt;
+
+&lt;p&gt;时代的车轰轰地往前开不曾停歇，在Kili的日升月落下，我们也都很好奇：等这与邮件Slack朋友圈Instagram彻底失联的七天过去了，世界会有什么不一样吗?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847524738_F723DC8E-8A4F-46A1-981F-DCA82EA33F2B.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;我们的帐篷在4600米大本营的妖风中精神抖擞&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;四&quot;&gt;四、&lt;/h4&gt;
+
+&lt;p&gt;我一直觉得自己在心理上大胆生理上怂，一是贪恋尘世，但主要还是怕疼。所以我最喜欢的运动就是长跑，门槛低，幺蛾子少，一言不合穿上鞋就能跑。&lt;/p&gt;
+
+&lt;p&gt;第三天适应日从Lava Tower回到Barranco Camp是一段比较有挑战性的下山路，有点像在石头间跳梅花桩。我怕失去平衡摔跤，就把pace压得很慢，总要把目之所及的石头打量一番找到最安全的脚点再迈出下一步。不出意料地，我掉队了，比Joy他们晚了半个多小时才到达营地。&lt;/p&gt;
+
+&lt;p&gt;“你这样不行，你得和这些石头建立trust。”Joy一本正经地训诫道。&lt;/p&gt;
+
+&lt;p&gt;然后我突然想起来当年爬Joshua Tree时云哥传授的攀岩哲学：不能总想着找到最安全的脚点，而是不论踩到哪儿都能尽快从失控中找回平衡。这和滑雪冲浪一系列运动的skillset很像，乍一听是反直觉的，唯有通过一次次突破桎梏，从身体里激发出新的反射，才能理解那种微妙的平衡感是怎么一回事。&lt;/p&gt;
+
+&lt;p&gt;于是次日爬Barranco Wall这天无论是徒手向上攀还是跳梅花桩下山，我都比前一天更放松果敢。从一个失控点跳到另一个失控点，我开始享受到这种节奏带来的乐趣 — 它是一种和静止或在平地上行走时完全不同的平衡感，一种动态的，更resilient的安全感。 James到营地后说我今天表现很好，比昨天进步了不少。“我好像今天和这些看似危险的石头建立了更多trust，”我顿时zen神附体飘了起来，“不再把它们当成拦路的、让我摔跤的敌人，而是把它们看作助我上山下山的朋友。有了trust和leverage，瞬间轻松多了。”&lt;/p&gt;
+
+&lt;p&gt;大概就和所有别的探索与成长一样。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847613230_E7B1EF9D-2C3B-4C72-A1C4-634A20C40C87.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Barranco Wall 的起点&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;五&quot;&gt;五、&lt;/h4&gt;
+
+&lt;p&gt;Summit day如期而至，然而我对这一天依然没有什么概念。我一直在下意识地回避一个问题：Machame这条路线除了第一天是从一千八上到三千，到了三千八之后都是每天只上升几百米  — 我们究竟怎么才能在最后一夜从四千六的大本营登上将近六千的非洲屋脊呢？&lt;/p&gt;
+
+&lt;p&gt;多亏了Mustaf接地气的非洲大乱炖，这一路我的食欲都异常好，但冲顶前最后一顿晚饭，我盯着一大盆意面却一口也咽不下。James毕竟久经沙场，说他在这个海拔也一样一点食欲也没有，可是为了有足够的体力冲顶还是要逼自己吃一些。我想，it’s the time，于是从duffel bag中挖出了那包压箱底的【黑】辛拉面。这啥，James一脸狐疑。我告诉他，这款香辣开胃的亚洲方便面能救我的命。James秒懂，二话不说就传给了Mustaf。于是不出五分钟那股熟悉的香气就悠悠地钻进了我们的帐篷，如此润物无声。这辛拉面的汤汁从喉咙穿过肠胃汩汩流到下意识里去了，我比任何时候都笃定我能冲顶成功。&lt;/p&gt;
+
+&lt;p&gt;十一点到了。我们准时钻出睡袋，简单地扒了几口早饭，挂上头灯，裹好balaclava，灌满热水，蓄势待发。在天团成员的簇拥下，我们围成一圈，手背摞着手背。Paul用斯瓦西里语做出最后的祷告，虽然我只听懂了一个词 — 阿门。&lt;/p&gt;
+
+&lt;p&gt;意料之外的是，纵然寒风彻骨，征途遥远，登顶却并没有我想象中那样艰难。&lt;/p&gt;
+
+&lt;p&gt;除了时不时要调整balaclava以在氧气和冷空气间做出取舍，我尽量保持着前几天的步调和呼吸的节奏。冲顶人们的头灯在银河下蜿蜒着，山脚下的Moshi镇在远方时隐时现 — 有那么一瞬间，我恍若回到了那些熟悉的城市生活，像是坐在从纽瓦克回家的出租车上望到对岸永不打烊的曼哈顿，又像是在Twin Peak上望到三番星星点点的万家灯火。然而我并没有太多精力在这些缥缈的幻象中多做停留。时间的粒度在黎明前的黑暗中变得模糊不清，我不知道我们已经走了多久，还要继续走多久，唯一能做的就是盯着前方被头灯照亮的那一小片路，一步一个脚印，缓缓上升。&lt;/p&gt;
+
+&lt;p&gt;“Focus and objective, breathe and practice, dream big and do small.”那一瞬间我好像突然理解了《黎明墙》里的这句话，仰望星空与脚踏实地之间的关系也好像从来没有以如此具象的形式呈现过。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_5BD92FD278B7E961D87B714AE2D4226F2D34700EACAA2F1F96DA5C7A760B4605_1586736544191_1_5giQwz391A4GdY8I1lPl7A.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;仰望星空与脚踏实地（太冷了掏不出手，图片来自网络，侵删）&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;不知过了多久，我们终于到达Stella Point，Uhuru Peak前唯一也是最后一个能稍作休整拍照留念的地方。Joy从出发开始就被高反折磨了一路，此时已濒临身体机能的极限。James把我拉到一旁，面色凝重。他让我跟他一起劝Joy就此下山放弃冲顶：&lt;/p&gt;
+
+&lt;p&gt;“这个海拔不是闹着玩的，一切都可能发生。”&lt;/p&gt;
+
+&lt;p&gt;Joy听到后坐在地上像个孩子一样哭了。我看着她特别心疼又特别理解，知道我们坐一整天飞机一整周不洗澡漫山撒野尿就是为了站在最高的地方看一眼这片陌生的大陆，在距离它一百米的地方放弃，这个沉没成本太难以接受了。然而在这近六千米的地方，多哭一下都可能是致命的。我们只能安慰她，山一直在那里，只要你健康地活着，随时可以再次发起挑战。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_5BD92FD278B7E961D87B714AE2D4226F2D34700EACAA2F1F96DA5C7A760B4605_1586736425672_2E377C9E-CA19-4258-92E4-222D6116DCC8.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;日出时分山谷里回响起Hakuna Matada&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;于是我和James继续前行。一个多小时候之后，站在Uhuru Peak，我终于看到了乞力马扎罗的雪。&lt;/p&gt;
+
+&lt;h4 id=&quot;六&quot;&gt;六、&lt;/h4&gt;
+
+&lt;p&gt;登顶后我问James，为什么几乎所有团队都选择在半夜摸黑出发。如果在白天，可能就不会有那么多人被寒冷击退了吧。&lt;/p&gt;
+
+&lt;p&gt;“恰恰相反，白天大部分人会更轻易放弃。” James回答。&lt;/p&gt;
+
+&lt;p&gt;他是对的。&lt;/p&gt;
+
+&lt;p&gt;无论是跑半马，还是爬Kili，我自始至终都没有真切体会过村上春树在《当我谈跑步时，我谈些什么》中描写的那些煎熬与折磨。没料到它们竟然在下山的路途中出现了。&lt;/p&gt;
+
+&lt;p&gt;从山顶回大本营的路线是一条向导口中“只需要两个小时的捷径”，因为一路都是火山灰，可以试着像滑雪一样滑下去。一开始滑着步子溜下山确实轻松，而且没过多久我们就望到了大本营五颜六色的帐篷。“再凌波微步几个回合我就能一边吃着Mustaf做的庆功宴一边开始draft朋友圈了。”我斗志昂地yy着。&lt;/p&gt;
+
+&lt;p&gt;就这样一个小时过去了，大本营一直停留在视野中，然而我与它的距离好像只缩短了几十米。“再等等，说不定对进度的感知不是线性的，而是指数级的呢。”我试着自我安慰。然而又一个小时过去了，一切如故。如此反复了四五次，加之深一脚浅一脚摔了无数个屁墩儿后，我心态崩了。&lt;/p&gt;
+
+&lt;p&gt;“James，你实话实说，我们到底还有多久才能到大本营啊？”我的耐心好像在登顶的那一刻就被全部耗尽了。&lt;/p&gt;
+
+&lt;p&gt;“快了快了，你看到下面那个平地没？走到那里你就不会这么累了。”&lt;/p&gt;
+
+&lt;p&gt;“忽悠，你接着忽悠吧！”我心中升起一团怒火。我也终于明白了为什么James说白天冲顶成功率只会更低：终点遥遥在望，每秒都清晰可辨，然而这段路却似乎怎么也走不到头。它前一秒滋生多少希望，下一秒就加倍奉还多少绝望，这种触手可及的挫败感比一眼望不到尽头更致命。&lt;/p&gt;
+
+&lt;p&gt;“Uber呢，我要打车。” — 白日做梦。&lt;/p&gt;
+
+&lt;p&gt;“我要叫直升机，倾家荡产也值了。” — 直升机最高只能落到大本营。&lt;/p&gt;
+
+&lt;p&gt;“我放弃了！放弃总可以了吧。” — 可这是下山，放弃并不是一个可选项。除非真的赖在五千米慢慢石化。&lt;/p&gt;
+
+&lt;p&gt;不知过了多久我终于回到了大本营，而Joy他们已经撤向三千米氧气更充足的营地。我在大本营的日晒下四脚朝天横躺了两个小时，也被叫起来继续赶路了。这一下山又是五个小时，路况从火山灰变成了被山水常年冲刷的白碎石，同样单调，没有尽头，更难走，也更令人绝望。我早已没了发怒的力气，只是靠着惯性机械地在石头间穿梭。摔倒了就马上爬起来继续走，因为这一次我知道了，我没有Uber也没有直升机，也不能放弃。接受现实吧，怎么闹都是没用的。&lt;/p&gt;
+
+&lt;p&gt;冲顶八小时，下山九小时。到达营地后的我一头扎进睡袋，不管今夕何夕。&lt;/p&gt;
+
+&lt;h4 id=&quot;七&quot;&gt;七、&lt;/h4&gt;
+
+&lt;p&gt;“事实证明，我应该不是个mountain person。” 我暗自嘀咕着。还没说出口，Joy就下了同样的结论。&lt;/p&gt;
+
+&lt;p&gt;“我几年内都不想再爬野山了，谁找我爬山我跟谁急。”&lt;/p&gt;
+
+&lt;p&gt;“我要一回纽约就约个马杀鸡。”&lt;/p&gt;
+
+&lt;p&gt;“咱以后把这次遭罪用的钱多吃几顿米其林吧。”&lt;/p&gt;
+
+&lt;p&gt;“真是的，咱不爬山了。”&lt;/p&gt;
+
+&lt;p&gt;嗯，我们都有光明的前途。&lt;/p&gt;
+
+&lt;p&gt;James大概参透了我们的心事，在山脚下告别时说：“回到美国或中国，千万不要跟你们的朋友说爬Kili难呀，说难他们就不来了。”本以为他还要再多加几句“难，但是历练；难，但是值得”这样的升华，竟然也没有。“好，我们肯定不说难！”我们笑着配合地回应道，“不能让我一个人被坑啊！”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_5BD92FD278B7E961D87B714AE2D4226F2D34700EACAA2F1F96DA5C7A760B4605_1586736440666_BD882EF7-9A2B-4C6D-A58F-E7D12447DED0.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;我们的私家后援天团&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;八&quot;&gt;八、&lt;/h4&gt;
+
+&lt;p&gt;回到Moshi的酒店，我们一头扎进热水澡里，洗掉一身泥淖，像是和几英里外那与世隔绝的七天做最后的诀别。我们就着可乐芬达啃着汉堡pizza，查阅着堆积的邮件Slack朋友圈Instagram。&lt;/p&gt;
+
+&lt;p&gt;原来躺在床上刷手机可以这么爽，为什么之前从来都没感恩过。刷着刷着，一下午就过去了。&lt;/p&gt;
+
+&lt;p&gt;“阿空加瓜原来这么高，但是看着好美啊！”&lt;/p&gt;
+
+&lt;p&gt;“诶勃朗峰怎么还有缆车。”&lt;/p&gt;
+
+&lt;p&gt;我们抬起头，心虚地相视一笑，像极了上学时那些口是心非说自己从来不学习的学霸们。&lt;/p&gt;
+
+&lt;p&gt;（嗯，&lt;em&gt;Free Solo&lt;/em&gt;, &lt;em&gt;The Down Wall&lt;/em&gt; 和 &lt;em&gt;Meru&lt;/em&gt;攀岩三部曲已经刷完了。）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_5BD92FD278B7E961D87B714AE2D4226F2D34700EACAA2F1F96DA5C7A760B4605_1586736431420_6C88B709-EAF4-47A8-96A7-59EF1CD72C0C.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://paper-attachments.dropbox.com/s_D3727BDEC98DE1B83D1BB9ED0E9BB82E18559B3003EC145C7C271F5FA7F4E566_1584847670525_F3FD78FF-A5E5-4279-B170-B27DFFBA1CE4.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;附录一些干货&quot;&gt;附录：一些干货&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;我的gear list用的是&lt;a href=&quot;https://www.ultimatekilimanjaro.com/preparation.htm#gearlist&quot;&gt;UltimateKilimanjaro&lt;/a&gt;这个版本，非常靠谱。每一项都很重要，不要侥幸！&lt;/li&gt;
+  &lt;li&gt;我们通过&lt;a href=&quot;https://www.mojhi.com/&quot;&gt;Mojhi&lt;/a&gt;这个网站quote到&lt;a href=&quot;https://www.topclimbersexpedition.com/&quot;&gt;Top Climbers Expedition&lt;/a&gt;这家公司，服务很赞，也比UK便宜一些。&lt;/li&gt;
+  &lt;li&gt;临走前去One Medical约了travel consultant，可以开利尿剂这些抗高反的处方药。&lt;/li&gt;
+  &lt;li&gt;关于体能上的准备，UK的建议是周末出去hiking，多吃蔬菜。我平时有健身的习惯，也刷过几次半马，就没有额外准备。推荐Barry’s Bootcamp这种结合力量+有氧的训练项目 — 虽然有背夫帮着背duffel bug和帐篷，但每天加减的layer、水袋、路上吃的零食还是要装在day pack里自己背的，对肩背的力量也有一定挑战吧。&lt;/li&gt;
+  &lt;li&gt;带点开胃的肥宅快乐餐吧同志们，没有辛拉面我估计撑不过summit day。。。Bloks和日本出的那种葡萄软糖效果比Hi-Chew好，感觉后者因为里面有奶味有时候会催吐。后悔没带榨菜了，没胃口时那个是我大脑里想要的味道。&lt;/li&gt;
+  &lt;li&gt;除了有一种冷叫你妈觉得你冷，还有一种冷叫你向导觉得你冷。我大胆猜想，从旅行社的角度出发与担心你穿多了不舒服相比他们其实更担心你穿少了被冻病了，所以常常让你多穿。这时候就要聆听自己身体最真切的召唤（以及相信始祖鸟这些高端户外品牌的价值），灵活加减layer了。&lt;/li&gt;
+  &lt;li&gt;像UK网站上说的那样: Get eight hours of sleep per night. Don’t worry. Be happy :)&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="travel" /><summary type="html">一、</summary></entry></feed>

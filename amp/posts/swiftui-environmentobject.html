@@ -1,0 +1,404 @@
+<!doctype html>
+<html ⚡ lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="theme-color" content="#ffffff"/>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta name="msvalidate.01" content="C02D47D34B2CA730AA994096C315F5FE" />
+  <meta name="description" content="Though it really sounds like a global singleton.">
+
+  <link rel="manifest" href="/manifest.json">
+
+  
+  
+
+  <!-- define the title tag -->
+<title>
+  
+    SwiftUI: EnvironmentObject as Dependency Injection
+  
+</title>
+
+
+  
+    <link rel="canonical" href="https://haoluo.io/posts/swiftui-environmentobject" />
+    <link rel="alternate" media="handheld" href="https://haoluo.io/posts/swiftui-environmentobject" />
+  
+
+  <!-- favicons -->
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="192x192" href="/assets/favicons/apple-touch-icon-192x192.png" />
+<link rel="apple-touch-icon-precomposed" sizes="512x512" href="/assets/favicons/apple-touch-icon-512x512.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png" />
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-128.png" sizes="128x128" />
+<meta name="msapplication-square70x70logo" content="/assets/favicons/mstile-70x70.png" />
+
+  <!-- feed link -->
+  <link type="application/atom+xml" rel="alternate" href="https://haoluo.io/feed.xml" title="Articles by Hao Luo">
+
+  
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700|Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    
+      <style amp-custom="" type="text/css">/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15; /* @alternate */ -webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline; /* @alternate */ -webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{ /* @alternate */ -webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{ /* @alternate */ -webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{ /* @alternate */ -webkit-appearance:none}::-webkit-file-upload-button{ /* @alternate */ -webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}#iubenda-cs-banner{bottom:0px;left:0px;position:fixed;width:100%;z-index:99999998;background-color:black}.iubenda-cs-content{display:block;margin:0 auto;padding:20px;width:auto;font-family:Helvetica, Arial, FreeSans, sans-serif;font-size:14px;background:#000;color:#fff}.iubenda-cs-rationale{max-width:900px;position:relative;margin:0 auto}.iubenda-banner-content>p{font-family:Helvetica, Arial, FreeSans, sans-serif;line-height:1.5}.iubenda-cs-close-btn{margin:0;color:#fff;text-decoration:none;font-size:14px;position:absolute;top:0;right:0;border:none}.iubenda-cs-cookie-policy-lnk{text-decoration:underline;color:#fff;font-size:14px;font-weight:900}.resp-container{position:relative;overflow:hidden;padding-top:100%}.resp-iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}*,*::before,*::after{box-sizing:border-box}html{font-size:16px}body{margin:0 auto;font-family:"Lato", Helvetica, Arial, sans-serif; /* @alternate */ -webkit-font-smoothing:antialiased;font-weight:400;line-height:1.8;color:#000;background:#fff}p{margin:0;font-weight:400}b,strong{font-weight:600}h1,h2,h3,h4,h5,h6{margin:0;line-height:1.5;text-rendering:optimizeLegibility}h1{font-size:25.6px;font-weight:400;letter-spacing:-.03em;color:#121111}h2{font-size:24px;font-weight:400;color:#121111}h3{font-size:20.8px;font-weight:500}h4{font-size:17.6px;font-weight:500}h5{font-size:18.72px;font-weight:500}h6{font-size:16px}@media all and (max-width: 767px){h1{font-size:24px}h2{font-size:21.6px}h3{font-size:20px}}a{color:#615b5b;text-decoration:underline; /* @alternate */ -webkit-text-decoration-color:#d2cfcf;text-decoration-color:#d2cfcf;transition:color 0.2s linear}a:hover,a:active{color:#393636}a:focus{color:#393636;outline:none}ul,ol{padding-left:40px;margin:0}abbr{cursor:help;border-bottom:1px dotted #ebeaea}blockquote{padding:0 0 0 15px;font-family:"Lato", Helvetica, Arial, sans-serif;font-size:16px;line-height:1.6;color:#ada8a8;font-style:italic;border-left:1px solid #ada8a8}hr{margin:0;border-top:0;border-right:0;border-bottom:1px solid #ebeaea;border-left:0}img{display:block;max-width:100%;max-height:500px;margin:0;margin-left:auto;margin-right:auto}img+em{text-align:center;display:block;font-size:13.6px;margin:-16px auto}figure .image{width:100%}figure.post{text-align:center;display:table;max-width:100%;margin:20px auto}figcaption.post{display:block;font-size:13.6px;font-style:italic;margin-top:-16px}figure.photo{text-align:center;display:table;max-width:100%;margin:80px auto 100px auto}figcaption.photo{display:block;color:#000;font-size:17.92px;font-family:"Ubuntu Mono", Monospace;margin-top:4px}::-moz-selection{color:#fff;background-color:#121111}::selection{color:#fff;background-color:#121111}.text-center{text-align:center}.clearfix:after{content:" ";visibility:hidden;display:block;height:0;clear:both}.desaturate{ /* @alternate */ -webkit-filter:grayscale(1); /* @alternate */ -webkit-filter:grayscale(100%);filter:gray;filter:grayscale(100%)}.no-text-decoration{text-decoration:none}.pace{ /* @alternate */ -webkit-pointer-events:none;pointer-events:none; /* @alternate */ -ms-user-select:none; /* @alternate */ -webkit-user-select:none; /* @alternate */ -moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#000000;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:1px}.notfound-wrapper{margin-top:100px;margin-bottom:100px;text-align:center}.highlight{padding:10px 50px 10px 50px}@media all and (max-width: 767px){.highlight{padding:10px 20px 10px 20px}}table{border-collapse:collapse;width:100%;table-layout:fixed;border:1px solid #ada8a8;margin-bottom:24px}table th{padding:3px 10px;background-color:white;border:1px solid #ada8a8}table td{border:1px solid #ada8a8;padding:3px 10px}.coffee-kudo{margin-top:4px}.home-container{display:block;width:400px}@media only screen and (max-width: 400px){.home-container{margin:4% auto auto auto;width:100%}}.home-text-container{font-family:"Ubuntu Mono", Monospace;color:#000}.home-text-container p{margin-bottom:10px}.menu-list{margin:20px 0;padding-left:0;list-style:square inside}.menu-list li{padding:4px 0}li.menu-list-item a{font-weight:400;font-size:1.2em;font-family:"Ubuntu Mono", Monospace;line-height:1.33333em;color:#121111}a:hover .emoji-hover{opacity:1}.emoji-hover{display:inline-block;vertical-align:middle;opacity:0;transition:opacity 0.2s linear;margin-left:10px}.footer{display:block;position:fixed;right:20px;bottom:20px;font-family:"Ubuntu Mono", Monospace}.footer p{font-size:12px;color:#7b7474}.footer a{text-decoration:none}.footer-links{float:none;display:block;text-align:right;padding:0;margin:0 0 4px 0;list-style:none}.footer-links li{display:inline-block;margin-left:10px;vertical-align:middle}.footer-links li:first-child{margin-left:0}.footer-links li a{font-size:18px;color:#393636;fill:#393636}.footer-links li a:hover{color:#121111;fill:#121111}@media all and (max-width: 520px){.footer-links li{margin:0 10px}.footer-links li:last-child{margin-right:0}}.icon-freecodecamp{padding-top:4px}.grid-wrapper{min-height:100%;display:grid;grid-template-rows:auto 1fr auto}.grid{display:block;padding:0;margin:0 -20px;font-size:0;text-align:left}.grid-cell{display:inline-block;width:100%;padding:0 20px;margin:0;font-size:16px;text-align:left;vertical-align:top}.grid-cell.with-1col{width:8.3333333333%}.grid-cell.with-2col{width:16.6666666667%}.grid-cell.with-3col{width:25%}.grid-cell.with-4col{width:33.3333333333%}.grid-cell.with-5col{width:41.6666666667%}.grid-cell.with-6col{width:50%}.grid-cell.with-7col{width:58.3333333333%}.grid-cell.with-8col{width:66.6666666667%}.grid-cell.with-9col{width:75%}.grid-cell.with-10col{width:83.3333333333%}.grid-cell.with-11col{width:91.6666666667%}.grid-cell.with-1off{margin-left:8.3333333333%}.grid-cell.with-2off{margin-left:16.6666666667%}.grid-cell.with-3off{margin-left:25%}.grid-cell.with-4off{margin-left:33.3333333333%}.grid-cell.with-5off{margin-left:41.6666666667%}.grid-cell.with-6off{margin-left:50%}.grid-cell.with-7off{margin-left:58.3333333333%}.grid-cell.with-8off{margin-left:66.6666666667%}.grid-cell.with-9off{margin-left:75%}.grid-cell.with-10off{margin-left:83.3333333333%}.grid-cell.with-11off{margin-left:91.6666666667%}.grid-cell.is-centered{text-align:center}.grid-cell.is-right{text-align:right}.grid-cell.is-top{vertical-align:top}.grid-cell.is-middle{vertical-align:middle}.grid-cell.is-bottom{vertical-align:bottom}.default-grid-centered{max-width:650px;margin-left:20%;margin-right:auto}.home-grid-centered{max-width:650px;margin:40px}@media all and (max-width: 767px){.grid-cell.with-1col{width:100%}.grid-cell.with-1off{margin-left:0}.grid-cell.with-2col{width:100%}.grid-cell.with-2off{margin-left:0}.grid-cell.with-3col{width:100%}.grid-cell.with-3off{margin-left:0}.grid-cell.with-4col{width:100%}.grid-cell.with-4off{margin-left:0}.grid-cell.with-5col{width:100%}.grid-cell.with-5off{margin-left:0}.grid-cell.with-6col{width:100%}.grid-cell.with-6off{margin-left:0}.grid-cell.with-7col{width:100%}.grid-cell.with-7off{margin-left:0}.grid-cell.with-8col{width:100%}.grid-cell.with-8off{margin-left:0}.grid-cell.with-9col{width:100%}.grid-cell.with-9off{margin-left:0}.grid-cell.with-10col{width:100%}.grid-cell.with-10off{margin-left:0}.grid-cell.with-11col{width:100%}.grid-cell.with-11off{margin-left:0}.default-grid-centered{max-width:100%;margin-left:auto;margin-right:auto}.home-grid-centered{max-width:100%;margin:4% auto auto auto}}.about{padding:100px 0}.about h1{margin:50px 0 15px}.technology-list-ul{padding:0;border-left:1px solid #eaeaea;width:100%;margin:24px 0 0 0;vertical-align:baseline;position:relative}.technology-list-li{vertical-align:baseline;position:relative;margin:0;padding:0;list-style:none;display:block;float:left;border:1px solid #eaeaea;width:20%; /* @alternate */ text-align:-webkit-match-parent}.technology-list-a-svg{content:'';width:100%;height:0;padding:100% 0 0 0;display:block;color:#282828;text-decoration:none;vertical-align:baseline;position:relative}.technology-list-a-svg svg{position:absolute;top:35%;left:25%;width:50%;height:30%;opacity:0.5;transition:all 0.3s;box-sizing:inherit}.article{display:block;margin:100px 0}h5.artical-list-title{display:block;margin-top:60px;font-size:1.8em}.article-list{display:block;padding:0;margin:20px 0;list-style:none}.article-list li{position:relative;display:block;padding:10px 0}.article-list li:last-child{border-bottom:0}.article-list li.article-pagination{display:table;width:100%;margin-top:-15px}.article-list li.article-pagination a{display:inline-block;padding-top:6px;font-size:11px;font-weight:600;letter-spacing:.1em;color:#7b7474;text-decoration:none;text-transform:uppercase;transition:color 0.2s linear}.article-list li.article-pagination a .icon{display:inline-block;margin-top:-2px;font-size:20px;vertical-align:middle}.article-list li.article-pagination a:hover{color:#121111}.article-list-item a{position:relative;display:block;padding-right:0px;font-size:1.2em;font-weight:400;font-family:"Ubuntu Mono", Monospace;line-height:1.33333em;color:#121111}.article-list-footer{display:block}.article-list-footer span,.article-list-footer a{display:inline-block;font-size:12px;color:#7b7474;text-transform:uppercase;vertical-align:middle}.article-list-footer a{margin-right:7.5px;color:#615b5b}.article-list-footer a:hover{color:#121111}.article-list-footer a:last-child{margin-right:0}.article-list-divider{margin:0 15px}.article-list-tags{display:inline-block;vertical-align:top}.article-empty{display:block;margin:100px 0;font-style:italic;color:#ada8a8;text-align:center}.article-pagination-right{float:right}.article-header{display:block;padding-bottom:30px;margin-bottom:30px;border-bottom:1px solid #ebeaea}.article-header h1{font-family:header-font-family}.article-header p{display:block;margin:12px 0 10px;font-size:16px;color:#615b5b}.article-header a{text-decoration:none}.article-content{display:block}.article-content p,.article-content ul,.article-content ol,.article-content img,.article-content blockquote{display:block;margin-top:1.5rem;margin-bottom:1.5rem;margin-left:auto}.article-content h2,.article-content h3,.article-content h4{margin-top:3rem;margin-bottom:1.5rem;letter-spacing:-0.04em;line-height:1.5rem;color:#121111;font-weight:500}.article-content blockquote p{margin-bottom:0}.article-content img.emoji{display:inline-block;margin-top:-4px;margin-bottom:0;vertical-align:middle}.article-comments{display:block;padding-top:20px;margin-top:30px;border-top:1px solid #ebeaea}.article-share{display:block;margin-top:-4px}.article-share a{display:inline-block;margin-right:12px;vertical-align:middle}.article-share a i{vertical-align:middle;transition:fill 0.2s linear;fill:#ada8a8;width:20px}.article-share a:hover i{fill:#615b5b}@media all and (max-width: 767px){.article-list-item a{position:relative;display:block;padding-left:0px;font-weight:400;font-size:1em;font-family:"Ubuntu Mono", Monospace;color:#121111}.article-list-footer{display:block}.article-list-divider:last-of-type{display:none}.article-list-tags{display:block;margin-top:-7px}}.embed-responsive{position:relative;display:block;height:0;padding:0;padding-bottom:75%;margin-bottom:30px;overflow:hidden}.embed-responsive iframe,.embed-responsive embed,.embed-responsive object,.embed-responsive video{position:absolute;top:0;bottom:0;left:0;width:100%;height:100%;border:0}.embed-responsive-16by9{padding-bottom:56.25%}.header-nav{display:block}.header-logo{display:inline-block;font-family:"Ubuntu Mono", Monospace;font-size:1.1em;font-weight:500;color:#000;text-decoration:none;margin:40px}.header-icon{font-size:25px}.header-icon-link{text-decoration:none}.hash-icon-header{font-size:19px}.header-links{float:right;padding:0;margin:27px 0 0;list-style:none}.header-links li{display:inline-block;margin-left:20px;vertical-align:middle}.header-links li:first-child{margin-left:0}.header-links li a{font-size:18px;color:#393636}.header-links li a:hover{color:#121111}@media all and (max-width: 520px){.header-nav{text-align:center}.header-logo{margin:4% auto auto auto;width:100%}.header-links{display:block;float:none;text-align:center}.header-links li{margin:0 10px}.header-links li:last-child{margin-right:0}}@media all and (max-width: 767px){.header-logo{margin-top:2% auto auto;width:100%}}.highlight{padding:5px;margin:0;margin:0;overflow:auto;font-weight:400;background:#faf9f9;border-radius:4px}.highlight pre{margin:0}.highlighter-rouge{padding:4px 4px;font-size:16px;color:#121111;background:#faf9f9;border-radius:1px}@media all and (max-width: 767px){.highlight{padding:25px;font-size:16px}}.highlight .c{font-style:italic;color:#998}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{font-style:italic;color:#998}.highlight .cp{font-weight:bold;color:#999}.highlight .c1{font-style:italic;color:#998}.highlight .cs{font-style:italic;font-weight:bold;color:#999}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{font-weight:bold;color:#458}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .na{color:#008080}.highlight .nb{color:#0086b3}.highlight .nc{font-weight:bold;color:#458}.highlight .no{color:#008080}.highlight .ni{color:#800080}.highlight .ne{font-weight:bold;color:#900}.highlight .nf{font-weight:bold;color:#900}.highlight .nn{color:#555}.highlight .nt{color:#000080}.highlight .nv{color:#008080}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#d14}.highlight .sc{color:#d14}.highlight .sd{color:#d14}.highlight .s2{color:#d14}.highlight .se{color:#d14}.highlight .sh{color:#d14}.highlight .si{color:#d14}.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:#008080}.highlight .vg{color:#008080}.highlight .vi{color:#008080}.highlight .il{color:#099}.appear{visibility:hidden;opacity:0}.appeared{visibility:visible;opacity:1;transition:opacity 0.5s ease-in-out}.tags-page-header{margin-top:0px}.tags-page{padding:50px 0}.tags-page h1{margin:0 0 15px 0}pre{margin-top:1.5rem;margin-bottom:1.5rem;background-color:#faf9f9;padding:16px 0;border-radius:16px}pre code{background-color:#faf9f9;font-family:monospace;display:block;padding:0 20px;color:#1b2733;font-size:14px;line-height:20px;overflow-x:auto;white-space:pre;word-spacing:normal;word-break:break-all}pre code .keyword{color:#ff5600}pre code .type{color:#718c00}pre code .call{color:#1b2733}pre code .property{color:#1b2733}pre code .number{color:#db6f57}pre code .string{color:#fd8273}pre code .comment{color:#6b8a94}pre code .dotAccess{color:#92b300}pre code .preprocessing{color:#fba15e}
+/*# sourceMappingURL=/assets/source-maps/light.scss.map */
+/*# sourceURL=_assets/stylesheets/light.scss */
+</style>
+    
+  
+
+  <!-- open graph metadata -->
+<meta property="og:title" content="SwiftUI: EnvironmentObject as Dependency Injection">
+
+
+<meta property="og:image" content="https://haoluo.io
+">
+<meta property="og:url" content="https://haoluo.ioamp/posts/swiftui-environmentobject">
+<meta property="og:description" content="Though it really sounds like a global singleton.">
+<meta property="profile:first_name" content="Hao">
+<meta property="profile:last_name" content="Luo">
+<meta property="og:site_name" content="Hao Luo">
+
+
+  
+    <meta property="og:type" content="article">
+    <meta property="article:author" content="Hao Luo">
+    <meta property="article:published_time" content="2020-05-13T00:00:00-04:00">
+    
+      <meta property="article:tag" content="ios">
+    
+      <meta property="article:tag" content="swift">
+    
+  
+
+
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://haoluo.ioamp/posts/swiftui-environmentobject">
+
+<meta name="twitter:title" content="SwiftUI: EnvironmentObject as Dependency Injection">
+<meta name="twitter:description" content="Though it really sounds like a global singleton.">
+<meta name="twitter:image" content="https://haoluo.io
+">
+
+
+
+
+
+
+
+
+  
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <script async custom-element="amp-analytics"
+      src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-install-serviceworker"
+      src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+
+    
+    <!-- amp-youtube doesn't work -->
+    
+    
+    
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+  
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>SwiftUI: EnvironmentObject as Dependency Injection | Hao Luo</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="SwiftUI: EnvironmentObject as Dependency Injection" />
+<meta name="author" content="Hao Luo" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Though it really sounds like a global singleton." />
+<meta property="og:description" content="Though it really sounds like a global singleton." />
+<link rel="canonical" href="/posts/swiftui-environmentobject" />
+<meta property="og:url" content="/posts/swiftui-environmentobject" />
+<meta property="og:site_name" content="Hao Luo" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-13T00:00:00-04:00" />
+<script type="application/ld+json">
+{"url":"/posts/swiftui-environmentobject","headline":"SwiftUI: EnvironmentObject as Dependency Injection","dateModified":"2020-05-13T01:40:45-04:00","datePublished":"2020-05-13T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/swiftui-environmentobject"},"author":{"@type":"Person","name":"Hao Luo"},"description":"Though it really sounds like a global singleton.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+
+  
+    <amp-analytics config="https://www.googletagmanager.com/amp.json?id=&gtm.url=SOURCE_URL"
+        data-credentials="include">
+      <script type="application/json">
+        {
+          "vars": {
+            "gaTrackingId": ""
+          }
+        }
+        </script>
+    </amp-analytics>
+  
+
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        
+        <nav class="header-nav">
+  <a href="/" class="header-logo" title="Hao Luo">
+    🏃🏻‍♀️home
+  </a>
+  <ul class="header-links">
+    
+
+  </ul>
+</nav>
+
+
+        
+        <article class="article">
+  <header class="article-header">
+  <h1>SwiftUI: EnvironmentObject as Dependency Injection</h1>
+  <p>Though it really sounds like a global singleton.</p>
+  <div class="article-list-footer">
+    <span class="article-list-date">
+      May 13, 2020
+    </span>
+    <span class="article-list-divider">-</span>
+    <div class="article-list-tags">
+      
+        <a href="/tag/ios">
+          #ios
+        </a>
+      
+        <a href="/tag/swift">
+          #swift
+        </a>
+      
+    </div>
+  </div>
+</header>
+  <div class="article-content">
+    
+      <p>This toy counter could illustrate how to leverage <code class="highlighter-rouge">EnvironmentObject</code> as dependency injection to flow data around the app. It only maintains one global app-wise state <code class="highlighter-rouge">count</code> and supports two functionalities:</p>
+
+<ol>
+  <li>On one view, increase/decrease the <code class="highlighter-rouge">count</code>, and show its current updated value.</li>
+  <li>On another view, show the up-to-date value of <code class="highlighter-rouge">count</code>.</li>
+</ol>
+
+<pre class="splash"><code><span class="comment">// MARK - Source of Truth</span>
+<span class="keyword">class</span> SourceOfTruth: <span class="type">ObservableObject</span> {
+    <span class="keyword">@Published private(set) var</span> value: <span class="type">Int</span> = <span class="number">0</span>
+    <span class="keyword">func</span> increase() { value += <span class="number">1</span> }
+    <span class="keyword">func</span> decrease() { value -= <span class="number">1</span> }
+}
+
+<span class="comment">// MARK - View</span>
+<span class="keyword">struct</span> SourceOfTruthReadView: <span class="type">View</span> {
+    <span class="keyword">@EnvironmentObject var</span> sourceOfTruth: <span class="type">SourceOfTruth</span>
+    
+    <span class="keyword">var</span> body: <span class="keyword">some</span> <span class="type">View</span> {
+        <span class="type">Text</span>(<span class="string">"Sourth of truth is</span> \(<span class="keyword">self</span>.<span class="property">sourceOfTruth</span>.<span class="property">value</span>)<span class="string">"</span>)
+    }
+}
+
+<span class="keyword">struct</span> SourceOfTruthUpdateView: <span class="type">View</span> {
+    <span class="keyword">@EnvironmentObject var</span> sourceOfTruth: <span class="type">SourceOfTruth</span>
+    
+    <span class="keyword">var</span> body: <span class="keyword">some</span> <span class="type">View</span> {
+        <span class="type">HStack</span> {
+            <span class="type">Button</span>(action: { <span class="keyword">self</span>.<span class="property">sourceOfTruth</span>.<span class="call">decrease</span>() }) { <span class="type">Text</span>(<span class="string">"-"</span>) }
+            <span class="type">Text</span>(<span class="string">"</span>\(<span class="keyword">self</span>.<span class="property">sourceOfTruth</span>.<span class="property">value</span>)<span class="string">"</span>)
+            <span class="type">Button</span>(action: { <span class="keyword">self</span>.<span class="property">sourceOfTruth</span>.<span class="call">increase</span>() }) { <span class="type">Text</span>(<span class="string">"+"</span>) }
+        }
+    }
+}
+
+<span class="keyword">struct</span> ContentView: <span class="type">View</span> {
+    <span class="keyword">let</span> updateView: <span class="type">AnyView</span>
+    <span class="keyword">let</span> readView: <span class="type">AnyView</span>
+    
+    <span class="keyword">var</span> body: <span class="keyword">some</span> <span class="type">View</span> {
+        <span class="type">NavigationView</span> {
+            <span class="type">List</span> {
+                <span class="type">NavigationLink</span>(destination: updateView) {
+                   <span class="type">Text</span>(<span class="string">"Update source of truth"</span>)
+                }
+                <span class="type">NavigationLink</span>(destination: readView) {
+                    <span class="type">Text</span>(<span class="string">"Read source of truth"</span>)
+                }
+            }
+        }
+    }
+}
+
+<span class="comment">// MARK - Put things together</span>
+<span class="keyword">let</span> sourceOfTruth = <span class="type">SourceOfTruth</span>()
+<span class="keyword">let</span> sourceOfTruthUpdateView = <span class="type">SourceOfTruthUpdateView</span>().<span class="call">environmentObject</span>(sourceOfTruth)
+<span class="keyword">let</span> sourceOfTruthReadView = <span class="type">SourceOfTruthReadView</span>().<span class="call">environmentObject</span>(sourceOfTruth)
+<span class="keyword">let</span> contentView = <span class="type">ContentView</span>(
+  updateView: <span class="type">AnyView</span>(sourceOfTruthUpdateView),
+  readView: <span class="type">AnyView</span>(sourceOfTruthReadView)
+)
+</code></pre>
+
+<p>Nothing really changes right? I mean, building with SwiftUI in a <em>production</em> way. The <code class="highlighter-rouge">SourceOfTruth</code> is still <em>injected</em> into different components (vs. accessed from singleton), and we can still easily swap out the implementation of <code class="highlighter-rouge">SourceOfTruth</code> for a subclass to build a dependency graph that’s used for testing. And yeah, <code class="highlighter-rouge">count</code> is a <em>read-only</em> <code class="highlighter-rouge">@Published</code> by setting access control as <code class="highlighter-rouge">private(set)</code>, so that read and write are separated.</p>
+
+    
+  </div>
+  <div class="article-pagination">
+  
+  
+</div>
+
+  
+</article>
+
+
+  
+    
+<script type="application/ld+json">
+{
+   "@context":"http://schema.org",
+   "@type":"BlogPosting",
+   "headline":"SwiftUI: EnvironmentObject as Dependency Injection",
+   "keywords":"ios, swift",
+   "wordCount":"258",
+   "url":"https://haoluo.ioamp/posts/swiftui-environmentobject",
+   "datePublished":"2020-05-13",
+   "dateModified":"2020-05-13",
+   "author": {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "url": "http://haoluo.io"
+}
+,
+   "publisher": {
+      "@type": "Organization",
+      "name": "Hao Luo",
+      "logo": {
+        "@type": "ImageObject",
+      }
+    },
+    "image":"https://haoluo.io
+",
+    "mainEntityOfPage":{
+      "@type":"WebPage",
+      "@id":"https://haoluo.ioamp/posts/swiftui-environmentobject"
+    },
+    "articleBody":"This toy counter could illustrate how to leverage EnvironmentObject as dependency injection to flow data around the app. It only maintains one global app-wise state count and supports two functionalities:  On one view, increase/decrease the count, and show its current updated value.  On another view, show the up-to-date value of count.{% splash %}// MARK - Source of Truthclass SourceOfTruth: ObservableObject {    @Published private(set) var value: Int = 0    func increase() { value += 1 }    func decrease() { value -= 1 }}// MARK - Viewstruct SourceOfTruthReadView: View {    @EnvironmentObject var sourceOfTruth: SourceOfTruthvar body: some View {    Text(&quot;Sourth of truth is (self.sourceOfTruth.value)&quot;)} }struct SourceOfTruthUpdateView: View {    @EnvironmentObject var sourceOfTruth: SourceOfTruthvar body: some View {    HStack {        Button(action: { self.sourceOfTruth.decrease() }) { Text(&quot;-&quot;) }        Text(&quot;(self.sourceOfTruth.value)&quot;)        Button(action: { self.sourceOfTruth.increase() }) { Text(&quot;+&quot;) }    }} }struct ContentView: View {    let updateView: AnyView    let readView: AnyViewvar body: some View {    NavigationView {        List {            NavigationLink(destination: updateView) {               Text(&quot;Update source of truth&quot;)            }            NavigationLink(destination: readView) {                Text(&quot;Read source of truth&quot;)            }        }    }} }// MARK - Put things togetherlet sourceOfTruth = SourceOfTruth()let sourceOfTruthUpdateView = SourceOfTruthUpdateView().environmentObject(sourceOfTruth)let sourceOfTruthReadView = SourceOfTruthReadView().environmentObject(sourceOfTruth)let contentView = ContentView(  updateView: AnyView(sourceOfTruthUpdateView),  readView: AnyView(sourceOfTruthReadView)){% endsplash %}Nothing really changes right? I mean, building with SwiftUI in a production way. The SourceOfTruth is still injected into different components (vs. accessed from singleton), and we can still easily swap out the implementation of SourceOfTruth for a subclass to build a dependency graph that’s used for testing. And yeah, count is a read-only @Published by setting access control as private(set), so that read and write are separated."
+}
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@id": "https://haoluo.io/about",
+        "name": "Hao Luo"
+      }
+    }, {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@id": "https://haoluo.io",
+        "name": "Posts"
+      }
+    }, {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@id": "https://haoluo.ioamp/posts/swiftui-environmentobject",
+        "name": "SwiftUI: EnvironmentObject as Dependency Injection",
+        "image": "https://haoluo.io
+"
+      }
+    }]
+  }
+</script>
+  
+
+
+
+
+        
+        <footer class="footer">
+  <ul class="footer-links">
+    
+      <li>
+        <a href="mailto:yvetterowe1116@gmail.com" title="Email" aria-label="Send Email">
+          <i class="fas fa-at" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="/feed.xml" target="_blank" title="RSS" aria-label="RSS Feed">
+          <i class="fas fa-rss" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  </ul>
+  
+  <p>
+    <a>© 2021
+        Kudos to 
+        </a><a href="https://github.com/jekyll/jekyll" rel="noopener noreferrer" target="_blank" title="Jekyll" aria-label="Jekyll - Generator">Jekyll</a>
+        and
+        <a target="_blank" href="https://github.com/nielsenramon/chalk" rel="noopener noreferrer" title="Chalk" aria-label="Clalk - Theme">Chalk</a>
+    
+  </p>
+
+  <!-- Fathom - simple website analytics - https://usefathom.com -->
+  <script>
+  (function(f, a, t, h, o, m){
+  a[h]=a[h]||function(){
+  (a[h].q=a[h].q||[]).push(arguments)
+  };
+  o=f.createElement('script'),
+  m=f.getElementsByTagName('script')[0];
+  o.async=1; o.src=t; o.id='fathom-script';
+  m.parentNode.insertBefore(o,m)
+  })(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
+  fathom('set', 'siteId', 'HIYTKGPC');
+  fathom('trackPageview');
+  </script>
+  <!-- / Fathom -->
+</footer>
+
+      </div>
+    </div>
+  </main>
+
+  
+  
+  <amp-install-serviceworker
+    src="https://haoluo.io/assets/sw.js"
+    layout="nodisplay"></amp-install-serviceworker>
+
+
+</body>
+</html>
