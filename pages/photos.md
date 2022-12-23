@@ -5,6 +5,9 @@ permalink: /photos/
 imagetype: photo
 
 ---
+{% include image.html type=page.imagetype path="photos/cold pizza walk.jpg" path-detail="photos/cold pizza walk.jpg" caption="cold pizza walk.jpg" %}
+{% include image.html type=page.imagetype path="photos/some fall day, possibly in central park.jpg" path-detail="photos/some fall day, possibly in central park.jpg" caption="some fall day, possibly in central park.jpg" %}
+
 {% include image.html type=page.imagetype path="photos/Waikiki.JPG" path-detail="photos/Waikiki.JPG" caption="Waikiki.jpg" %}
 {% include image.html type=page.imagetype path="photos/Magic Island.jpg" path-detail="photos/Magic Island.jpg" caption="Magic Island.jpg" %}
 {% include image.html type=page.imagetype path="photos/North Shore.JPG" path-detail="photos/North Shore.JPG" caption="North Shore.jpg" %}
