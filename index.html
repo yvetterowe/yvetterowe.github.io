@@ -7,18 +7,8 @@ layout: home
 <div class="home-container">
 	<div class="home-text-container">
 		<p>👋 My name's Hao!</p>
-		<p>I'm a software engineer/runner/Vlogger based in New York City. Welcome to my blog. 🥂</p>
-		<p>This is a playground where I turn shower thoughts into ramblings as I navigate through the chaos.</p>
+		<p>I'm a <a href="https://www.linkedin.com/in/yvetterowe/">software engineer</a>, <a href="https://run.haoluo.io/">runner</a>, <a href="https://www.instagram.com/yvetterowe_/reels/">vlogger</a> currently living in New York City. Glad you landed here! 🥂</p>
+		<p>I like to write about stuff - sometimes documenting my <a href="/tech">learnings/thoughts in tech</a>, but more often just <a href="/life">rambling about life</a> in general. I also like to capture the moments with <a href="/photos">photos</a>.</p>
+		<p>Also, I 💚 <a href="https://www.instagram.com/centralparklaps/">Central Park</a>.</p>
 	</div>
-	<ul class="menu-list {{ page.url | remove: 'index.html' }}">
-		{% assign sorted_categories = site.categories | sort: 'order' %}
-		{% for category in sorted_categories %}
-			<li class="menu-list-item">
-				<a href="{{category.url}}" title="{{category.title}}">{{category.title}}<div class="emoji-hover">{{category.emoji}}</div></a>
-			</li>
-  		{% endfor %}
-  		<li class="menu-list-item"><a href="/photos" title="Photos">Photos<div class="emoji-hover">🤳</div></a></li>
-  		<li class="menu-list-item"><a href="https://run.haoluo.io/" title="Runs">Runs<div class="emoji-hover">🏃🏻‍♀️</div></a></li>
-  		<li class="menu-list-item"><a href="https://www.instagram.com/yvetterowe_/channel/" title="Vlogs">Vlogs<div class="emoji-hover">🎬</div></a></li>
-	</ul>
 </div>
