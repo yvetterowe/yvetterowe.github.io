@@ -3,7 +3,7 @@ layout: post
 title:  "SwiftUI: View is not UIView"
 description: "And body is not setNeedsLayout."
 tags: [ios, swift]
-categories: [tech]
+categories: [post]
 emoji: ⾝
 ---
 

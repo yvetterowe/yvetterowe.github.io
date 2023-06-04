@@ -4,7 +4,7 @@ layout: post
 title: "那些年我刷过的美术馆: 21_21 Design Sight"
 description: "「Why do they go that far？」"
 tags: [travel]
-categories: [life]
+categories: [post]
 emoji: 🎨
 ---
 

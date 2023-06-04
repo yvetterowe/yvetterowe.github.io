@@ -3,7 +3,7 @@ layout: post
 title:  "Enum is All About Expressiveness"
 description: "Not-that-hard choices, easy life."
 tags: [ios, swift]
-categories: [tech]
+categories: [post]
 emoji: 🖐️
 ---
 [Enum](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html) is one of my favorite gems empowered by Swift's strong type system. As mentioned in [The Elements of UI Engineering](https://overreacted.io/the-elements-of-ui-engineering/), making _state_ consistent and predictable despite its entropy is a crucial part of building a delightful user experience. A properly designed data structure that could express _"This is exactly what I mean. Period."_ and _"That absolutely can't happen to me. Period."_ explicitly will make the state management less painful. 

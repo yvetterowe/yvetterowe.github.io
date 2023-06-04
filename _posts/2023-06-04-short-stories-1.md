@@ -3,7 +3,7 @@ layout: post
 title:  "Short Stories I"
 description: "Any resemblance to actual events, locales, or persons, living or dead, is coincidental."
 tags: [fictions]
-categories: [life]
+categories: [post]
 emoji: 💭
 --- 
 

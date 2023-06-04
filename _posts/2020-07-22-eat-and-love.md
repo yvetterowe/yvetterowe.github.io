@@ -4,7 +4,7 @@ layout: post
 title: 多吃点，我爱你
 description: ""
 tags: [goodolddays, booknotes]
-categories: [life]
+categories: [post]
 emoji: 🍲
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "A Bicycle for Our Minds"
 description: "What if building softwares is as easy as creating an Instagram post?"
 tags: [career, ios]
-categories: [tech]
+categories: [post]
 emoji: 🚲
 ---
 > The computer is the most remarkable tool that we've ever come up with. It's the equivalent of a bicycle for our minds.    - Steve Jobs

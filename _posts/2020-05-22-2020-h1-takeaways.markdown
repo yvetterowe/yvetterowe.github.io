@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Async Communication and Incremental Correctness"
-categories: [tech]
+categories: [post]
 emoji: 🙇🏻‍♀️
 ---
 As I described in [an earlier post](https://haoluo.io/posts/beyond-the-first-few-years), I didn't feel comfortable at all when starting my second job. It has been six months since then (crazy six months for this planet, I know), I can't say I'm back to my comfort zone now but there are definitely some takeaways that worth noting.

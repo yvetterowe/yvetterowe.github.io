@@ -3,7 +3,7 @@ layout: post
 title:  "SwiftUI: EnvironmentObject as Dependency Injection"
 description: "Though it really sounds like a global singleton."
 tags: [ios, swift]
-categories: [tech]
+categories: [post]
 emoji: 💉
 ---
 This toy counter could illustrate how to leverage `EnvironmentObject` as dependency injection to flow data around the app. It only maintains one global app-wise state `count` and supports two functionalities:

@@ -3,7 +3,7 @@ layout: post
 title:  "Reactive Dating"
 description: "All the world's a stream, and all the men and women merely observables."
 tags: [reactiveprogramming]
-categories: [tech]
+categories: [post]
 emoji: 💑
 ---
 

@@ -5,7 +5,7 @@ title:  Reservoir Sampling - Not a Fair Game for Lottery?
 date: 2015-05-22 21:08:10 -0500
 description: "Your users will love you, regardless they love math or not."
 tags: [datascience, product]
-categories: [tech]
+categories: [post]
 emoji: 🧮
 
 ---
