@@ -16,12 +16,13 @@ h5.artical-list-title {
 .article-list {
   display: block;
   padding: 0;
-  margin: 20px 0;
+  margin: 50px 0;
   list-style: none;
   li {
     position: relative;
     display: block;
-    padding: 10px 0;
+    padding: 50px 0;
+    border-bottom: 1px solid $base-border-color;
     &:last-child {
       border-bottom: 0;
     }
@@ -55,14 +56,31 @@ h5.artical-list-title {
 
 .article-list-item {
   a {
-    position: relative;
+    text-decoration: none;
+
+    h5 {
+      position: relative;
+      display: block;
+      padding-right: 25px;
+      color: $article-header-title-color;
+      border-bottom: 1px solid transparent;
+      .icon {
+        display: inline-block;
+        margin-top: -2px;
+        vertical-align: middle;
+        opacity: 0;
+        transition: opacity $base-transition-speed linear;
+      }
+    }
+    &:hover h5 .icon {
+      opacity: 1;
+    }
+  }
+  p {
     display: block;
-    padding-right: 0px;
-    font-size: 1.2em;
-    font-weight: $base-font-weight;
-    font-family: $header-font-family;
-    line-height: 1.33333em;
-    color: $article-header-title-color;
+    margin: 12px 0 10px;
+    font-size: 15px;
+    color: $article-header-description-color;
   }
 }
 
