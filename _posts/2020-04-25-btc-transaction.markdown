@@ -2,7 +2,7 @@
 layout: post
 title:  "Validate Bitcoin Transaction"
 description: ""
-tags: [cryptocurrency]
+tags: [tech, cryptocurrency]
 categories: [post]
 emoji: 🤑
 ---

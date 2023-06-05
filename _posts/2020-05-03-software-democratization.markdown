@@ -2,7 +2,7 @@
 layout: post
 title:  "A Bicycle for Our Minds"
 description: "What if building softwares is as easy as creating an Instagram post?"
-tags: [career, ios]
+tags: [tech, career]
 categories: [post]
 emoji: 🚲
 ---

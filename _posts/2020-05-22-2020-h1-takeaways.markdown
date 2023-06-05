@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Async Communication and Incremental Correctness"
+tags: [tech, career]
 categories: [post]
 emoji: 🙇🏻‍♀️
 ---

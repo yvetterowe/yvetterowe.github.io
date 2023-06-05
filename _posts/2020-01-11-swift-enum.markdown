@@ -2,7 +2,7 @@
 layout: post
 title:  "Enum is All About Expressiveness"
 description: "Not-that-hard choices, easy life."
-tags: [ios, swift]
+tags: [tech, ios, swift]
 categories: [post]
 emoji: 🖐️
 ---

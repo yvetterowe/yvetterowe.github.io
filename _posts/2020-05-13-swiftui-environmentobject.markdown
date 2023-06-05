@@ -2,7 +2,7 @@
 layout: post
 title:  "SwiftUI: EnvironmentObject as Dependency Injection"
 description: "Though it really sounds like a global singleton."
-tags: [ios, swift]
+tags: [tech, ios, swift]
 categories: [post]
 emoji: 💉
 ---

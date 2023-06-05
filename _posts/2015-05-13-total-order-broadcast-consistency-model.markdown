@@ -4,7 +4,7 @@ layout: post
 title:  Understanding the Role of Total Order Broadcast in Linearizability and Sequential Consistency
 description: They're not obvious to me at first glance.
 date: 2015-05-13 21:08:10 -0500
-tags: [distributedsystem]
+tags: [tech, distributedsystem]
 categories: [post]
 emoji: 📡
 imagetype: post
