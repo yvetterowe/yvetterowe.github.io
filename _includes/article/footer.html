@@ -1,8 +1,0 @@
-<div class="article-pagination">
-  {% if page.previous != nil %}
-    <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}" class="article-pagination-right">Older post <small><i class="fas fa-angle-double-right" aria-hidden="true"></i></small></a>
-  {% endif %}
-  {% if page.next != nil %}
-    <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}"><small><i class="fas fa-angle-double-left" aria-hidden="true"></i></small> Newer post</a>
-  {% endif %}
-</div>
