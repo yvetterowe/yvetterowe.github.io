@@ -5,16 +5,16 @@
 // Typography
 // =============================================================================
 
-$sans-serif: "Lato", Helvetica, Arial, sans-serif;
-$serif: "Cardo","Cormorant Garamond", "Lato", Courier, serif;
-$monospace: "Ubuntu Mono", Monospace;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$serif: "Cardo","Cormorant Garamond", Georgia, serif;
+$monospace: "SF Mono", "Monaco", "Inconsolata", "Fira Code", "Fira Mono", "Roboto Mono", Menlo, monospace;
 $base-font-family: $sans-serif;
-$header-font-family: $monospace;
-$gallery-font-family: $monospace;
-$home-font-family: $monospace;
+$header-font-family: $sans-serif;
+$gallery-font-family: $sans-serif;
+$home-font-family: $sans-serif;
 $base-font-weight: 400;
 $base-font-weight-bold: 600;
-$article-header-weight: 500;
+$article-header-weight: 400;
 
 // Colors
 // =============================================================================
@@ -32,16 +32,16 @@ $brand-warning: #f1c90b;
 // Grid
 
 $columns: 12;
-$max-width: 650px;
+$max-width: 720px;
 $home-max-width: 400px;
-$gutter: 20px;
+$gutter: 24px;
 $one-column: 100% / $columns;
 $negative-gutter: 0 - $gutter;
 
 // Font sizes
 
-$base-font-size: 16px;
-$base-line-height: 1.8;
+$base-font-size: 17px;
+$base-line-height: 1.7;
 
 // Box sizes
 

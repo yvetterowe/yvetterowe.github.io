@@ -8,20 +8,20 @@
 // Shades of gray
 
 $black: #000;
-$gray-darkest: #121111;
-$gray-darker: lighten($gray-darkest, 15);
-$gray-dark: lighten($gray-darkest, 30);
-$gray: lighten($gray-darkest, 45);
-$gray-light: lighten($gray-darkest, 60);
-$gray-lighter: lighten($gray-darkest, 75);
-$gray-lightest: lighten($gray-darkest, 85);
+$gray-darkest: rgb(29, 30, 32);
+$gray-darker: rgb(46, 46, 51);
+$gray-dark: rgb(100, 100, 105);
+$gray: rgb(155, 156, 157);
+$gray-light: rgb(180, 180, 182);
+$gray-lighter: rgb(200, 200, 202);
+$gray-lightest: rgb(218, 218, 219);
 $white: #fff;
 
 // Font colors
 
-$base-font-color: $gray-lighter;
-$base-accent-color: $gray-lighter;
-$base-accent-highlighted-color: darken($base-accent-color, 15);
+$base-font-color: $gray-lightest;
+$base-accent-color: $gray-light;
+$base-accent-highlighted-color: $gray-lightest;
 
 // Border color
 
@@ -30,15 +30,15 @@ $base-border-color: $gray-darker;
 // Page specific colors
 
 $body-background: $gray-darkest;
-$header-logo-color: $white;
+$header-logo-color: $gray-lightest;
 $header-link-color: $gray-light;
-$header-link-color-hover: $white;
+$header-link-color-hover: $gray-lightest;
 $article-header-title-color: $gray-lightest;
 $article-header-description-color: $gray;
 $article-post-titles-color: $gray-lightest;
-$article-footer-color: $gray-dark;
+$article-footer-color: $gray;
 $article-footer-link-color: $gray-light;
-$article-footer-link-color-hover: $white;
+$article-footer-link-color-hover: $gray-lightest;
 $article-paginator-color-hover: $gray-lightest;
 
 // Imports
