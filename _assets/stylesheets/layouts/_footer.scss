@@ -7,13 +7,17 @@
   position: fixed;
   right: 20px;
   bottom: 20px;
-  font-family: $monospace;
+  font-family: $base-font-family;
   p {
     font-size: 12px;
-    color: $gray-less-dark;
+    color: $base-accent-color;
   }
   a {
     text-decoration: none;
+    color: $base-accent-color;
+    &:hover {
+      color: $base-accent-highlighted-color;
+    }
   }
 }
 

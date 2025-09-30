@@ -100,7 +100,8 @@
 
 .home-grid-centered {
   max-width: $max-width;
-  margin: 40px;
+  margin: 40px auto;
+  margin-left: calc(50% - #{$max-width}/2 - 55px);
 }
 
 // Responsive

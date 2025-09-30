@@ -284,12 +284,7 @@ table td {
 
 .home-container {
   display: block;
-  width: $home-max-width;
-
-  @media only screen and (max-width: $home-max-width) {
-    margin: 4% auto auto auto;
-    width: 100%;
-  }
+  max-width: $max-width;
 }
 
 .home-text-container {

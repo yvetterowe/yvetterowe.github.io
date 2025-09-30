@@ -41,6 +41,7 @@
       {% asset dark.css @inline amp-custom !rel !crossorigin !integrity %}
     {% endif %}
   {% else %}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
     {% if site.local_fonts %}
       {% if site.blog_theme == "light" %}
         {% asset fonts-light.css @inline %}
