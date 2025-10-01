@@ -9,16 +9,40 @@
   padding-top: 40px;
 }
 
-.header-logo {
+.header-logo-container {
   position: fixed;
   top: 40px;
   left: calc(50% - #{$max-width}/2 - 55px - 150px);
+  z-index: 100;
+}
+
+.header-logo {
+  display: block;
   font-family: $base-font-family;
   font-size: 1.5em;
   font-weight: 700;
   color: $header-logo-color;
   text-decoration: none;
-  z-index: 100;
+  margin-bottom: 0;
+}
+
+.header-divider {
+  display: none;
+}
+
+.header-emojis {
+  display: flex;
+  gap: 8px;
+
+  a {
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 }
 
 .header-icon {
@@ -67,11 +91,27 @@
   .header-nav {
     text-align: center;
   }
-  .header-logo {
+  .header-logo-container {
     position: static;
     margin: 4% auto auto auto;
     width: 100%;
     left: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .header-logo {
+    margin-bottom: 0;
+  }
+  .header-divider {
+    display: inline-block;
+    color: $header-logo-color;
+    font-size: 1.2em;
+  }
+  .header-emojis {
+    gap: 6px;
   }
   .header-links {
     display: block;
@@ -87,10 +127,26 @@
 }
 
 @include breakpoint(small) {
-  .header-logo {
+  .header-logo-container {
     position: static;
     margin-top: 2%;
     width: 100%;
     left: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .header-logo {
+    margin-bottom: 0;
+  }
+  .header-divider {
+    display: inline-block;
+    color: $header-logo-color;
+    font-size: 1.2em;
+  }
+  .header-emojis {
+    gap: 6px;
   }
 }

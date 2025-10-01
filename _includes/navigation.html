@@ -1,7 +1,15 @@
 <nav class="header-nav">
-  <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}">
-    {{ site.name }}
-  </a>
+  <div class="header-logo-container">
+    <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}">
+      {{ site.name }}
+    </a>
+    <span class="header-divider">|</span>
+    <div class="header-emojis">
+      <a href="https://run.haoluo.io/" title="Runner" target="_blank" rel="noopener noreferrer">🏃🏻‍♀️</a>
+      <a href="https://www.instagram.com/yvetterowe_/reels/" title="Vlogger" target="_blank" rel="noopener noreferrer">🎬</a>
+      <a href="https://www.linkedin.com/in/yvetterowe/" title="Builder" target="_blank" rel="noopener noreferrer">👩🏻‍💻</a>
+    </div>
+  </div>
   <ul class="header-links">
     <li>
       <a href="{{ '/' | relative_url }}" title="Posts" {% if page.url == '/' or page.url == '/index.html' or page.url contains '/posts' %}class="active"{% endif %}>Posts</a>
