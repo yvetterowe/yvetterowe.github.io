@@ -139,7 +139,10 @@ h5.artical-list-title {
   margin-bottom: 30px;
   border-bottom: 1px solid $base-border-color;
   h1 {
-    font-family: header-font-family
+    font-family: $base-font-family;
+    font-weight: 700;
+    font-size: $base-font-size * 2;
+    letter-spacing: -0.02em;
   }
   p {
     display: block;
