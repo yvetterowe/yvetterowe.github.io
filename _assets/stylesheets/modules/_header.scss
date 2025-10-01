@@ -68,8 +68,10 @@
     text-align: center;
   }
   .header-logo {
+    position: static;
     margin: 4% auto auto auto;
     width: 100%;
+    left: auto;
   }
   .header-links {
     display: block;
@@ -86,7 +88,9 @@
 
 @include breakpoint(small) {
   .header-logo {
-    margin-top: 2% %4 auto auto;
+    position: static;
+    margin-top: 2%;
     width: 100%;
+    left: auto;
   }
 }
