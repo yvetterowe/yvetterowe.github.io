@@ -14,6 +14,34 @@ $(document).ready(function() {
     window.open($(this).attr("href"), "Share", "width=200,height=200,noopener");
     return false;
   });
+
+  /* Fade-in on scroll animation for posts */
+  $(".article-list-item").each(function(index) {
+    $(this).css({
+      'opacity': '0',
+      'transform': 'translateY(20px)',
+      'transition': 'opacity 0.6s ease, transform 0.6s ease'
+    });
+  });
+
+  function revealPosts() {
+    $(".article-list-item").each(function() {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      if (elementBottom > viewportTop && elementTop < viewportBottom) {
+        $(this).css({
+          'opacity': '1',
+          'transform': 'translateY(0)'
+        });
+      }
+    });
+  }
+
+  revealPosts();
+  $(window).on('scroll', revealPosts);
 });
 
 $(document).ready(function(){
