@@ -57,17 +57,40 @@
 }
 
 @include breakpoint(small) {
+  .tag-list {
+    display: block;
+    margin: 20px 0;
+  }
+
   .tag-list-item {
+    display: block;
+    margin-bottom: 16px;
+
     a {
-      padding: 6px 12px;
-      padding-right: 24px;
-      font-size: 0.85em;
+      display: inline;
+      padding: 0;
+      background: none;
+      border: none;
+      border-radius: 0;
+      font-size: 1em;
       font-weight: 400;
+      text-decoration: underline;
+      text-decoration-color: $link-underline-color;
+
+      &:hover {
+        background: none;
+        border: none;
+        transform: none;
+        box-shadow: none;
+      }
     }
   }
 
   .tag-count {
-    font-size: 0.7em;
-    font-weight: 600;
+    position: static;
+    margin-left: 8px;
+    font-size: 0.9em;
+    font-weight: 400;
+    opacity: 0.5;
   }
 }

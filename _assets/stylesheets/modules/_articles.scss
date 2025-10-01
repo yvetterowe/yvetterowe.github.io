@@ -241,12 +241,27 @@ h5.artical-list-title {
   }
   .article-list-footer {
     display: block;
+    font-size: 11px;
+
+    span {
+      font-size: 11px;
+    }
+
+    a {
+      font-size: 11px;
+      color: $article-footer-link-color;
+    }
   }
-  .article-list-divider:last-of-type {
+  .article-list-divider {
     display: none;
   }
   .article-list-tags {
     display: block;
-    margin-top: -7px;
+    margin-top: 4px;
+    margin-left: 0;
+
+    a {
+      display: inline;
+    }
   }
 }
