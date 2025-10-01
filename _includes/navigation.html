@@ -12,12 +12,5 @@
     <li>
       <a href="{{ '/about' | relative_url }}" title="About" {% if page.url contains '/about' or page.url contains 'about' %}class="active"{% endif %}>About</a>
     </li>
-    {% if site.theme_toggle %}
-      <li>
-        <button id="theme-toggle" class="header-icon-link" title="Toggle theme">
-          <i class="fas fa-adjust"></i>
-        </button>
-      </li>
-    {% endif %}
   </ul>
 </nav>
