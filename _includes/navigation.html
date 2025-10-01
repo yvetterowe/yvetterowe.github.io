@@ -7,6 +7,9 @@
       <a href="{{ '/' | relative_url }}" title="Posts" {% if page.url == '/' or page.url == '/index.html' or page.url contains '/posts' %}class="active"{% endif %}>Posts</a>
     </li>
     <li>
+      <a href="{{ '/tags' | relative_url }}" title="Tags" {% if page.url contains '/tags' %}class="active"{% endif %}>Tags</a>
+    </li>
+    <li>
       <a href="{{ '/about' | relative_url }}" title="About" {% if page.url contains '/about' or page.url contains 'about' %}class="active"{% endif %}>About</a>
     </li>
     {% if site.theme_toggle %}
