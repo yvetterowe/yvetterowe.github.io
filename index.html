@@ -10,7 +10,7 @@ pagination:
     <li class="article-list-item">
       <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
         <h5>
-          {{ post.title }}
+          {{ post.title }} <div class="emoji-hover" aria-hidden="true">{{ post.emoji }}</div>
         </h5>
         <p>
           {% if post.description %}
