@@ -6,17 +6,19 @@
   display: block;
   max-width: $max-width;
   margin: 0 auto;
+  padding-top: 40px;
 }
 
 .header-logo {
-  display: inline-block;
+  position: fixed;
+  top: 40px;
+  left: calc(50% - #{$max-width}/2 - 55px - 150px);
   font-family: $base-font-family;
   font-size: 1.5em;
   font-weight: 700;
   color: $header-logo-color;
   text-decoration: none;
-  margin: 40px 0;
-  margin-left: -55px;
+  z-index: 100;
 }
 
 .header-icon {
@@ -32,10 +34,10 @@
 }
 
 .header-links {
-  float: right;
   padding: 0;
-  margin: 42px 0 0;
+  margin: 0 0 40px 0;
   list-style: none;
+  text-align: right;
   li {
     display: inline-block;
     margin-left: 24px;
