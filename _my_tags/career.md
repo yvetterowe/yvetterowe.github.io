@@ -1,5 +1,5 @@
 ---
 sitemap: false
 slug: career
-name: Career
+name: Work
 ---
