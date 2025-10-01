@@ -57,6 +57,12 @@ h5.artical-list-title {
 .article-list-item {
   a {
     text-decoration: none;
+    display: block;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: translateX(4px);
+    }
 
     h5 {
       position: relative;
@@ -64,6 +70,7 @@ h5.artical-list-title {
       padding-right: 25px;
       color: $article-header-title-color;
       border-bottom: 1px solid transparent;
+      transition: color $base-transition-speed ease;
       .icon {
         display: inline-block;
         margin-top: -2px;
@@ -71,6 +78,9 @@ h5.artical-list-title {
         opacity: 0;
         transition: opacity $base-transition-speed linear;
       }
+    }
+    &:hover h5 {
+      color: $base-accent-highlighted-color;
     }
     &:hover h5 .icon {
       opacity: 1;
