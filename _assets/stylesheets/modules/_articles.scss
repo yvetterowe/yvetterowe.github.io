@@ -105,11 +105,13 @@ h5.artical-list-title {
     vertical-align: middle;
   }
   a {
-    margin-right: 7.5px;
     color: $article-footer-link-color;
     &:hover {
       color: $article-footer-link-color-hover;
     }
+  }
+  .article-list-tags a {
+    margin-right: 4px;
     &:last-child {
       margin-right: 0;
     }
@@ -117,12 +119,13 @@ h5.artical-list-title {
 }
 
 .article-list-divider {
-  margin: 0 15px;
+  display: none;
 }
 
 .article-list-tags {
   display: inline-block;
   vertical-align: top;
+  margin-left: 15px;
 }
 
 .article-empty {

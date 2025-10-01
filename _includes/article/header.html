@@ -5,7 +5,6 @@
     <span class="article-list-date">
       {{ page.date | date: "%B %-d, %Y" }}
     </span>
-    <span class="article-list-divider">-</span>
     <div class="article-list-tags">
       {% for tag in page.tags %}
         <a href="{{ 'tag/' | relative_url }}{{ tag }}">
