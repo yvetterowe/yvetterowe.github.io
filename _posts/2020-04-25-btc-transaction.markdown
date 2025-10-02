@@ -25,49 +25,49 @@ Same requirements apply to cryptocurrency like Bitcoin as well. If it fails eith
 
 The Bitcoin system works like a [double-entry bookkeeping ledger](https://en.wikipedia.org/wiki/Double-entry_bookkeeping), in which all the information about a money movement is encoded in a [Bitcoin transaction](https://en.bitcoin.it/wiki/Transaction) . Most standard P2P transactions consist of `inputs` and `outputs`, where the former describes where the fund comes from and the latter describes where it’ll end up at. [Coinbase transaction](https://bitcoin.org/en/glossary/coinbase-transaction) is an exception that doesn’t have any `inputs` because instead of transferred from a previous owner, it’s created by miners. Also, each transaction can be identified with a unique [Transaction Identifier (TXID)](https://bitcoin.org/en/glossary/txid), which is the hash of raw transaction data.
 
-{% splash %}
+```swift
 enum Transaction {
     case coinbase(id: ID, outputs: [Output])
     case standard(id: ID, inputs: [Input], outputs: [Output])
 }
-{% endsplash %}
+```
 
 `Output` gives instructions on transferring the Bitcoin: *to whom* and *how much.*
 
-{% splash %}
+```swift
 struct Output {
     let recipientAddress: Address
     let value: Coins
 }
-{% endsplash %}
+```
 
 Remember that in order for the double-entry ledger to neither lose money nor create money out of thin air, an `Input` of a transaction must refer to the  `Output` of a previous transaction.
 
 Here’s how this connection is bridged. Whenever an `Output` is generated, it’s “dumped” into a pool where it waits to be redeemd by the new owner. It maintains a temporary identity as [Unspent Transaction Output (UTXO)](https://bitcoin.org/en/glossary/unspent-transaction-output) during this grace period. 
 
-{% splash %}
+```swift
 struct UnspentTransactionOutputID: Hashable {
     let txID: ID
     let txOutputIndex: Int
 }
 
 let utxoPool = [Transaction.UnspentTransactionOutputID: Transaction.Output]()
-{% endsplash %}
+```
 
 When the new owner is ready to redeem the money payable to her, she starts assembling her `Input` that could be used to locate  `Output` in the pool.
 
-{% splash %}
+```swift
 struct Input {
     let previousTxID: ID
     let previousTxOutputIndex: Int
     let signature: Signature
 }
-{% endsplash %}
+```
 
-{% splash %}
+```swift
 let utxoID = UnspentTransactionOutputID(txID: input.previousTxID, txOutputIndex: input.previousTxOutputIndex)
 let utxo = utxoPool[utxoID]
-{% endsplash %}
+```
 
 But remember that this located `utxo` can be spotted by everyone, not limited to the recipient. Then does that mean everyone can just pick it up from the pool and claim it as theirs? Good luck with that.  
 
@@ -95,7 +95,7 @@ Things only go well when they go well. Assume Alice 👩🏻‍🌾 and Bob 🦹
 
 #### **Case 1.** 👩🏻‍🌾 and 🦹🏻‍♂️ both get initial 💰💰💰 from a coinbase transaction
 
-{% splash %}
+```swift
 let initialCoins: Transaction = .coinbase(
     id: "🔮",
     outputs: [
@@ -103,20 +103,20 @@ let initialCoins: Transaction = .coinbase(
         .init(recipientAddress: "🦹🏻‍♂️📮", value: "💰💰💰"),
     ]
 )
-{% endsplash %}
+```
 
 Everything just works! Now each of them owns some money.
-{% splash %}
+```
 🤠 hooray your transaction is validated!
 Current UTXO pool:
-🔮(1) | owner: 🦹🏻‍♂️ | amount: 💰💰💰 
-🔮(0) | owner: 👩🏻‍🌾 | amount: 💰💰💰 
-{% endsplash %}
+🔮(1) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
+🔮(0) | owner: 👩🏻‍🌾 | amount: 💰💰💰
+```
 
 #### **Case 2.** 👩🏻‍🌾 pays 💰💰 to 🦹🏻‍♂️ 
 She locates the (only) previous transaction payable to her (identified as "🔮"), redeems it by verifying her signature - so far she has proved 💰💰💰 is hers, and she can do whatever she wants with them. She sends 💰💰 to 🦹🏻‍♂️ and sends the remaining 💰 back to herself as change. 
 
-{% splash %}
+```swift
 let realAlicePayBob: Transaction = .standard(
     id: "🍹",
     inputs: [
@@ -131,21 +131,21 @@ let realAlicePayBob: Transaction = .standard(
         .init(recipientAddress: "👩🏻‍🌾📮", value: "💰"), // change
     ]
 )
-{% endsplash %}
+```
 
 Great, now 👩🏻‍🌾 only has 💰 and 🦹🏻‍♂️ has 💰💰💰💰💰 in total. 
-{% splash %}
+```
 🤠 hooray your transaction is validated!
 Current UTXO pool:
-🍹(0) | owner: 🦹🏻‍♂️ | amount: 💰💰 
-🍹(1) | owner: 👩🏻‍🌾 | amount: 💰 
+🍹(0) | owner: 🦹🏻‍♂️ | amount: 💰💰
+🍹(1) | owner: 👩🏻‍🌾 | amount: 💰
 🔮(1) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
-{% endsplash %}
+```
 
 #### **Case 3.** 🦹🏻‍♂️ counterfeits 💰💰💰 out of thin air
 Unfortunately, he’s too lazy to do due diligence so just picks up a random transction ID  🥃 to locate previous transaction, which never exists.
 
-{% splash %}
+```swift
 let bobDayDream: Transaction = .standard(
     id: "🍸",
     inputs: [
@@ -159,21 +159,21 @@ let bobDayDream: Transaction = .standard(
         .init(recipientAddress: "🦹🏻‍♂️📮", value: "💰💰💰"),
     ]
 )
-{% endsplash %}
+```
 
 Unsurprisingly, his transaction is denied.
-{% splash %}
-😏 uh oh your transaction is denied. 
+```
+😏 uh oh your transaction is denied.
 Reason: Input not found in UTXO pool
 Current UTXO pool:
-🍹(0) | owner: 🦹🏻‍♂️ | amount: 💰💰 
-🍹(1) | owner: 👩🏻‍🌾 | amount: 💰 
+🍹(0) | owner: 🦹🏻‍♂️ | amount: 💰💰
+🍹(1) | owner: 👩🏻‍🌾 | amount: 💰
 🔮(1) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
-{% endsplash %}
+```
     
 #### **Case 4.** 🦹🏻‍♂️ counterfeits 💰 paid by 👩🏻‍🌾
 This time he gets smarter. He looks up a previous existing transaction 🍹 payable to 👩🏻‍🌾, fakes a signature and put himself as recipient. 
-{% splash %}
+```swift
 let fakeAlicePayBob: Transaction = .standard(
     id: "🍺",
     inputs: [
@@ -187,21 +187,21 @@ let fakeAlicePayBob: Transaction = .standard(
         .init(recipientAddress: "🦹🏻‍♂️📮", value: "💰"),
     ]
 )
-{% endsplash %}
+```
 
 But…transaction 🍹 is payable to 👩🏻‍🌾, so only her signature could redeem it.
-{% splash %}
-😏 uh oh your transaction is denied. 
+```
+😏 uh oh your transaction is denied.
 Reason: Invalid input signature
 Current UTXO pool:
-🍹(0) | owner: 🦹🏻‍♂️ | amount: 💰💰 
-🍹(1) | owner: 👩🏻‍🌾 | amount: 💰 
+🍹(0) | owner: 🦹🏻‍♂️ | amount: 💰💰
+🍹(1) | owner: 👩🏻‍🌾 | amount: 💰
 🔮(1) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
-{% endsplash %}
+```
 
 #### **Case 5.** 👩🏻‍🌾 tries paying 💰💰 to 🦹🏻‍♂️ by redeeming 💰 twice 
 She needs to pay 🦹🏻 💰💰, but she only owns 💰now - so she's gonna try her luck by redeeming same UTXO payable to her multiple times.💰x 2 = 💰💰,  what a beautiful math.
-{% splash %}
+```swift
 let alicePayBobDoubleSpend: Transaction = .standard(
     id: "🥂",
     inputs: [
@@ -220,24 +220,24 @@ let alicePayBobDoubleSpend: Transaction = .standard(
         .init(recipientAddress: "🦹🏻‍♂️📮", value: "💰💰"),
     ]
 )
-{% endsplash %}
+```
 
 "Same UTXO redeemd multiple times in inputs"...Bummer.
 
-{% splash %}
+```
 Try adding a transaction...
-😏 uh oh your transaction is denied. 
+😏 uh oh your transaction is denied.
 Reason: Same UTXO redeemd multiple times in inputs
 Current UTXO pool:
-🍹(0) | owner: 🦹🏻‍♂️ | amount: 💰💰 
-🍹(1) | owner: 👩🏻‍🌾 | amount: 💰 
+🍹(0) | owner: 🦹🏻‍♂️ | amount: 💰💰
+🍹(1) | owner: 👩🏻‍🌾 | amount: 💰
 🔮(1) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
-{% endsplash %}
+```
 
 #### **Case 6.** 🦹🏻‍♂️ tries aggregating 💰💰💰 + 💰💰 into 💰💰💰💰💰💰
 He just loses faith that 👩🏻‍🌾 could figure out a way to pay him, so he decides to try something creative again. “What if I just aggregate all my funds, and secretly add a little more to it?” 
 
-{% splash %}
+```swift
 let bobAggregateChangesMoreThanHeOwn: Transaction = .standard(
     id: "🍻",
     inputs: [
@@ -256,16 +256,16 @@ let bobAggregateChangesMoreThanHeOwn: Transaction = .standard(
         .init(recipientAddress: "🦹🏻‍♂️📮", value: "💰💰💰💰💰💰"),
     ]
 )
-{% endsplash %}
+```
 
 OK, fair enough. 
-{% splash %}
-😏 uh oh your transaction is denied. 
+```
+😏 uh oh your transaction is denied.
 Reason: Total input 💰💰💰💰💰 is less than total output 💰💰💰💰💰💰
 Current UTXO pool:
-🍹(0) | owner: 🦹🏻‍♂️ | amount: 💰💰 
-🍹(1) | owner: 👩🏻‍🌾 | amount: 💰 
-🔮(1) | owner: 🦹🏻‍♂️ | amount: 💰💰💰 
-{% endsplash %}
+🍹(0) | owner: 🦹🏻‍♂️ | amount: 💰💰
+🍹(1) | owner: 👩🏻‍🌾 | amount: 💰
+🔮(1) | owner: 🦹🏻‍♂️ | amount: 💰💰💰
+```
 
 It feels like being a bad actor is way much harder than being a good citizen? 
