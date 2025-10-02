@@ -11,7 +11,7 @@ permalink: /tags/
     {% if tag_posts.size > 0 %}
       <li class="tag-list-item">
         <a href="{{ '/tag/' | relative_url }}{{ tag.slug }}">
-          {{ tag.name | upcase }}
+          #{{ tag.name | upcase }}
           <span class="tag-count">{{ tag_posts.size }}</span>
         </a>
       </li>
