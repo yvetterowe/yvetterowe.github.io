@@ -61,7 +61,7 @@ h5.artical-list-title {
     transition: transform 0.2s ease;
 
     &:hover {
-      transform: translateX(4px);
+      transform: translateZ(0) scale(1.005);
     }
 
     h5 {
