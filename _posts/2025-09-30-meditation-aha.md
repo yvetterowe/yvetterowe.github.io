@@ -2,8 +2,8 @@
 
 layout: post
 title: Wait, am I enlightened?
-description: An "aha!" moment on my meditation journey
-tags: [fitness, meditation]
+description: An "aha!" moment on my meditation journey.
+tags: [fitness, meditation, livingwell]
 categories: [post]
 emoji: 🧘🏻‍♀️
 

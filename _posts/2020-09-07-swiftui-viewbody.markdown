@@ -2,7 +2,7 @@
 layout: post
 title:  "SwiftUI: View is not UIView"
 description: "And body is not setNeedsLayout."
-tags: [ios, swift]
+tags: [ios, swift, tech]
 categories: [post]
 emoji: ⾝
 ---
@@ -11,24 +11,24 @@ To deliver a smooth user experience with UIKit, we usually want to refresh the v
 
 SwiftUI has multiple ways to achieve the reactive-style data-driven UI update, eg. `State` for local state and `ObservedObject` for external data source. For example, suppose there's an  `AvocadoView` that renders the number of avocado in the inventory, an `AvocadoStore` and an `AvocadoView` could be defined like this:
 
-{% splash %}
+```swift
 final class AvocadoStore: ObservableObject {
     @Published private(set) var avocadoCount: Int
 }
 
 struct AvocadoView: View {
     @ObservedObject var avocadoStore: AvocadoStore
-    
+
     var body: some View {
         print("Refreshing 🥑 view")
         return Text(String(repeating: "🥑", count: avocadoStore.avocadoCount))
     }
 }
-{% endsplash %}
+```
 
 It's summertime, let's get some peaches 🍑 as well. In practice, they probably live together with avocados in the same store.
 
-{% splash %}
+```swift
 final class FruitStore: ObservableObject {
     @Published private(set) var avocadoCount: Int
     @Published private(set) var peachCount: Int
@@ -36,13 +36,13 @@ final class FruitStore: ObservableObject {
 
 struct AvocadoView: View {
     @ObservedObject var fruitStore: FruitStore
-    
+
     var body: some View {
         print("Refreshing 🥑 view")
         return Text(String(repeating: "🥑", count: fruitStore.avocadoCount))
     }
 }
-{% endsplash %}
+```
 
 Then here comes an interesting problem with `ObservableObject` and `@Published` property wrapper. Suppose someone steals the peaches, which causes `FruitStore` to publish a new value of  `peachCount`. Should  `AvocadoView` be affected in this case? Ideally not. But in reality, I found that the `body` of `AvocadoView` is indeed re-constructed ("Refreshing 🥑 view" is logged). This is because `AvocadoView` observes on the whole `FruitStore`, which makes it re-flow its body as long as any of store's `@Published` property gets updated (aka. "published") - even though only `avocadoCount` is referenced in `body`.
 
@@ -52,11 +52,11 @@ Hmm, this is not good. We should probably embrace *Single-responsibility princip
 
 So I followed the calling by introducing a small and sweet  `AvocadoStore`:
 
-{% splash %}
+```swift
 final class AvocadoStore: ObservableObject {
     @Published private(set) var avocadoCount: Int = 0
     private var cancellable: AnyCancellable!
-    
+
     init(fruitStore: FruitStore) {
         cancellable = fruitStore.$avocadoCount
             .sink { avocadoCountInFruitStore in
@@ -67,13 +67,13 @@ final class AvocadoStore: ObservableObject {
 
 struct AvocadoView: View {
     @ObservedObject var avocadoStore: AvocadoStore
-    
+
     var body: some View {
         print("Refreshing 🥑 view")
         return Text(String(repeating: "🥑", count: avocadoStore.avocadoCount))
     }
 }
-{% endsplash %}
+```
 
 What `AvocadoStore` basically does is to bridge `FruitStore` and `AvocadoView` while preventing `AvocadoView` from being exposed to irrelevant noise (`peachCount` in our case). This all sounds right...but do we really need it?
 

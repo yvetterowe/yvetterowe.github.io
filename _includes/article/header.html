@@ -7,8 +7,15 @@
     </span>
     <div class="article-list-tags">
       {% for tag in page.tags %}
+        {% assign my_tags = site.collections | where: "label", "my_tags" | first %}
+        {% for my_tag in my_tags.docs %}
+          {% if tag == my_tag.slug %}
+            {% assign tag_name = my_tag.name %}
+          {% endif %}
+        {% endfor %}
+        {% assign upcase_tag_name = tag_name | upcase %}
         <a href="{{ 'tag/' | relative_url }}{{ tag }}">
-          #{{ tag }}
+          #{{ upcase_tag_name }}
         </a>
       {% endfor %}
     </div>

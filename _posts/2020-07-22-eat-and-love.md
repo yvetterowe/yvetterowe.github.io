@@ -2,8 +2,8 @@
 
 layout: post
 title: 多吃点，我爱你
-description: ""
-tags: [goodolddays, booknotes]
+description: "Eat, pray, love"
+tags: [goodolddays]
 categories: [post]
 emoji: 🍲
 ---

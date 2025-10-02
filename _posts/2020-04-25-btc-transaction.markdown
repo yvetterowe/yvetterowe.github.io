@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Validate Bitcoin Transaction"
-description: ""
+description: "An bank robbery attempt."
 tags: [tech, cryptocurrency]
 categories: [post]
 emoji: 🤑
