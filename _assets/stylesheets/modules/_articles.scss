@@ -227,10 +227,153 @@ h5.artical-list-title {
   }
 }
 
+// Archive Layout
+// =============================================================================
+
+.archive-container {
+  display: block;
+  margin: 40px 0;
+}
+
+.archive-year-section {
+  display: block;
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.archive-year-header {
+  font-size: 24px;
+  font-weight: 700;
+  color: $article-header-title-color;
+  margin-bottom: 20px;
+  letter-spacing: -0.02em;
+}
+
+.archive-list {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.archive-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  grid-template-areas:
+    "date title";
+  align-items: baseline;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba($base-border-color, 0.15);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background-color: rgba($base-border-color, 0.1);
+    border-color: rgba($base-border-color, 0.3);
+  }
+}
+
+.archive-date {
+  grid-area: date;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: $article-footer-color;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.archive-title {
+  grid-area: title;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: $article-header-title-color;
+  text-decoration: none;
+  transition: color $base-transition-speed ease;
+
+  &:hover {
+    color: $base-accent-highlighted-color;
+  }
+}
+
+.archive-emoji {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity $base-transition-speed ease;
+
+  .archive-item:hover & {
+    opacity: 1;
+  }
+}
+
+.archive-tags {
+  grid-area: tags;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.archive-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  color: $article-footer-link-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: color $base-transition-speed ease;
+
+  &:hover {
+    color: $article-footer-link-color-hover;
+  }
+}
+
 // Responsive
 // =============================================================================
 
 @include breakpoint(small) {
+  .archive-container {
+    margin: 20px 0;
+  }
+
+  .archive-item {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "date"
+      "title";
+    gap: 4px;
+    padding: 12px 0;
+  }
+
+  .archive-date {
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  .archive-title {
+    font-size: 15px;
+  }
+
+  .archive-tags {
+    justify-content: flex-start;
+  }
+
+  .archive-tag {
+    font-size: 10px;
+  }
+
+
   .article-list-item {
     a {
     position: relative;

@@ -7,6 +7,8 @@
   max-width: $max-width;
   margin: 0 auto;
   padding-top: 40px;
+  padding-left: $gutter;
+  padding-right: $gutter;
 }
 
 .header-logo-container {
