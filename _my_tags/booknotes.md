@@ -1,5 +1,5 @@
 ---
 sitemap: false
 slug: booknotes
-name: book
+name: Book
 ---

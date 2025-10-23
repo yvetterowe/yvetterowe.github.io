@@ -1,5 +1,5 @@
 ---
 sitemap: false
 slug: goodolddays
-name: good old days
+name: Good Old Days
 ---

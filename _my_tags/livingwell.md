@@ -1,5 +1,5 @@
 ---
 sitemap: false
 slug: livingwell
-name: living well
+name: Living Well
 ---

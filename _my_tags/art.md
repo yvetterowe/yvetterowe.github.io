@@ -1,5 +1,5 @@
 ---
 sitemap: false
 slug: art
-name: art
+name: Art
 ---

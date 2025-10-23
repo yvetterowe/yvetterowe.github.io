@@ -1,5 +1,5 @@
 ---
 sitemap: false
 slug: meditation
-name: meditation
+name: Meditation
 ---

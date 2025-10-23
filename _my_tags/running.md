@@ -1,5 +1,5 @@
 ---
 sitemap: false
 slug: running
-name: running
+name: Running
 ---

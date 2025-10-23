@@ -1,5 +1,5 @@
 ---
 sitemap: false
 slug: fitness
-name: fitness
+name: Fitness
 ---

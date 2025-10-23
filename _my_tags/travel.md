@@ -1,5 +1,5 @@
 ---
 sitemap: false
 slug: travel
-name: travel
+name: Travel
 ---

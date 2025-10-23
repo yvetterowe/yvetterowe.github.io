@@ -3,6 +3,8 @@ layout: default
 sitemap: false
 ---
 
+<h1 style="margin-top: 2rem; margin-bottom: 1rem;">#{{ page.name | upcase }}</h1>
+
 {% if site.tags[page.slug] %}
   <ul class="article-list">
     {% for post in site.tags[page.slug] %}
