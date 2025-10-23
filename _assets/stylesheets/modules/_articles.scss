@@ -273,15 +273,9 @@ h5.artical-list-title {
   gap: 20px;
   padding: 16px 0;
   border-bottom: 1px solid rgba($base-border-color, 0.15);
-  transition: background-color 0.2s ease, border-color 0.2s ease;
 
   &:last-child {
     border-bottom: none;
-  }
-
-  &:hover {
-    background-color: rgba($base-border-color, 0.1);
-    border-color: rgba($base-border-color, 0.3);
   }
 }
 
@@ -302,10 +296,10 @@ h5.artical-list-title {
   font-weight: 500;
   color: $article-header-title-color;
   text-decoration: none;
-  transition: color $base-transition-speed ease;
+  transition: text-decoration $base-transition-speed ease;
 
   &:hover {
-    color: $base-accent-highlighted-color;
+    text-decoration: underline;
   }
 }
 
