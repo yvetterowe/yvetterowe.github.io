@@ -94,14 +94,13 @@
 
 .default-grid-centered {
   max-width: $max-width;
-  margin-left: 20%;
+  margin-left: auto;
   margin-right: auto;
 }
 
 .home-grid-centered {
   max-width: $max-width;
   margin: 40px auto;
-  margin-left: calc(50% - #{$max-width}/2 - 55px);
 }
 
 // Responsive

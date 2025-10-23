@@ -15,6 +15,29 @@ $(document).ready(function() {
     return false;
   });
 
+  /* Mobile menu toggle */
+  $(".mobile-menu-toggle").on("click", function() {
+    $(this).toggleClass("active");
+    $(".header-links").toggleClass("active");
+    $(this).attr("aria-expanded", $(this).hasClass("active"));
+  });
+
+  /* Close mobile menu when clicking on a link */
+  $(".header-links a").on("click", function() {
+    $(".mobile-menu-toggle").removeClass("active");
+    $(".header-links").removeClass("active");
+    $(".mobile-menu-toggle").attr("aria-expanded", "false");
+  });
+
+  /* Close mobile menu when clicking outside */
+  $(document).on("click", function(event) {
+    if (!$(event.target).closest(".header-nav").length) {
+      $(".mobile-menu-toggle").removeClass("active");
+      $(".header-links").removeClass("active");
+      $(".mobile-menu-toggle").attr("aria-expanded", "false");
+    }
+  });
+
   /* Fade-in on scroll animation for posts */
   $(".article-list-item").each(function(index) {
     $(this).css({

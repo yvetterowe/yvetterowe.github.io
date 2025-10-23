@@ -344,7 +344,7 @@ h5.artical-list-title {
 
 @include breakpoint(small) {
   .archive-container {
-    margin: 20px 0;
+    margin: 0 0 20px 0;
   }
 
   .archive-item {
