@@ -29,3 +29,5 @@ emoji: 🌁
 还记得Leon临死前对Mathilda说，I wanna be happy, sleep in a bed, have roots. 有时候觉得change is the only constant/embrace the uncertainty这些论调是多么酷多么bold，有时候却也无法掩饰会有sleep in a bed, have roots这么一份最朴素的梦想。
 
 扯远了，但想来100F那天的三番或许真的是个好开端吧。我会尽自己的努力认真工作，好好生活，扎根身心，以温暖踏实的姿态迎接另一个美丽心灵的到来。
+
+{% include image.html type=page.imagetype path="posts/sunset.jpg" path-detail="posts/sunset.jpg" %}
