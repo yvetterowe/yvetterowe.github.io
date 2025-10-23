@@ -3,7 +3,7 @@
 layout: post
 title: A Minimal Tale of Two Cities
 description: ""
-tags: [travel]
+tags: [travel, sanfrancisco]
 categories: [post]
 emoji: 🌁
 ---
