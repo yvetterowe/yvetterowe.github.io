@@ -3,19 +3,26 @@ layout: default
 sitemap: false
 ---
 
-<h1 style="margin-top: 2rem; margin-bottom: 1rem;">#{{ page.name | upcase }}</h1>
+<h1 style="margin-top: 2rem; margin-bottom: 1rem; text-align: left;">#{{ page.name | upcase }}</h1>
 
 {% if site.tags[page.slug] %}
-  <ul class="article-list">
-    {% for post in site.tags[page.slug] %}
-      <li class="article-list-item">
-        <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-          {{ post.title }}
-           <div class="emoji-hover" aria-hidden="true">{{ post.emoji }}</div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="archive-container">
+    <ul class="archive-list">
+      {% for post in site.tags[page.slug] %}
+        <li class="archive-item">
+          <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%b %-d, %Y" }}
+          </time>
+          <a href="{{ post.url | relative_url }}" class="archive-title" title="{{ post.title }}">
+            {{ post.title }}
+            {% if post.emoji %}
+              <span class="archive-emoji" aria-hidden="true">{{ post.emoji }}</span>
+            {% endif %}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 {% else %}
   <p class="article-empty">
     There are no posts in {{ page.slug }}.

@@ -233,6 +233,11 @@ h5.artical-list-title {
 .archive-container {
   display: block;
   margin: 40px 0;
+
+  // Remove top margin when following an h1
+  h1 + & {
+    margin-top: 0;
+  }
 }
 
 .archive-year-section {
