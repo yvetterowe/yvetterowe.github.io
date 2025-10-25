@@ -6,6 +6,7 @@ permalink: /
 <div class="archive-container">
   <ul class="archive-list">
     {% for post in site.posts %}
+      {% unless post.url contains '-en' %}
       <li class="archive-item">
         <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">
           {{ post.date | date: "%b %-d, %Y" }}
@@ -17,6 +18,7 @@ permalink: /
           {% endif %}
         </a>
       </li>
+      {% endunless %}
     {% endfor %}
   </ul>
 </div>

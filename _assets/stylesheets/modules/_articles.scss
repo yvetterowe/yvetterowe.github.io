@@ -168,6 +168,48 @@ h5.artical-list-title {
   }
 }
 
+.language-switch {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.language-switch-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  color: $article-footer-link-color;
+  background: transparent;
+  border: 1px solid $base-border-color;
+  border-radius: $base-border-radius;
+  text-decoration: none;
+  transition: all $base-transition-speed ease;
+
+  &:hover {
+    color: $article-footer-link-color-hover;
+    border-color: $article-footer-link-color-hover;
+    background: rgba($base-border-color, 0.1);
+  }
+
+  .language-icon {
+    width: 14px;
+    height: 14px;
+    opacity: 0.7;
+    transition: opacity $base-transition-speed ease;
+  }
+
+  &:hover .language-icon {
+    opacity: 1;
+  }
+
+  span {
+    line-height: 1;
+  }
+}
+
 .article-content {
   display: block;
   p,

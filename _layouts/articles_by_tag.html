@@ -9,6 +9,7 @@ sitemap: false
   <div class="archive-container">
     <ul class="archive-list">
       {% for post in site.tags[page.slug] %}
+        {% unless post.url contains '-en' %}
         <li class="archive-item">
           <time class="archive-date" datetime="{{ post.date | date_to_xmlschema }}">
             {{ post.date | date: "%b %-d, %Y" }}
@@ -20,6 +21,7 @@ sitemap: false
             {% endif %}
           </a>
         </li>
+        {% endunless %}
       {% endfor %}
     </ul>
   </div>

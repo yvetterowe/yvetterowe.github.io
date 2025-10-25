@@ -8,11 +8,17 @@ permalink: /tags/
   {% assign sorted_tags = site.my_tags | sort: 'name' %}
   {% for tag in sorted_tags %}
     {% assign tag_posts = site.tags[tag.slug] %}
-    {% if tag_posts.size > 0 %}
+    {% assign count = 0 %}
+    {% for post in tag_posts %}
+      {% unless post.url contains '-en' %}
+        {% assign count = count | plus: 1 %}
+      {% endunless %}
+    {% endfor %}
+    {% if count > 0 %}
       <li class="tag-list-item">
         <a href="{{ '/tag/' | relative_url }}{{ tag.slug }}">
           #{{ tag.name | upcase }}
-          <span class="tag-count">{{ tag_posts.size }}</span>
+          <span class="tag-count">{{ count }}</span>
         </a>
       </li>
     {% endif %}

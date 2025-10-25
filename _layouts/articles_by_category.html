@@ -8,10 +8,12 @@ sitemap: false
 <ul class="article-list {{ page.url }}">
 	{% assign category_posts = site.posts | where: 'categories', page.slug %}
 	{% for post in category_posts %}
+	{% unless post.url contains '-en' %}
 	<li class="article-list-item">
       <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
       	{{ post.title }} <div class="emoji-hover" aria-hidden="true">{{ post.emoji }}</div>
       </a>
     </li>
+    {% endunless %}
     {% endfor %}
 </ul>

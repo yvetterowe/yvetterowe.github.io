@@ -4,6 +4,7 @@ title: Notes on Poor Charlie's Almanack
 tags: [booknotes]
 categories: [post]
 emoji: 📚
+translation_url: /posts/notes-on-poor-charlies-almanack-en/
 ---
 
 ### 耐心与机会
