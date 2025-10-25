@@ -1,13 +1,13 @@
 {% if include.type == "photo" %}
 <figure class="photo">
-  <a href="{% asset '{{ include.path-detail }}' @path %}">
-    <img class="image" src="{% asset '{{ include.path }}' @path %}" alt="{{ include.caption }}" data-action="zoom">
+  <a href="/assets/{{ include.path-detail }}">
+    <img class="image" src="/assets/{{ include.path }}" alt="{{ include.caption }}" data-action="zoom">
   </a>
   <figcaption class="photo">{{ include.caption }}</figcaption>
 </figure>
 {% else %}
 <figure class="post">
-  <img class="image" src="{% asset '{{ include.path }}' @path %}" alt="{{ include.caption }}" data-action="zoom">
+  <img class="image" src="/assets/{{ include.path }}" alt="{{ include.caption }}" data-action="zoom">
   <figcaption class="post">{{ include.caption }}</figcaption>
 </figure>
 {% endif %}
