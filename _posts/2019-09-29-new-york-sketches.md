@@ -1,11 +1,11 @@
 ---
-
 layout: post
 title: New York Sketches
 description: ""
 tags: [newyork]
 categories: [post]
 emoji: 🗽
+translation_url: /posts/new-york-sketches-en/
 ---
 
 ### 1
