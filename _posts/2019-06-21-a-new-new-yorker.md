@@ -1,11 +1,11 @@
 ---
-
 layout: post
 title: A New New Yorker
 description: ""
 tags: [newyork]
 categories: [post]
 emoji: 🗽
+translation_url: /posts/a-new-new-yorker-en/
 ---
 
 搬到纽约快一个月了，不知道是工作太忙还是跟toxic的同事怼到内伤，并没有当初从亚特兰大搬到三番时那股每周末都想出去压马路的兴奋劲儿。说来奇怪，在三番我很喜欢出去看电影看展览听音乐会，即便没有很多，但屈指可数的几个都不会错过。到了纽约好像这些东西瞬间都被贴上了“来日方长”的标签，很多时候我倒是更喜欢宅在家看看书写写代码了（咦混进了什么奇怪的东西）。佛曰人的本性还是善于逃避自由的，好像很有道理。
