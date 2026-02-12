@@ -10,7 +10,8 @@ permalink: /tags/
     {% assign tag_posts = site.tags[tag.slug] %}
     {% assign count = 0 %}
     {% for post in tag_posts %}
-      {% unless post.url contains '-en' %}
+      {% assign slug_suffix = post.slug | slice: -3, 3 %}
+      {% unless slug_suffix == '-en' %}
         {% assign count = count | plus: 1 %}
       {% endunless %}
     {% endfor %}
