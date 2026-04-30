@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://haoluo.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://haoluo.io/" rel="alternate" type="text/html" /><updated>2026-04-29T21:54:28-04:00</updated><id>https://haoluo.io/feed.xml</id><title type="html">Hao Luo</title><subtitle>chaos.filter { $0.aha || $0.wut }.map { ShowerThoughts($0) }.map { Ramblings($0) }</subtitle><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><entry><title type="html">On Making Films</title><link href="https://haoluo.io/posts/on-making-films" rel="alternate" type="text/html" title="On Making Films" /><published>2026-04-29T00:00:00-04:00</published><updated>2026-04-29T21:54:05-04:00</updated><id>https://haoluo.io/posts/on-making-films</id><content type="html" xml:base="https://haoluo.io/posts/on-making-films"><![CDATA[<p>Time really flies. For the past six years since the pandemic began, I’ve been shooting things on and off (on my phone) while taking various film-related classes, from screenwriting and acting to directing, and now (pushing myself to learn more technical stuff through) video production and cinematography. I’ve been watching films for over two decades—long before I ever thought about making them.</p>
+
+<p>I actually really like this kind of pace—it reminds me of how I jogged casually for four or five years before I ever started training for a marathon. I love beginning something without expectations, just doing it for the joy of the process itself. And as I naturally move toward a more “pro” direction, I start studying the craft more intentionally, refining my approach and drawing motivation from the sense of progress and the positive feedback loop it creates.</p>
+
+<p>I think this kind of slow start gives me room to grow freely. It allows me to define my own experience without being constrained by preconceived frameworks—and in my opinion, that becomes incredibly important later on. It’s about staying true to my original intention. No matter what challenges come up down the road, I can always return to that beginner’s joy, and to why I started in the first place. It keeps me grounded. It keeps me honest with myself.</p>
+
+<p>As for why I want to make films…</p>
+
+<p>First, I’ve always been drawn to self-expression. I find joy in being on stage, in front of the camera, and just as much in working behind the scenes.</p>
+
+<p>Second, I see filmmaking as something deeply holistic—like my favorite compound movements in weightlifting.</p>
+
+<p>Film as a medium in itself is holistic. It carries movement, time, and transformation. It brings together images, performance, sound, music, and environment—every element quietly working together to create something that feels alive.</p>
+
+<p>Maybe that’s also why it resonates with me so deeply. It reflects a theme I’ve noticed in my studies and work as well: I’ve always preferred working on things where I can develop an end-to-end understanding of a product or system, rather than just optimizing a single metric. (That’s why, back in graduate school, following the trend of doing machine learning—tuning models and running experiments—felt pretty miserable to me…)</p>
+
+<p>Filmmaking is exactly that kind of system-level work. It’s a collaborative effort where different departments come together to create something great as a whole. It lives at the intersection of art, business, and engineering. There are constraints—timelines, resources, the realities of execution—much like in engineering. And yet, within those boundaries, there’s a kind of creative freedom that feels deeply artistic. At the same time, film is ultimately made for an audience—it’s a product that needs to resonate, which inevitably brings in the logic of business.</p>
+
+<p>In a way, it’s similar to how Warren Buffett and Charlie Munger view investing—not just as a way to make money, but as an integration of one’s worldview and values. For me, filmmaking is the same. The stories you tell are a reflection of your life experiences and personal insights. Your style, your voice—they are uniquely yours. They can’t be replicated by a standard formula or template. That’s why I firmly believe that AI can never replace humans when it comes to pure creativity.</p>
+
+<p>And this kind of craft and instinct is something that builds over time. It requires patience, resilience, and a certain degree of self-belief. If you’re naturally gifted or have great taste, you might start from a higher baseline—that’s a kind of luck. But for most people, it’s very hard to create meaningful work through short-term, intensive approaches like “grinding” or bootcamps.</p>
+
+<p>I remember Ang Lee once said, “I want to live to 100—I have too many stories I want to tell.” I feel lucky to feel the same.</p>]]></content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="post" /><category term="career" /><category term="filmmaking" /><summary type="html"><![CDATA[Time really flies. For the past six years since the pandemic began, I’ve been shooting things on and off (on my phone) while taking various film-related classes, from screenwriting and acting to directing, and now (pushing myself to learn more technical stuff through) video production and cinematography. I’ve been watching films for over two decades—long before I ever thought about making them.]]></summary></entry><entry><title type="html">2025 NYC Marathon Race Report</title><link href="https://haoluo.io/posts/2025-nyc-marathon-race-report" rel="alternate" type="text/html" title="2025 NYC Marathon Race Report" /><published>2025-11-11T00:00:00-05:00</published><updated>2025-11-11T20:47:53-05:00</updated><id>https://haoluo.io/posts/2025-nyc-marathon-race-report</id><content type="html" xml:base="https://haoluo.io/posts/2025-nyc-marathon-race-report"><![CDATA[<p><img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35f84cb3-9430-4a1d-a7b3-95e154a51c4a_4000x2666.jpeg" alt="" />
+<em>Me in my happy place</em></p>
+
+<p>Third time’s a charm, returning to the NYCM course after two years just felt SO! GOOD! It’s been far too long since I’ve enjoyed this pure feeling of being on the course. From the moment I crossed that start line, feeling the motion of my arms, legs, and feet working together to push me forward, I was like:</p>
+
+<p><strong>Damn, I’m ME again.</strong></p>
+
+<p>That ME without any labels or constraints. That LFG version of me. That TRUE SELF.</p>
+
+<h2 id="training">Training</h2>
+
+<p>This training cycle was a bit longer than my Chicago one two years ago. The first half of the year I was mostly doing pull-up-oriented weight lifting to cope with the “impending doom of middle-aged decline”(?) crisis. I knew my running fitness had severely plummeted after nearly a year off… so I spent four weeks base building, going from a running-couch-potato to gradually building my weekly mileage from single digits to 20 miles. Then, I began a 12-week training plan similar to the Hansons method, keeping my weekly mileage between 30–35 miles and peaking at 38 miles.</p>
+
+<p>But tbh… I’m not a big fan of the Hanson approach. Three workouts a week (speed, tempo, long) were a bit too much for me with a demanding full-time job. Doing speed on Wednesday and tempo again on Friday often took so much mental effort that I ended up cutting them short (you know…after various justifications). And the Sunday easy long run also felt too long and kinda boring. Next cycle I’ll probably go back to two workouts per week, weaving MP tempo into speed or long runs. I still prefer longs with progression or MP intervals, which feel more efficient and effective to me.</p>
+
+<h2 id="race">Race</h2>
+
+<p>Since I realized I didn’t do enough tempo runs this cycle (aside from one half marathon tune-up six weeks out and a 6-mile MP in peak week, I never ran any longer steady runs at or faster than MP), I felt it would be tough to hold my original 3:45 goal pace for the full 26.2 miles. Therefore, my race goals were set as: A+ Goal 3:45 (aka. the Marathon God blesses me with superpowers) and A Goal 3:50. My race strategy was to run the first 16 miles before coming down the Queensboro Bridge all at 3:50 pace, then only pick up if I feel really good from head to toe after the bridge.</p>
+
+<p>Turns out I really didn’t have that 3:45 fitness this cycle – after the Queensboro Bridge I felt like I could hold the current pace to the finish, but didn’t have the juice to pick it up anymore.</p>
+
+<p>Because I ran the first 20 miles pretty conservatively, without that “I GOT THIS” premature confidence after the half or even 6 miles like my previous two NYCMs, so the infamous Fifth Avenue climb felt really <em>strong</em> this time! Although it was still hard and tiring, it was that sustainable hard — the kind of tiredness you expect in “the last 6 miles of a marathon”, not that feeling from before where I wanted to stop and walk every second, like a toddler at daycare crying for mommy to pick her up. Having another dose of positive-experience exposure therapy (?), my fear of the distant sight of the Fifth Avenue incline has lessened a bit ✌️</p>
+
+<p><img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85f3083c-74d4-4f2d-95a0-3b2e6af84b42_4000x2660.jpeg" alt="" /></p>
+
+<h2 id="philosophy️--feelings️">Philosophy™️ &amp; Feelings™️</h2>
+
+<p>This stream of consciousness brings me back to why I love the whole cycle of marathon training + racing. I always feel that in this fast-paced era obsessed with rocket growth, many things give us the illusion that <em>“taking a shortcut seems fine”</em> or <em>“gaming the system worked again yay”.</em> But marathon racing (including all those “one minute on stage, ten years of work backstage” things) let me see and accept again and again:</p>
+
+<p><em>If you want to run 3:45, you have to train for 3:45.</em></p>
+
+<p><em>HOWEVER, if your current fitness is too far away from 3:45, training for 3:45 is a recipe for injury.</em></p>
+
+<p><em>ANNNNND if you haven’t trained for 3:45, trying to cram in the last two taper weeks or expecting to take a leap of faith on race day…good luck with that – even if the first 23 miles give you that illusion, the last 3.2 miles will still humble you hard AF.</em></p>
+
+<p>Many people say running a marathon is a middle-aged way of reclaiming a sense of control through a quantifiable goal, to fight against the feeling of <em>nihilism</em> — well, somehow true. But what I love even more is the sense of groundedness that comes from this humbling experience: put down the ego, put in the work, and trust the process.</p>
+
+<p>One last bit of philosophizing in this stream of consciousness…Marathon is hard, but c’mon real life is sooo much harder. Life off the course has so much more uncertainty and ambiguity. No one designs a training plan for you — you have to design your own. And sometimes you encounter scenarios where you need to <a href="https://www.markrabkin.com/the-resilience-of-alien-chess/">play Go against aliens</a>, and no plan works — you can only improvise as you go, one move at a time.</p>
+
+<p>But on the other hand, the marathon course really is a mirror of life. A microcosm.</p>
+
+<p>It shows me clearly that I thrive with a rhythm of <em>“hard days hard, easy days easy, and rest days full-on horizontal”</em> work-rest balance <em>.</em></p>
+
+<p>It shows me I love that solitary and free-bird feeling when running, that drive to be my very own best cheerleader when things get tough, to push through darkness and fear and grind things out. But at the same time, it also shows me how much I appreciate the tenderness and warmth of having teammates giving me that “Good job! Looking great!” pep talks on the track, and blasting Stefanie Sun’s songs as we run the last lap should to shoulder; having friends on the sidelines holding up my fat-head signs, cheering and high-fiving; and having my emergency-contact bestie waiting for me at the finish line, giving me a big, tight hug — that sincere longing for community, support, and connection.</p>
+
+<p>And maybe that’s why I always get teary-eyed at the start line.</p>
+
+<p>Tbh I didn’t even plan to train for or run a marathon this year. I still remember the moment last summer when I decided to drop out. I had just gone through so much work exhaustion, and what I really wanted — and needed — was rest. To slow down. To go on a yoga retreat, not another marathon cycle. But my ego kept pushing. So I kept showing up, even when I didn’t want to — and that’s when the resentment started to grow. I was forcing myself to do something my heart wasn’t in anymore. I also remember how lonely it felt dragging myself up those hill repeats alone - especially when my legs and lungs were about to explode, and I thought, <em>what’s the point?</em> No one will be waiting for me at the finish line anyway. In that instant, it felt like all the air just went out of me. Everything just piled up, and in that one moment, mid-climb on Cat Hill, I suddenly felt I had nothing left in the tank. It wasn’t just physical. It was a burnout that collapsed from the inside out.</p>
+
+<p>I knew I needed a break — to step back and re-examine my relationship with running and racing.</p>
+
+<p>But back in May this year, while I was traveling in Stockholm, I stumbled upon the Stockholm Marathon. I stood on the sidewalk as a tourist, cheering for strangers, and suddenly my eyes welled up again — just like the time I ran my first marathon four years ago, and the first time I cheered for my friends at NYCM. That instant connection — that almost magical pull — was something visceral, something that came straight from the body, almost instinctive. It reawakened something in me. I knew then I wanted to do this again.</p>
+
+<p>And now, I can’t be more grateful for every day I can run, and for every encounter along the way.</p>
+
+<p><strong>More to come 🥰</strong></p>
+
+<p><img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F248a9d82-011c-4e6c-a513-3dbd3578d377_1616x1080.jpeg" alt="" />
+<em>See you on the road 👋</em></p>
+
+<h2 id="appendix">Appendix</h2>
+
+<h3 id="race-information">Race Information</h3>
+
+<ul>
+  <li><strong>Name:</strong> TCS New York City Marathon</li>
+  <li><strong>Date:</strong> November 2, 2025</li>
+  <li><strong>Distance:</strong> 26.2 miles</li>
+  <li><strong>Location:</strong> New York, NY</li>
+  <li><strong>Website:</strong> <a href="https://www.nyrr.org/tcsnycmarathon">https://www.nyrr.org/tcsnycmarathon</a></li>
+  <li><strong>Time:</strong> 3:49:54</li>
+</ul>
+
+<h3 id="goals">Goals</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Goal</th>
+      <th>Description</th>
+      <th>Completed?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A+</td>
+      <td>3:45</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>3:50</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>3:58 (Course PB)</td>
+      <td>Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="splits">Splits</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Distance</th>
+      <th>Pace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5k</td>
+      <td>8:56</td>
+    </tr>
+    <tr>
+      <td>10k</td>
+      <td>8:47</td>
+    </tr>
+    <tr>
+      <td>15k</td>
+      <td>8:45</td>
+    </tr>
+    <tr>
+      <td>20k</td>
+      <td>8:45</td>
+    </tr>
+    <tr>
+      <td>Half</td>
+      <td>8:46</td>
+    </tr>
+    <tr>
+      <td>25k</td>
+      <td>8:46</td>
+    </tr>
+    <tr>
+      <td>30k</td>
+      <td>8:44</td>
+    </tr>
+    <tr>
+      <td>35k</td>
+      <td>8:45</td>
+    </tr>
+    <tr>
+      <td>40k</td>
+      <td>8:47</td>
+    </tr>
+    <tr>
+      <td>Finish</td>
+      <td>8:47</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="post" /><category term="fitness" /><category term="running" /><category term="newyork" /><summary type="html"><![CDATA[Damn, I'm ME again.]]></summary></entry><entry><title type="html">Wait, am I enlightened?</title><link href="https://haoluo.io/posts/meditation-aha" rel="alternate" type="text/html" title="Wait, am I enlightened?" /><published>2025-09-30T00:00:00-04:00</published><updated>2025-10-02T19:41:50-04:00</updated><id>https://haoluo.io/posts/meditation-aha</id><content type="html" xml:base="https://haoluo.io/posts/meditation-aha"><![CDATA[<p>Over the past three years, my situationship with meditation has been on and off. My first try was with Headspace—back then it was one of the most popular apps. But as someone who’s very sensitive to voice, I wasn’t sold at all. The guide’s voice felt so AI (sorry!), like a machine babbling away, not a real, flesh-and-blood person. I quickly gave up, thinking: <em>what’s the point of just sitting here</em>?</p>
+
+<p>Later, when life and work started to weigh on me, I came back to it. This time I switched to Peloton. Their meditations were led by influencer instructors with personality and warmth, not a cold, generic voice. I especially loved Anna Greenberg—she has this gentle yet powerful presence, and every yoga or meditation class with her left me both grounded and relaxed. The only catch was that her classes only dropped once every week or two, and I soon ran through them all. At that point I wasn’t comfortable meditating unguided yet, so my practice stayed inconsistent.</p>
+
+<p>The real turning point came this year. Maybe it was the slow creep of a millennial midlife crisis, but I felt drawn to change, driven to pursue the dreams I’d kept on hold, and to see the blind spots I’d been missing—to gain a wider perspective. Every meditation or yoga guide begins with: <em>set your intention</em>. And for me, my intention had finally grown clearer.</p>
+
+<p>Following that calling, I signed up for online meditation classes at <a href="https://www.threejewels.org/">Three Jewels</a>, a nonprofit in New York. Each weekday night before bed, I joined a 30-minute Zoom class—ten minutes of Dharma talk and twenty minutes of guided meditation. Practicing with a teacher and others in real time made meditation feel less isolated, more like a community.</p>
+
+<p>Gradually, I also began sitting by myself every morning for thirty minutes. Six months in, I suddenly noticed something had shifted. I even half-joked to myself: <em>wait, did I just get enlightened</em>?</p>
+
+<p>Before, meditation felt fleeting. During the practice I could slow my breath, find focus, and touch calm—but it all slipped away once I stood up. Now it feels really different. It’s more like planting a seed or strength training: once the seed is planted, it keeps growing; once the muscle is built, it keeps burning calories even at rest.</p>
+
+<p>So what muscle grew? It’s the one mentioned in almost every resource on meditation: <a href="https://www.calm.com/blog/respond-vs-react"><em>respond, not react</em></a>—the self-awareness, the ability to create a gap between impulse and action. In my experience, that gap is still very small—maybe one inch, or maybe five seconds if you really want to measure it—but even within that tiny space, I start to see so many more choices—and then I can choose more consciously, in ways that align with my deeper, long-term values. I believe that for different people, this small gap may serve a different purpose—but for each of us, it opens the doorway to where we truly wish to arrive.</p>
+
+<p>What’s even more “aha!” is: creating that gap itself just feels profoundly empowering. Do you remember the first time you learned how to swim or ride a bike? Or the moment you crossed a marathon finish line, or summited a mountain peak? It’s that same rush—a strong sense of self-agency. Only this time, it’s not in the body, but in the mind.</p>
+
+<p>A small tip that helps me sustain my meditation practice is this mindset: be curious, be patient, let go of expectations, enjoy the journey—and enjoy it simply for the sake of it. I think this is the recipe for anything I’ve stayed passionate about without too much willpower over the long run. I picked up running and kept at it for years—not because I had a specific weight-loss goal or a race time to hit, but because running makes me feel free and alive. I love making videos for the same reason. Meditation is no different. I cherish that half hour of being unplugged, peaceful, and grounded—a small sanctuary of time that belongs only to me. There’s a saying: “<em>Let how you want to feel guide you</em>.” That has always worked for me.</p>
+
+<p>No grand plan, just an open heart: what may come next around the corner?</p>]]></content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="post" /><category term="fitness" /><category term="meditation" /><category term="livingwell" /><summary type="html"><![CDATA[An "aha!" moment on my meditation journey.]]></summary></entry><entry><title type="html">2023 NYC Half Marathon Race Report</title><link href="https://haoluo.io/posts/nychalf2023" rel="alternate" type="text/html" title="2023 NYC Half Marathon Race Report" /><published>2023-04-29T00:00:00-04:00</published><updated>2025-10-23T15:49:25-04:00</updated><id>https://haoluo.io/posts/nychalf2023</id><content type="html" xml:base="https://haoluo.io/posts/nychalf2023"><![CDATA[<p><img src="https://paper-attachments.dropboxusercontent.com/s_FDD382CF8714D7E688DD2EBA62BF9A5C63F8D9A71EA2DFA3235DB8D29F0E90E9_1682808438584_DSC02969_Original.jpg" alt="" />
+<em>Me in my happy place</em></p>
+
+<h2 id="race-information">Race Information</h2>
+
+<ul>
+  <li><strong>Name:</strong> United Airlines NYC Half Marathon</li>
+  <li><strong>Date:</strong> March 19, 2023</li>
+  <li><strong>Distance:</strong> 13.1 miles</li>
+  <li><strong>Location:</strong> New York, NY</li>
+  <li><strong>Website:</strong> <a href="https://www.nyrr.org/races/unitedairlinesnychalf">https://www.nyrr.org/races/unitedairlinesnychalf</a></li>
+  <li><strong>Time:</strong> 1:45:55</li>
+</ul>
+
+<h3 id="goals">Goals</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Goal</th>
+      <th>Description</th>
+      <th>Completed?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>Sub 1:45</td>
+      <td><em>No</em></td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Sub 1:48 (PB)</td>
+      <td><em>Yes</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="splits">Splits</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Distance</th>
+      <th>Pace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5k</td>
+      <td>8:29</td>
+    </tr>
+    <tr>
+      <td>10k</td>
+      <td>8:18</td>
+    </tr>
+    <tr>
+      <td>15k</td>
+      <td>8:12</td>
+    </tr>
+    <tr>
+      <td>20k</td>
+      <td>8:07</td>
+    </tr>
+    <tr>
+      <td>Finish</td>
+      <td>8:05</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="training">Training</h2>
+
+<p>I didn’t follow a training plan for this half marathon since I’ve always known training for more than one race per year tends to burn me out and deprive that pure joy of running, which is the last thing I wanna end up with. Also, I want to keep my schedule as flexible as possible to accommodate other activities I enjoy like biking and hiking during the goal race off-season. #YOLO</p>
+
+<p>Here’s a rough breakdown of my fitness stages between the goal race last year (NYC Marathon in November) and the NYC Half:</p>
+<h4 id="stage-1-cycling-focused-week-of-1121--week-of-0109-8-weeks"><strong>Stage 1. Cycling focused: week of 11/21 ~ week of 01/09 (8 weeks)</strong></h4>
+
+<p>During this time I was following a <a href="https://us.zwift.com/">Zwift</a> cycling training plan called <a href="https://whatsonzwift.com/workouts/build-me-up">Build Me Up</a>, which consists of 3~4 1~2hr interval workouts per week. They were BRUTAL but (type 2) FUN, in a way that I’d never experienced from running intervals somehow. It felt like in running I could never push my heart rate and perceived effort to that level without risking injury. Also pedaling hard in the <a href="https://trigearlab.com/pain-cave/#:~:text=A%20pain%20cave%20is%20a,looking%20at%20a%20blank%20wall.">Pain-Cave™️</a> following the rhythm of my CURATED-WITH-LOVE-CAN-REPLAY-HAPPILY-EVER-AFTER playlist while watching pro racing clips or my fav music lives just felt incredibly in-the-zone 💃🏻.</p>
+
+<p><img src="https://paper-attachments.dropboxusercontent.com/s_FDD382CF8714D7E688DD2EBA62BF9A5C63F8D9A71EA2DFA3235DB8D29F0E90E9_1683507312186_IMG_0513.JPG" alt="" />
+<em>Lives fueled Pain-Cave™️ is the best</em></p>
+
+<p>At the same time, I maintained my regular fitness routine that incorporated 1 easy run, 1 <a href="https://solidcore.co">solidcore</a>, and 1 yoga per week. Though my weekly mileage during these two winter months was only around 10 miles, my easy run pace (~150bpm heart rate) had been shaken off 1 minute from 10/mi to 9/mi - my general aerobic fitness and lower body strength definitely benefit a lot from those WTF-IS-GOING-ON or HOW-THE-HELL-DID-I-GET-THROUGH-IT cycling intervals. KUDOOOOOO!</p>
+
+<h4 id="stage-2-days-off-for-procedure-week-of-0117--week-of-0130-3-weeks"><strong>Stage 2. Days off for procedure: week of 01/17 ~ week of 01/30 (3 weeks)</strong></h4>
+
+<p>Following the doctor’s order, I took three weeks off completely for <a href="https://www.youtube.com/watch?v=0HH7hspf5Jc">my egg-freezing process</a>. During this time I walked 30~60 minutes daily to keep me moving.</p>
+
+<p>Well, actually it’s more about keeping me SANE 🤪.</p>
+
+<h4 id="stage-3-back-to-fitness-week-of-0206--week-of-0213-2-weeks"><strong>Stage 3. Back to fitness: week of 02/06 ~ week of 02/13 (2 weeks)</strong></h4>
+
+<p>I didn’t feel any pain, bloating, cramping or fatigue after the egg retrieval procedure and the next few days, so I thought that was a green light that signals I was fully recovered and could just go straight bringing back the intensity. Especially with last year’s experience of running the NYC Half right after recovering from COVID and running the NYC Marathon right after recovering from <a href="https://my.clevelandclinic.org/health/diseases/4964-trochanteric-bursitis">trochanteric bursitis</a>, I thought I’d mastered the art of listening to my body and was pretty confident that I could get back the lost fitness safely yet quickly. But still, I underestimated what the whole process of egg freezing had done to my body - I mean yeah it was not as troublesome as I thought, but at the end of the day it was still a medical procedure, with two weeks of daily hormone hacks 🫠.</p>
+
+<p>The steep regression of my fitness was all over the place: my easy run pace was 30 seconds slower; I struggled to hold the target power in those <a href="https://www.trainerroad.com/blog/sweet-spot-training-everything-you-need-to-know/">sweetspot intervals</a>; The <a href="https://www.strava.com/segments/621940">9W state line climb</a> I used to enjoy just felt crappy; And my legs felt like tofu when cramponing up <a href="https://www.newhampshireclimbing.com/lion-head-winter-route-overview/">Mt. Washington winter trail</a>. Next time…next time…I would definitely be more gentle to my body even if I feel good - ease back with only easy runs and z2 rides. Skip the 4hr ride and the mountaineering summit attempt please 🫠.</p>
+
+<h4 id="stage-4-get-ready-for-nyc-half-week-of-0220--week-of-0313-4-weeks"><strong>Stage 4. Get ready for NYC Half: week of 02/20 ~ week of 03/13 (4 weeks)</strong></h4>
+
+<blockquote>
+  <p>To finish first, first you must finish.</p>
+</blockquote>
+
+<p>This is a saying in bicycle racing, which also applies to “me getting ready for NYC Half”:</p>
+
+<ul>
+  <li><strong>First you must finish</strong>: Gradually build up the total and long run mileage - so that I can cross the finish line safely without taking another toll on my body.</li>
+  <li><strong>Finish fast (sorta)</strong>: Set up a reasonable goal pace/time based on my current fitness - so that I can cross the finish line feeling good without big regrets.</li>
+</ul>
+
+<p>My weekly mileage consisted of 3 runs: 1 easy, 1 tempo, and 1 medium long (8~11mi). And I still kept cross-training like yoga, solidcore, and a weekend 4hr endurance ride. During this time, my easy pace was still around 9:30/mi and my tempo pace started settling in 8:05~8:15/mi - the lower bound was pretty much my half PB (8:17/mi, 1:48), and the upper bound can lead to a (8/mi, sub 1:45) attempt, with a little help from the racing adrenaline rush 😈 - and that was where my A and B goals come from.</p>
+
+<h2 id="pre-race">Pre-race</h2>
+
+<h4 id="nutrition">Nutrition</h4>
+
+<ul>
+  <li>The day before: Baguette sandwich for lunch; Pasta + pizza for dinner</li>
+  <li>Race morning: oatmeal with maple syrup 2hr before the race; 1 gel 15min before the race.</li>
+</ul>
+
+<h4 id="sleep">Sleep</h4>
+
+<p>Went to bed around 10:30. Fell asleep around 11~11:30 and woke up at 5:30. Had a pretty high-quality 6hr sleep (though my regular sleep time is 8hr).</p>
+
+<h4 id="weathergears">Weather/Gears</h4>
+
+<ul>
+  <li>Weather: Clear, 30 F. Feels like 20 F. Humidity 43%. Wind 12.8 mi/h from WNW.</li>
+  <li>Pre-race: An old cycling fleece winter jersey + NYC Marathon fleece poncho. They turned out to keep my body warm before the race effectively.</li>
+  <li>Race: Merino wool long-sleeve top + long legging</li>
+</ul>
+
+<h2 id="race">Race</h2>
+
+<p>For some reason running in New York has always felt like a film scene, full of temperature and emotions. It was a classic early Fake-NYC-Spring™️ morning, a bit chilly, a bit windy, yet you could still feel the twilight and the warmth from the rising sun. I still had the same song replaying in my AirPods. Then suddenly, the starting gun fired and the crowd erupted in cheers.</p>
+
+<p>It was a strange yet consonant feeling. The song playing in my AirPods cut me off from the rest of the world - I enjoy running alone; I’m comfortable being alone; I <em>THRIVE</em> in my own space, soaking up my own joy and pain. But at the same time I also found myself being part of this swarm - something greater than myself; something scattered yet somehow <em>connected</em>, and <em>clicked</em>.</p>
+
+<p>One step after another, one mile at a time, I weaved through Prospect Park, turned onto Flatbush, climbed up Manhattan Bridge over East River, til the course started to flatten out in FDR with the cheers from Chinatown echoing in my ear.</p>
+
+<p>Then I found myself winding through those midtown streets around Time Square. I saw the city recede in the distance, everything was strangely slow-motion and blurred, yet everything was immensely absorbing. It was at this point that I remembered why I adore running. ALL THIS.</p>
+
+<p>💭 I might love it a little less if I loved freedom a little less.</p>
+
+<p>💭 I might love it a little less if I loved solitude a little less.</p>
+
+<p>💭 I might love it a little less if I loved replaying a single song for hours and hours and hours a little less.</p>
+
+<p>💭 I might love it a little less if I loved that fearless yet vulnerable teenager embedded in my body a little less.</p>
+
+<p>💭 I might love it a little less if I loved the YOLO urge to bring the best out of myself against all odds a little less.</p>
+
+<p>🗯️ WOW. NO SINGLE POINT OF FAILURE.</p>
+
+<p>The last series of climbs started at 42nd Street - this was where I could feel most people around me starting to slow down. But unlike struggling to push through the last few miles in the NYC Marathon last year, this time I felt really strong and couldn’t help but picked up the pace. Faster and faster, my legs turned over. I felt something was expanding and bursting outward, and contracting and forming inward - it was the rhythm of being - of breathing, of heartbeat, of day and night - and the rhythm of my body set off an echo in my mind. When entering the Central Park I was most familiar with, I started sprinting to empty the tank.</p>
+
+<p>Passing people toward the end just felt SO DAMN GOOD. I loooooooove negative splits.</p>
+
+<p>Though I didn’t end up hitting the sub 1:45 A goal, I was really happy crushing a PB while feeling so relaxed and strong toward the end. If there’s anything in race execution that could be improved for the A goal, I think it would be to warm up 0.5~1 mi before the race and pick up the pace a little bit at the beginning.</p>
+
+<h2 id="post-race">Post-race</h2>
+
+<p>Protein shake! Photos with Momo as an NYC Half tradition! Annnnnd pizza + beef noodle soup!</p>
+
+<h2 id="fun-facts">Fun facts</h2>
+
+<ul>
+  <li>The song I replayed for 1 hr 45 minutes from the beginning to the end is called <a href="https://www.youtube.com/watch?v=UhQuNYl-9SM">模样</a> by <a href="https://open.spotify.com/artist/7m3hJRouj4fFil1ksJDx0I?autoplay=true">Deserts Chang (张悬)</a> . It doesn’t even have a fast tempo, but it 10/10 fit my mood and the surroundings at the time. That chilly NYC spring morning.</li>
+  <li>Funny I ran into someone I didn’t know before two days in a row - at a coffee shop near my home the day before the race, and on the subway car packed with runners the morning of the race. BIG CITY, small world.</li>
+</ul>]]></content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="post" /><category term="fitness" /><category term="running" /><category term="newyork" /><summary type="html"><![CDATA[More of a 2023 Q1 fitness recap.]]></summary></entry><entry><title type="html">Notes on Nonviolent Communication</title><link href="https://haoluo.io/posts/nvc" rel="alternate" type="text/html" title="Notes on Nonviolent Communication" /><published>2021-02-04T00:00:00-05:00</published><updated>2025-10-02T19:41:50-04:00</updated><id>https://haoluo.io/posts/nvc</id><content type="html" xml:base="https://haoluo.io/posts/nvc"><![CDATA[<p><strong>📝What is NVC</strong></p>
+<ul>
+  <li>A way to give from heart</li>
+  <li>Hear our own deeper <em>needs</em> and those of others</li>
+</ul>
+
+<p><strong>📝Components of NVC (applied to both <em>expressing honestly</em> + <em>receiving empathically</em>)</strong></p>
+<ol>
+  <li>Observation</li>
+  <li>Feelings</li>
+  <li>Needs</li>
+  <li>Requests</li>
+</ol>
+
+<p><strong>📝Communication that blocks compassion</strong></p>
+<ol>
+  <li>Moralistic judgements
+    <ul>
+      <li>Imply wrongness or badness on people who don’t share our values</li>
+      <li>Such judgements are actually expressions of our own needs and values</li>
+      <li>Value judgment vs. moralistic judgement
+        <ul>
+          <li>value judgment: beliefs of how life can best be served</li>
+          <li>moralistic judgement: they’re made when people fail to support our value judgements</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Making comparison</li>
+  <li>Denial of responsibility
+    <ul>
+      <li>Our language obscures awareness of personal responsibility</li>
+      <li>Instead of implying lack of choice, acknowledge choice</li>
+    </ul>
+  </li>
+  <li>Communicate desire as demand
+    <ul>
+      <li>Demand threatens listeners with blame or punishments if they fail to comply</li>
+      <li>People change not to avoid punishment but to benefit themselves</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>📝Observing without evaluating</strong></p>
+<ul>
+  <li>When combining observation with evaluation, people are apt to hear criticism.</li>
+  <li>NVC discourages static generalizations; Instead, evaluations are made based on observations specific to <em>time</em> and <em>context</em>.</li>
+</ul>
+
+<p><strong>📝Identifying and expressing feelings</strong></p>
+<ul>
+  <li>If we’re not <em>aware of</em> feelings, we can’t express them</li>
+  <li>Feelings vs. Non-Feelings
+    <ul>
+      <li>Feelings != Thoughts</li>
+      <li>Feelings != What we think we are (eg. “I feel inadequate as a guitar player”)</li>
+      <li>Feelings != How we think others react or behave towards us (eg. “I feel understood”)</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>📝Taking responsibility for our feelings</strong></p>
+<ul>
+  <li>What others do may be the <em>stimulus</em> of our feelings, but not the <em>cause</em></li>
+  <li>4 options for receiving negative messages
+    <ol>
+      <li>blame ourselves</li>
+      <li>blame others</li>
+      <li>sense our own feelings and needs</li>
+      <li>sense others’ feelings and needs</li>
+    </ol>
+  </li>
+  <li>Connect feeling with need: “I feel…because I need…”</li>
+  <li>Judgments of others are actually alienated expressions of our own <em>unmet needs</em>. If we express our needs, we have a better chance of getting them met.</li>
+  <li>3 Stages
+    <ol>
+      <li>Emotional slavery: believe ourselves are responsible for the feelings of others (eg. feel overwhelmed when seeing partner in pain)</li>
+      <li>Obnoxious: refuse to admit to caring others’ feels or needs (eg. “That’s your problem! I’m not responsible for your feelings!”)</li>
+      <li>Emotional liberation: accept responsibility for our own feelings but not the feelings of others, while being aware that we can never meet our own needs at the expense of others.</li>
+    </ol>
+  </li>
+</ul>
+
+<p><strong>📝Requesting that which would enrich life</strong></p>
+<ul>
+  <li>Make request with <em>positive</em> and <em>concrete</em> actions that reveals what we want</li>
+  <li>Make request <em>consciously</em>
+    <ul>
+      <li>Make request != express feelings</li>
+      <li>We are often not conscious of what we are requesting (eg. complained loudly ”I’ve never seen a train go so slow in all my life!”)</li>
+      <li>Request may sound like demand when unaccompanied with by speaker’s feelings and needs (eg. “Why don’t you go and get a haircut?”)</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>📝Connecting compassionately with ourselves</strong></p>
+<ul>
+  <li>Avoid shoulding yourself!</li>
+  <li>Self-judgements, like all judgements, are tragic expressions of unmet needs</li>
+</ul>
+
+<p><strong>📝Expressing anger fully</strong></p>
+<ul>
+  <li>Hurting people when we are angry is superficial - we want a more powerful way to fully express ourselves</li>
+  <li>Steps to express anger
+    <ol>
+      <li>Stop. Breath.</li>
+      <li>Identify our judgmental thoughts</li>
+      <li>Connect with our needs</li>
+      <li>Express our feelings and unmet needs</li>
+    </ol>
+  </li>
+</ul>
+
+<p><strong>📝Conflict resolution and mediation</strong></p>
+<ul>
+  <li>Resolve conflicts by building human connections</li>
+  <li>We are taught by society to criticize, insult, and otherwise communications to that keep us apart. In a conflict, both parties usually spend too much time intent on proving themselves right and the other party wrong, rather than paying attention to their own and others’ needs.</li>
+  <li>Steps
+    <ol>
+      <li>Express our own needs</li>
+      <li>Search for real needs of the other person</li>
+      <li>Verify we both accurately recognize the other person’s needs</li>
+      <li>Provide empathy to hear each other’s needs accurately</li>
+      <li>Propose strategies for resolving the conflict, framing them in <em>positive action language</em></li>
+    </ol>
+  </li>
+</ul>
+
+<p><strong>📝Liberating ourselves and counseling others</strong></p>
+<ul>
+  <li>Focus on <em>what we want</em> rather than <em>what went wrong</em></li>
+</ul>
+
+<p><strong>📝Expressing appreciation in NVC</strong></p>
+<ul>
+  <li>Express appreciation to celebrate, not to manipulate</li>
+  <li>Thank you =  This is what you did + This is what I feel + This is the need of mine that was met</li>
+</ul>]]></content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="post" /><category term="booknotes" /><category term="livingwell" /><summary type="html"><![CDATA[What are our deeper needs?]]></summary></entry><entry><title type="html">2020</title><link href="https://haoluo.io/posts/2020-review" rel="alternate" type="text/html" title="2020" /><published>2021-01-10T00:00:00-05:00</published><updated>2023-06-04T19:09:53-04:00</updated><id>https://haoluo.io/posts/2020-review</id><content type="html" xml:base="https://haoluo.io/posts/2020-review"><![CDATA[<p>2020 is…weird. When saying “2019 is a year of moving and decision making”, I didn’t expect 2020 to be completely opposite - a year of being stuck at home. The quarantine time did give me a chance to explore the world and myself in a more reflective way rather than the experiential way, which is sometimes inspiring while other times painful. A couple takeaways:</p>
+
+<h4 id="on-well-being">On Well-Being</h4>
+<ul>
+  <li>Eat well, sleep well, workout regularly and always have something to look forward to.</li>
+  <li>It’s OK to have strong and bad emotions, but we’re not defined by our emotions.</li>
+</ul>
+
+<h4 id="on-personal-development">On Personal Development</h4>
+<ul>
+  <li>Make it easy to take risks.</li>
+  <li>Be aware of thinking traps.</li>
+</ul>
+
+<h4 id="on-creative-work">On Creative Work</h4>
+<ul>
+  <li>Don’t mix objectives. Stick to the one you care about most and try not to get upset about failing to meet others.</li>
+  <li>Motion != progress.</li>
+  <li>Balance self-belief with self-awareness. Manage morale, and seek truth.</li>
+</ul>]]></content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="post" /><category term="yearreview" /><summary type="html"><![CDATA[A year of knowing yourself from home.]]></summary></entry><entry><title type="html">Notes on a CBT Session</title><link href="https://haoluo.io/posts/notes-on-a-cbt-session" rel="alternate" type="text/html" title="Notes on a CBT Session" /><published>2020-10-28T00:00:00-04:00</published><updated>2025-10-23T11:53:27-04:00</updated><id>https://haoluo.io/posts/notes-on-a-cbt-session</id><content type="html" xml:base="https://haoluo.io/posts/notes-on-a-cbt-session"><![CDATA[<p>Lora: Morning! How are you doing in the past week?</p>
+
+<p>Me: Morning, thanks! I’m doing ok. Keep picking up more activities. I do Yoga every day. I also resume cooking, eating more veggies. Not craving carb and sweet that much anymore. Oh and I finally watched a documentary! Thank goodness. I still don’t understand why I just completely lost interest in reading and watching “normal movies” previously. All I wanna do every day is watching those TV series, episode after episode.</p>
+
+<p>Lora: I know! That brainless stuff right? We do this all the time.</p>
+
+<p>Me: Yeah exactly. Oh and…I booked a trip to Hawaii.</p>
+
+<p>Lora: Wow good for you, that’s a lot of information. What caused you to resume these activities? What changed?</p>
+
+<p>Me: I guess it starts with Yoga? I just feel both my mind and body feel better after Yoga - then I have the mood to eat healthier. Then it just kinda creates a positive feedback loop.</p>
+
+<p>Lora: That sounds really good. Ok, tell me about the documentary. How is it?</p>
+
+<p>Me: It’s sooooo good. It’s called My Octopus Teacher. It’s about a filmmaker - he got burnout from his work and just lost motivation for anything in life. So he took a gap year on an island, going scuba diving every day for one year - and that’s how long an octopus can live. During that short period of time, he observed the whole life of that octopus and kinda built a connection with her. It’s amazing. I never know that an octopus is really like a human being - she’s so vulnerable but she can also be so strong. And she’s so smart. She learns how to deal with difficult situations every day and how to recover from them, just like us. And you can actually see how she gradually builds that trust and relationship day by day with the filmmaker. That’s just so touching and relatable.</p>
+
+<p>Lora: Yeah nature is always an amazing teacher. I need to mark that movie down. So that motivates you to Hawaii?</p>
+
+<p>Me: Oh no, haha totally unrelated. I’ve been thinking about this for a long time. A friend happened to mention the idea to me the other day. So we’re kinda like “ok, we need to do this”.</p>
+
+<p>Lora: It’s great! You really need an unplug during the pandemic. What’s the last time you did the unplug thing?</p>
+
+<p>Me: Right before the lockdown. I went to Kilimanjaro with a friend for a week. It’s wonderful. It feels so good to just be around with mountains, completely cut off from social media.</p>
+
+<p>Lora: How do you feel when you get back from the trip?</p>
+
+<p>Me: Re-energized. And the byproduct is before the trip I’m actually not that familiar with the girl. But during the trip, we went through so many things together and we keep in touch when getting back. It’s great that you get to know more about another person and kinda develop a connection from there. You know they’re rare to a passive and introverted person.</p>
+
+<p>Lora: Totally. Seems you really like traveling. Is it because you find it helpful knowing more people and building friendships?</p>
+
+<p>Me: I actually never think that much. I guess I like traveling mostly just for fun?</p>
+
+<p>Lora: Haha that’s totally fair.</p>
+
+<p>Me: But to be honest I’m starting to think if traveling is more of an “escape from real life” to me.</p>
+
+<p>Lora: That’s interesting. I could see many people take it as a “recharge”. How do you define “escape”?</p>
+
+<p>Me: I’ve never realized that until the pandemic because it kinda forces you to just stay at home and face your problems. When you travel, you’re having fun and more focused on the outside world, the new experience. But when you’re stuck at a place for a long time, you just can’t help thinking about those things that you don’t really want to think about. You have nowhere to hide. You know what I mean?</p>
+
+<p>Lora: Yeah I think I understand.</p>
+
+<p>Me: Yeah then those thinkings just make me feel upset. Like what’s the purpose of my life? I mean I’m doing ok with my work. It feeds me well. But am I gonna do this for my whole life? I just can’t imagine it but I don’t know what else can I do.I can’t agree more with the saying that “happiness itself is never the goal, it’s a byproduct of being useful”.</p>
+
+<p>Lora: Yeah you mentioned that to me before. Finding meaningfulness from work is definitely a topic we’ll discuss.</p>
+
+<p>Me: And then I kinda just take a step back, start thinking “ok, maybe finding the purpose of life just doesn’t apply to most people in the world except those like Steve Jobs or Mark Zuckerburg.” Probably most people are just being happily OK with having a not-that-fulfilling life? They even won’t bother to think about these things because they have kids to feed, life to maintain - more than enough to occupy their mind. Oh man, on that note I do feel I’m less bothered with these abstract stuff when I was in a stable relationship. Is that the meaning of marriage or a stable relationship? Keep you from being trapped in these random thoughts?</p>
+
+<p>Lora: Haha wow are we going to discuss existentialism and intimate relationships? That’s a much larger scope.</p>]]></content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="post" /><category term="livingwell" /><summary type="html"><![CDATA[Lora: Morning! How are you doing in the past week?]]></summary></entry><entry><title type="html">SwiftUI: View is not UIView</title><link href="https://haoluo.io/posts/swiftui-viewbody" rel="alternate" type="text/html" title="SwiftUI: View is not UIView" /><published>2020-09-07T00:00:00-04:00</published><updated>2025-10-02T19:41:50-04:00</updated><id>https://haoluo.io/posts/swiftui-viewbody</id><content type="html" xml:base="https://haoluo.io/posts/swiftui-viewbody"><![CDATA[<p>To deliver a smooth user experience with UIKit, we usually want to refresh the view only when it’s necessary instead of calling <code class="language-plaintext highlighter-rouge">setNeedsLayout</code>, <code class="language-plaintext highlighter-rouge">layoutIfNeeded</code> or <code class="language-plaintext highlighter-rouge">layoutSubviews</code> brainlessly. Same with SwiftUI, we also want to be mindful of view update performance.</p>
+
+<p>SwiftUI has multiple ways to achieve the reactive-style data-driven UI update, eg. <code class="language-plaintext highlighter-rouge">State</code> for local state and <code class="language-plaintext highlighter-rouge">ObservedObject</code> for external data source. For example, suppose there’s an  <code class="language-plaintext highlighter-rouge">AvocadoView</code> that renders the number of avocado in the inventory, an <code class="language-plaintext highlighter-rouge">AvocadoStore</code> and an <code class="language-plaintext highlighter-rouge">AvocadoView</code> could be defined like this:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kt">AvocadoStore</span><span class="p">:</span> <span class="kt">ObservableObject</span> <span class="p">{</span>
+    <span class="kd">@Published</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">avocadoCount</span><span class="p">:</span> <span class="kt">Int</span>
+<span class="p">}</span>
+
+<span class="kd">struct</span> <span class="kt">AvocadoView</span><span class="p">:</span> <span class="kt">View</span> <span class="p">{</span>
+    <span class="kd">@ObservedObject</span> <span class="k">var</span> <span class="nv">avocadoStore</span><span class="p">:</span> <span class="kt">AvocadoStore</span>
+
+    <span class="k">var</span> <span class="nv">body</span><span class="p">:</span> <span class="kd">some</span> <span class="kt">View</span> <span class="p">{</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Refreshing 🥑 view"</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kt">Text</span><span class="p">(</span><span class="kt">String</span><span class="p">(</span><span class="nv">repeating</span><span class="p">:</span> <span class="s">"🥑"</span><span class="p">,</span> <span class="nv">count</span><span class="p">:</span> <span class="n">avocadoStore</span><span class="o">.</span><span class="n">avocadoCount</span><span class="p">))</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>It’s summertime, let’s get some peaches 🍑 as well. In practice, they probably live together with avocados in the same store.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kt">FruitStore</span><span class="p">:</span> <span class="kt">ObservableObject</span> <span class="p">{</span>
+    <span class="kd">@Published</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">avocadoCount</span><span class="p">:</span> <span class="kt">Int</span>
+    <span class="kd">@Published</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">peachCount</span><span class="p">:</span> <span class="kt">Int</span>
+<span class="p">}</span>
+
+<span class="kd">struct</span> <span class="kt">AvocadoView</span><span class="p">:</span> <span class="kt">View</span> <span class="p">{</span>
+    <span class="kd">@ObservedObject</span> <span class="k">var</span> <span class="nv">fruitStore</span><span class="p">:</span> <span class="kt">FruitStore</span>
+
+    <span class="k">var</span> <span class="nv">body</span><span class="p">:</span> <span class="kd">some</span> <span class="kt">View</span> <span class="p">{</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Refreshing 🥑 view"</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kt">Text</span><span class="p">(</span><span class="kt">String</span><span class="p">(</span><span class="nv">repeating</span><span class="p">:</span> <span class="s">"🥑"</span><span class="p">,</span> <span class="nv">count</span><span class="p">:</span> <span class="n">fruitStore</span><span class="o">.</span><span class="n">avocadoCount</span><span class="p">))</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Then here comes an interesting problem with <code class="language-plaintext highlighter-rouge">ObservableObject</code> and <code class="language-plaintext highlighter-rouge">@Published</code> property wrapper. Suppose someone steals the peaches, which causes <code class="language-plaintext highlighter-rouge">FruitStore</code> to publish a new value of  <code class="language-plaintext highlighter-rouge">peachCount</code>. Should  <code class="language-plaintext highlighter-rouge">AvocadoView</code> be affected in this case? Ideally not. But in reality, I found that the <code class="language-plaintext highlighter-rouge">body</code> of <code class="language-plaintext highlighter-rouge">AvocadoView</code> is indeed re-constructed (“Refreshing 🥑 view” is logged). This is because <code class="language-plaintext highlighter-rouge">AvocadoView</code> observes on the whole <code class="language-plaintext highlighter-rouge">FruitStore</code>, which makes it re-flow its body as long as any of store’s <code class="language-plaintext highlighter-rouge">@Published</code> property gets updated (aka. “published”) - even though only <code class="language-plaintext highlighter-rouge">avocadoCount</code> is referenced in <code class="language-plaintext highlighter-rouge">body</code>.</p>
+
+<p>Hmm, this is not good. We should probably embrace <em>Single-responsibility principle</em> here to make <code class="language-plaintext highlighter-rouge">AvocadoView</code> only observe on <code class="language-plaintext highlighter-rouge">avocadoCount</code>, the data it cares about. In practice, <code class="language-plaintext highlighter-rouge">FruitStore</code> probably still has to exist to serve some aggregation functionality, or it could simply be it’s already a GOD hairball object that’s basically impossible to break down easily (yea you know what I’m talking about don’t you 🌚). But fortunately enough:</p>
+
+<blockquote>
+  <p>We can solve any problem by introducing an extra level of indirection.</p>
+</blockquote>
+
+<p>So I followed the calling by introducing a small and sweet  <code class="language-plaintext highlighter-rouge">AvocadoStore</code>:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kt">AvocadoStore</span><span class="p">:</span> <span class="kt">ObservableObject</span> <span class="p">{</span>
+    <span class="kd">@Published</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">avocadoCount</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="kd">private</span> <span class="k">var</span> <span class="nv">cancellable</span><span class="p">:</span> <span class="kt">AnyCancellable</span><span class="o">!</span>
+
+    <span class="nf">init</span><span class="p">(</span><span class="nv">fruitStore</span><span class="p">:</span> <span class="kt">FruitStore</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">cancellable</span> <span class="o">=</span> <span class="n">fruitStore</span><span class="o">.</span><span class="err">$</span><span class="n">avocadoCount</span>
+            <span class="o">.</span><span class="n">sink</span> <span class="p">{</span> <span class="n">avocadoCountInFruitStore</span> <span class="k">in</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">avocadoCount</span> <span class="o">=</span> <span class="n">avocadoCountInFruitStore</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">struct</span> <span class="kt">AvocadoView</span><span class="p">:</span> <span class="kt">View</span> <span class="p">{</span>
+    <span class="kd">@ObservedObject</span> <span class="k">var</span> <span class="nv">avocadoStore</span><span class="p">:</span> <span class="kt">AvocadoStore</span>
+
+    <span class="k">var</span> <span class="nv">body</span><span class="p">:</span> <span class="kd">some</span> <span class="kt">View</span> <span class="p">{</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Refreshing 🥑 view"</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kt">Text</span><span class="p">(</span><span class="kt">String</span><span class="p">(</span><span class="nv">repeating</span><span class="p">:</span> <span class="s">"🥑"</span><span class="p">,</span> <span class="nv">count</span><span class="p">:</span> <span class="n">avocadoStore</span><span class="o">.</span><span class="n">avocadoCount</span><span class="p">))</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>What <code class="language-plaintext highlighter-rouge">AvocadoStore</code> basically does is to bridge <code class="language-plaintext highlighter-rouge">FruitStore</code> and <code class="language-plaintext highlighter-rouge">AvocadoView</code> while preventing <code class="language-plaintext highlighter-rouge">AvocadoView</code> from being exposed to irrelevant noise (<code class="language-plaintext highlighter-rouge">peachCount</code> in our case). This all sounds right…but do we really need it?</p>
+
+<p>I was deriving all my solutions so far based on an assumption: a <code class="language-plaintext highlighter-rouge">View</code> is like a <code class="language-plaintext highlighter-rouge">UIView</code> - and calling <code class="language-plaintext highlighter-rouge">body</code> is like calling <code class="language-plaintext highlighter-rouge">setNeedsLayout</code> or <code class="language-plaintext highlighter-rouge">layoutSubviews</code>, which eventually leads to a view refresh. But the assumption is <em>wrong</em>, and it is exactly the major difference between SwiftUI and UIKit - the declarative and the imperative. In SwiftUI, <code class="language-plaintext highlighter-rouge">View</code> is a <code class="language-plaintext highlighter-rouge">struct</code> value type used to <em>describe</em> a view’s content and behavior - it’s not the view itself. And that’s it, the SwiftUI infrastructure will take care of the heavy lifting. In our original implementation, it’s true that <code class="language-plaintext highlighter-rouge">AvocadoView</code> ’s <code class="language-plaintext highlighter-rouge">body</code> gets called whenever <code class="language-plaintext highlighter-rouge">fruitStore.peachCount</code> is updated - but it’s also true that it gets called with the same <code class="language-plaintext highlighter-rouge">fruitStore.avocadoCount</code> value each time. The SwiftUI infra will be smart enough to process these <code class="language-plaintext highlighter-rouge">body</code> update messages and figure out what to do: “Last time it says there are X avocados, this time it’s still X. Nothing changes, just sit back and chill.”</p>
+
+<p>Don’t get me wrong - I’m not saying introducing <code class="language-plaintext highlighter-rouge">AvocadoStore</code> is completely worthless here. From the API design and dependency management perspective, it still makes a lot of sense - like how we use thin protocols to break down a fat class. It’s just the goal is not to correct a <em>fundamental fault</em> anymore. Bringing in a layer of indirection reduces coupling but could also fall part when it over complicates things - and that’s the tradeoff we need to make in production codebase at scale, case-by-case.</p>]]></content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="post" /><category term="ios" /><category term="swift" /><category term="tech" /><summary type="html"><![CDATA[And body is not setNeedsLayout.]]></summary></entry><entry><title type="html">多吃点，我爱你</title><link href="https://haoluo.io/posts/eat-and-love" rel="alternate" type="text/html" title="多吃点，我爱你" /><published>2020-07-22T00:00:00-04:00</published><updated>2025-10-02T19:41:50-04:00</updated><id>https://haoluo.io/posts/eat-and-love</id><content type="html" xml:base="https://haoluo.io/posts/eat-and-love"><![CDATA[<p>（最近跟着小高姐做饭非常想家…贴一篇四年前的旧文）</p>
+
+<p>这些天利用每个番茄时间中的五分钟断断续续读完了吉井忍这本图文并茂的《四季便当》，真是满满的都是回忆。</p>
+
+<h3 id="从枫林街到老虎滩">从枫林街到老虎滩</h3>
+<p>想起来小时候住在枫林街老房子的日子。每天太阳一出来，就能听见挑着木桶买豆腐脑（咸的！）的阿姨在楼下叫卖。这时候奶奶就会下楼买上热乎乎的一大碗。回来撒上葱花，舀一大勺入口，那滋味真是人间美味啊。</p>
+
+<p>上幼儿园前住在枫林街的日子大概就是每天听妈妈念日语偶尔掺合一句，吭哧吭哧到邻居家窜门卖萌骗些小零食，每天扒在窗前朝窗外唱儿歌，跟爷爷学认字背古诗。这些细节太过久远于我自然是模糊不清的，大多都是听妈妈跟别人讲我小时候的故事听来的。但那豆腐脑的味道，却真是深深烙在记忆里了。伍尔芙在《阿弗小传》中这样描写气味对于小狗阿弗的重要性：「他生命中最完满最自由最快乐的时光，只是一连串的气味。爱情，想必会渐渐失去它的吸引力，但气味长存。」如果气味是阿弗的宗教，那些侵入舌尖味蕾的美味大概是幼齿时期的我的宗教了吧。</p>
+
+<p>后来大连迎来建市百年，政府要改造枫林街，好多老房子都被拆掉了，爷爷奶奶也就搬迁到了老虎滩这边。改造后的枫林街变成了不伦不类的日本俄罗斯风情一条街。这些乍眼望去无比精致的小洋房虽然当时在大连算是创下了天价，但是终究怎么嗅都是一股低劣复古的脂粉味，完全没了原来老枫林街那喧嚷而有序的烟火气儿。</p>
+
+<p>小学六年级时，我所在的桃园小学合并了虎滩路小学，于是我们整个年级也都从桃源校区搬到了虎滩校区。新校区就在奶奶爷爷家旁边，所以我就可以逃过学校难吃的盒饭，每天中午去奶奶爷爷家吃各种好吃的。每天吃完午饭，奶奶都要问「明天想吃什么呀？」，然后我就噼里啪啦报出一长串菜谱。奶奶总是笑着说：「好，好，明天我去早市买菜！」于是我就可以换着花样吃奶奶亲手包的芸豆大包子，疙瘩汤，可乐鸡翅，烤大虾，炸茄盒，等等等等。</p>
+
+<p>说也奇怪，人越长大本应自主权意识越强，可往往劳于愁思累于感慨，不免对生活也起了敷衍。像是高中以后，每次爸妈问我想吃什么，我总是漫不经心地来一句「随便」，完全没了小时候那股兴奋劲儿。爸妈有时候无可奈何，只得扔出一句「再说随便就没有东西吃！」，我才随口报几个菜名了事。现在身在异国他乡，常常翻看网上介绍国内美食的帖子盯着图片流口水，有时候甚至馋得辗转反侧夜不能寐，看《舌尖上的中国》更是几度哽咽，大概也是对我在中二时期不懂得珍惜拥有的惩罚吧…</p>
+
+<p>提起奶奶，自然少不了爷爷了。爷爷今年刚过了九十大寿，除了身子骨没那么硬朗了，脑袋还是清晰得很，每天下午都搬个马扎下楼和邻居老头们切磋几盘象棋。自打我有记忆以来，爷爷的每顿饭中总是有雷打不动的一小盅白酒。他吃饭也像品酒一样，优哉游哉，不慌不忙的，吃几口饭菜，抿一口小酒，特别有节奏，而且最后总是能保证在整好吃完饭时把那一盅酒喝光。</p>
+
+<p>从枫林街到老虎滩，无论是已经过世的奶奶，还是年近期颐的爷爷，在我的记忆中一直都是以一种乐而不淫，哀而不伤的形式存在着。他们的勤劳，善良，宽厚，伴随着故食滋味，温暖着，并将继续照亮我的一生。</p>
+
+<h3 id="我爱你与多吃点">「我爱你」与「多吃点」</h3>
+<p>十岁那年，我第一次出国，第一次一个人坐飞机，去日本找当时在那里工作的妈妈玩。虽然长大后吃了各种各样的日料，给我留下最深印象的仍是《四季便当》中提到的可乐饼，十岁那年的可乐饼（虽然那时候我只管它叫「炸土豆饼」)。</p>
+
+<p>那时候我还小，刺身什么的完全吃不出门道，妈妈在东京租着一间狭小的公寓，也没什么钱带我去吃高端的日料。有一天在东京街边逛累了，跟妈妈喊饿，她就给我买了一盒可乐饼。那刚出炉的酥酥的香甜的入口即化的味道，真是至今难忘。于是我就高兴地蹦蹦跳跳走一路吃一路，几乎每天都嚷嚷着妈妈买可乐饼。后来去妈妈的一位日本朋友曾根爷爷家做客，他问我「Hiro酱，这些日子你妈妈带你吃了什么好吃的日本料理？」我不假思索地脱口而出「可乐饼！」妈妈笑着翻译给曾根爷爷听，他听了也哈哈大笑，说「哎呀，看来你妈妈并没有带你吃什么好吃的呢！」我自然是不解，可乐饼明明这么好吃，怎么能说不好吃呢…</p>
+
+<p>在中国的传统文化里，「吃」一直是个饱含着温暖爱意的动词。从「管住一个男人的心就要先温暖他的胃」这种论调，到李安在《饮食男女》中雕琢父亲为家庭聚餐做功夫菜的每一个小细节，无一不深谙「爱一个人就让他吃点好的」这一伟大朴素的哲理。奶奶是这样，妈妈也一直是这样。从小到大，每次她批评完我几天后，总是要买好吃的食物回来，或者带我出去下馆子，来默默地暗示「妈妈虽然批评你了，但还是爱你的」。虽然小时候没心没肺并不懂。</p>
+
+<p>和西方人不同，我们表达感情的方式总是更委婉含蓄的。在西方电影里，即便是金婚银婚的老夫老妻，也会拥抱亲吻，对彼此说一句「我爱你」。而在我们的肢体和文字语言里，和拥抱亲吻等效的动作大概就是把菜夹到你的碗里吧，和「我爱你」等效的句式大概就是「多吃点」吧。我到现在还记得大一的时候，妈妈国庆黄金周来上海看我 – 如你所料，这可拯救了当时第一次住校还没吃惯食堂的我。蟹粉小笼，排骨年糕，弄堂馄饨，龙井虾仁…那一周，我们把江浙沪美食吃了个遍，每一餐妈妈都要说好多句「多吃点」，每次要结账时她还要再添一句「吃饱了没」。这个传统一直延续到后来每个学期放假回家，和现在每年回国。还是一个劲往我碗里夹菜，还是那句不变的「多吃点」，我却越来越能体味其中的深意。</p>
+
+<h3 id="爸爸的便当">爸爸的便当</h3>
+<p>读《四季便当》时，自然总是回忆起高中每天带便当上学的日子。那时候学业繁重，高中又不是寄宿的，所以每天要早起去学校参加早自习，于是爸爸也每天不到六点就起床给我做便当。我很喜欢吃虾，所以便当里便经常有虾。同学们中午聚在一起吃饭时，经常有人在我打开便当盒之前就问「我猜今天又有虾是不是？！」，然后露出羡慕的神情。爸爸的便当虽然不像日本妈妈们的便当颜值那么高那么萌，但也是很讲究营养搭配，一般都要有荤有素，夏天有凉拌菜，冬天有热汤。即便是在惨绝人寰的高三，每天带便当上学也依然是一件幸福的事。</p>
+
+<p>因为出国读书要自己做饭，之前几乎没下过厨的我临阵磨枪跟爸爸学了几道菜，红烧排骨，油菜香菇，还有红烧黄花鱼。</p>
+
+<p>「做红烧排骨最好先拿高压锅压一下，这样肉比较烂容易进味，压的时候加点姜片去腥。然后再下锅，加八角，桂皮，这么多肉呢，就加五勺生抽，两勺老抽，加一点糖和盐，拌均匀。大火烧开以后转小火直到汁收得差不多了为止，注意不要烧干了啊。」</p>
+
+<p>我记菜谱特别差劲，做了好几遍的菜每次还都是要打开菜谱软件才能搞定。唯独这道红烧排骨，爸爸教我做的第一道菜，一遍就记住了，从来不需要再参阅菜谱。然而我似乎并没有继承爸爸会做菜的基因，我菜做得并不好，发挥很不稳定，又没有耐心调参，有时候完全看心情和运气。要是第一次尝试一道新菜，基本就不要想着能入口了…上次回国，在家里露了几手，尤其是做了最拿手的红烧排骨。看到爸爸倚在厨房门边欣慰地笑，觉得又开心又怅然。</p>
+
+<p>所以思故食亦是思故人，炊香即是回忆香吧。</p>]]></content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="post" /><category term="goodolddays" /><summary type="html"><![CDATA[Eat, pray, love]]></summary></entry><entry><title type="html">Notes on Poor Charlie’s Almanack</title><link href="https://haoluo.io/posts/notes-on-poor-charlies-almanack-en" rel="alternate" type="text/html" title="Notes on Poor Charlie’s Almanack" /><published>2020-07-08T00:00:00-04:00</published><updated>2025-10-25T10:25:55-04:00</updated><id>https://haoluo.io/posts/notes-on-poor-charlies-almanack-en</id><content type="html" xml:base="https://haoluo.io/posts/notes-on-poor-charlies-almanack-en"><![CDATA[<h3 id="patience-and-opportunity">Patience and Opportunity</h3>
+<ul>
+  <li>As long as you are well-prepared, seize a few opportunities, take appropriate action quickly, and do <strong>simple and logical</strong> things, your wealth will grow tremendously in your lifetime.</li>
+  <li>The opportunities mentioned above are rare. They usually fall to those who are <strong>constantly searching and waiting</strong>, <strong>full of intellectual curiosity</strong>, and <strong>passionate about analyzing various different possibilities</strong>.</li>
+  <li>Poor outcomes are acceptable (because some results are not within their control), but being unprepared and making hasty decisions are unforgivable, because these factors can be controlled.</li>
+  <li>Good ideas are extremely rare—when the timing is in your favor, bet heavily.</li>
+</ul>
+
+<h3 id="multidisciplinary-thinking">Multidisciplinary Thinking</h3>
+<ul>
+  <li>Analyze the “ecosystem”</li>
+  <li>If all of a person’s information is limited to their field of work, then their work will not be done very well.</li>
+  <li>You must have multiple mental models—because if you can only use one or two, the psychology of human nature shows that you will distort reality until it fits your mental models, or at least until you think it fits your models.</li>
+  <li>Master all the major psychological models and use them as a checklist to examine the results of various complex systems.</li>
+</ul>
+
+<h3 id="challenge-and-doubt-yourself">Challenge and Doubt Yourself</h3>
+<ul>
+  <li>Destroy our own most beloved ideas</li>
+  <li>Don’t fool yourself, and remember that you are the easiest person for you to fool</li>
+  <li>Face our personal knowledge deficiencies. You must figure out where your strengths are and must compete within your circle of competence.</li>
+  <li>Keynes said: “Introducing new ideas is not so difficult; the difficulty is clearing out the old ones.”</li>
+</ul>
+
+<h3 id="cultivate-vision">Cultivate Vision</h3>
+<ul>
+  <li>From books or from people—preferably both</li>
+</ul>
+
+<h3 id="independent-thinking">Independent Thinking</h3>
+<ul>
+  <li>I don’t like to be around people who always confidently answer questions they don’t actually understand.</li>
+  <li>Excellent literary works require readers to think a little to understand them, so they have a deep impact on readers, and you will remember them more firmly. This is the tendency to commitment and consistency. If you use your brain to understand a truth, you will remember it better.</li>
+</ul>
+
+<h3 id="risk">Risk</h3>
+<ul>
+  <li>Calculate the appropriate margin of safety</li>
+  <li>Avoid dealing with people who have moral character problems</li>
+  <li>Insist on requiring appropriate compensation for predetermined risks</li>
+  <li>Always remember the risks of inflation and interest rates</li>
+  <li>Avoid making big mistakes; avoid continuous loss of capital</li>
+</ul>
+
+<h3 id="stock-selection">Stock Selection</h3>
+<ul>
+  <li>The ideal situation is—we have encountered many such situations—you buy a great company that happens to have a <strong>great manager</strong>, because management matters.</li>
+  <li>You can find a few companies whose managers can greatly increase profits just by raising prices—but they haven’t done so yet. So they <strong>have untapped pricing power</strong>. People don’t need to think to know these are good stocks.</li>
+  <li>We don’t jump over seven-foot bars. What we look for are one-foot bars with rich rewards on the other side. So the secret of our success is to <strong>do simple things, not solve difficult problems</strong>.</li>
+</ul>
+
+<h3 id="choosing-work">Choosing Work</h3>
+<ol>
+  <li>Don’t sell anything you wouldn’t buy yourself.</li>
+  <li>Don’t work for people you don’t respect and admire.</li>
+  <li>Only work with people you like.</li>
+</ol>
+
+<h3 id="psychology">Psychology</h3>
+<ul>
+  <li>Conditioned reflex</li>
+  <li>Humans have a powerful tendency to “monkey see, monkey do,” which psychologists usually call “social proof.” Social proof, imitative consumption caused simply by seeing others’ consumption, can not only make consumers more receptive to our products, but also make consumers feel they are getting more rewards.</li>
+  <li>Bias from incentive mechanisms. Professional people with this innate cognitive bias will think that what is good for themselves is good for clients and for the entire civilized society.</li>
+  <li>Man-with-a-hammer tendency. This name comes from the proverb: “To a man with a hammer, every problem looks like a nail.”</li>
+  <li>Inversion (thinking about problems in reverse)</li>
+  <li>Pay attention to the combined effect of multiple factors—the lollapalooza effect</li>
+  <li>If you want to persuade others, appeal to interests, not to reason.</li>
+  <li>This tendency echoes a lyric: “If the girl I love is not around, I love the girl who is around.” The human brain is limited and imperfect; it is easily satisfied with what is readily available. The brain cannot use what it cannot remember or recognize, because it is influenced by one or several psychological tendencies, such as the guy in the song above who is influenced by the girl around him. So the human brain overestimates the importance of readily available things, thus exhibiting the availability-misweighing tendency.</li>
+</ul>
+
+<h3 id="training">Training</h3>
+<p>Our training of pilots follows a strict six-element system. These six elements include:</p>
+<ol>
+  <li>Teach him comprehensive enough knowledge so that he can master all the knowledge used in flight.</li>
+  <li>Teach him all this knowledge not just to pass one or two exams, but to enable him to apply this knowledge skillfully, even to handle two or three intertwined complex dangerous situations simultaneously.</li>
+  <li>Like any good algebraist, he must learn to sometimes use forward thinking and sometimes use reverse thinking, so he can understand when to focus mainly on what he wants and when to focus on situations he wants to avoid.</li>
+  <li>He must receive training in various disciplines, striving to minimize the possibility of future losses due to incorrect operations; the most important operational steps must receive the strictest training to achieve the highest level of mastery.</li>
+  <li>He must develop the habit of checking the “checklist.”</li>
+  <li>After receiving initial training, he must routinely maintain mastery of this knowledge: regularly use flight simulators to prevent knowledge for dealing with rare but important problems from becoming rusty due to long-term disuse.</li>
+</ol>
+
+<h3 id="rationality">Rationality</h3>
+<p>The correct strategy to avoid doing stupid things because of past successes is:</p>
+<ol>
+  <li>Carefully review each past success and identify the accidental factors in those successes, so as not to be misled by these factors and exaggerate the probability of success of new planned actions.</li>
+  <li>Look at what dangerous factors the new action will encounter that did not appear in past successful experiences.</li>
+</ol>]]></content><author><name>Hao Luo</name><email>yvetterowe1116@gmail.com</email></author><category term="post" /><category term="booknotes" /><summary type="html"><![CDATA[Patience and Opportunity As long as you are well-prepared, seize a few opportunities, take appropriate action quickly, and do simple and logical things, your wealth will grow tremendously in your lifetime. The opportunities mentioned above are rare. They usually fall to those who are constantly searching and waiting, full of intellectual curiosity, and passionate about analyzing various different possibilities. Poor outcomes are acceptable (because some results are not within their control), but being unprepared and making hasty decisions are unforgivable, because these factors can be controlled. Good ideas are extremely rare—when the timing is in your favor, bet heavily.]]></summary></entry></feed>
